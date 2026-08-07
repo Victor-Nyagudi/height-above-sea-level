@@ -351,3 +351,25 @@
     }
   }
 }
+
+.patreon-floating-button {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  
+  background-color: #f4f4f4;
+  color: black;
+  text-decoration: none;
+  
+  padding: 0.75em 1em;
+  border-radius: 16px;
+
+  @include breakpoint($medium) {
+    bottom: 1.5em;
+    left: 1.5em;
+  }
+}

@@ -22,7 +22,7 @@ title: "Height Above Sea Level"
 description: "Game development using Unity and C#."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: /assets/images/hasl_logo_square_black_bg.jpg # path of site logo, e.g. "/images/logo.png"
+logo: "/assets/images/hasl_logo_square_black_bg.jpg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -31,9 +31,9 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: "G-CHJG8HKEGX" # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 twitter:
-  username: Vicktor_Oti # site's Twitter username, e.g. "mmistakes"
+  username: "Vicktor_Oti" # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -89,7 +89,7 @@ author:
   name: Victor Nyagudi
   picture: /assets/images/victor_author_img.jpg
   email:
-  twitter: LeonardoDaVicki
+  twitter: Vicktor_Oti
   links:
     - title: Patreon
       url: https://patreon.com/heightabovesealevel

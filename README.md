@@ -1,6 +1,9 @@
-# The Leonardo Da Vicki Website
+# The Height Above Sea Level Website
 
 A repo for the Height Above Sea Level blog.
+
+I intended to use this theme for a separate blog (hence the repo name) but decided at the last minute to use it as a
+replacement for the previous HASL blog I built using Next.js and Strapi.
 
 ## Categories
 
@@ -11,7 +14,7 @@ Here are the categories the posts will cover. **Categories are written in title 
 
 ## Tags
 
-Here are the tags the posts may use. **Tags are written in lowercase**. These are subject to change.
+Here are the tags the posts may use. **All tags are written in lowercase except acronyms**. These are subject to change.
 
 - 2D
 - 3D

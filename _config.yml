@@ -18,8 +18,8 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "Leonardo Da Vicki"
-description: "Imagination is the best reference."
+title: "Height Above Sea Level"
+description: "Game development using Unity and C#."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: /assets/images/LDV_site_logo.png # path of site logo, e.g. "/images/logo.png"
@@ -33,7 +33,7 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 twitter:
-  username: LeonardoDaVicki # site's Twitter username, e.g. "mmistakes"
+  username: Vicktor_Oti # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -86,35 +86,32 @@ defaults:
 
 # Site Author
 author:
-  name: Vicktor Nyagudi
+  name: Victor Nyagudi
   picture: /assets/images/vicktor_square_solid_bg.jpg
   email:
   twitter: LeonardoDaVicki
   links:
-    - title: Ko-Fi
-      url: https://ko-fi.com/leonardodavicki
-      icon: fab fa-ko-fi
+    - title: Patreon
+      url: https://patreon.com/heightabovesealevel
+      icon: fab fa-patreon
     - title: YouTube
-      url: https://www.youtube.com/@LeonardoDaVicki
+      url: https://www.youtube.com/@HeightAboveSeaLevel
       icon: fab fa-youtube
-    - title: Instagram
-      url: https://www.instagram.com/leodavicki/
-      icon: fab fa-instagram
+    - title: Twitter
+      url: https://x.com/Vicktor_Oti
+      icon: fab fa-x-twitter
 
 # Footer Links
 footer_links:
-  - title: Ko-Fi
-    url: https://ko-fi.com/leonardodavicki
-    icon: fab fa-ko-fi
+  - title: Patreon
+    url: https://patreon.com/heightabovesealevel
+    icon: fab fa-patreon
   - title: Twitter
-    url: https://x.com/LeonardoDaVicki
+    url: https://x.com/Vicktor_Oti
     icon: fab fa-x-twitter
-  - title: Twitch
-    url: https://twitch.tv/LeonardoDaVicki
-    icon: fab fa-twitch
   - title: YouTube
-    url: https://www.youtube.com/@LeonardoDaVicki
+    url: https://www.youtube.com/@HeightAboveSeaLevel
     icon: fab fa-youtube
   - title: Instagram
-    url: https://www.instagram.com/leodavicki/
+    url: https://www.instagram.com/HeightAboveSeaLevel/
     icon: fab fa-instagram

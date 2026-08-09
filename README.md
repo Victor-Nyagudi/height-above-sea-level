@@ -18,25 +18,25 @@ Here are the tags the posts may use. **All tags are written in lowercase except 
 
 - 2D
 - 3D
-- advanced C#
+- advanced-c#
 - AI
 - animation
 - art
 - audio
-- beginner C#
+- beginner-c#
 - camera
 - debugging
 - graphics
-- intermediate C#
+- intermediate-c#
 - input
-- level design
+- level-design
 - lighting
 - performance
 - scripting
-- set up & getting started
-- tools & packages
-- unity editor
-- user interface (UI)
-- version control
-- visual effects (VFX)
-- world building
+- set-up-getting-started
+- tools-and-packages
+- unity-editor
+- user-interface-UI
+- version-control
+- visual-effects-VFX
+- world-building

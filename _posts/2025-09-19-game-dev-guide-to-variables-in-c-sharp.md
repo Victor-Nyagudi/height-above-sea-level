@@ -350,9 +350,13 @@ Variables are one of the many concepts in the interconnected world of C#, so you
 ### Recap
 
 - Variables are like **mini-storage locations to store temporary data**.
+
 - They're **named using Camel Case notation**.
+
 - You can use `var` instead of a variable's type when creating it.
+
 - Variables are often **declared inside methods** but can be **declared within a class's body**.
+
 - Boolean variables often start with "_is_" or "_has_".
 
 Once you feel you have a good grasp of variables, read the next article on constants in C#.

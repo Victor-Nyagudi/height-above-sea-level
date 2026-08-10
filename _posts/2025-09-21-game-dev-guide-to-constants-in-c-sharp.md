@@ -400,9 +400,13 @@ Classes, fields, and modifiers, such as `readonly`, are discussed in more detail
 ### Recap
 
 - Constants are like mini-storage locations to store temporary data.
+
 - They're named using Pascal Case notation.
+
 - A constant's value can only be changed where it's declared but remains the same throughout your game.
+
 - Constants can be declared inside methods or in a class's body.
+
 - They must start with the word `const`.
 
 This article is the second in a series breaking down common C# concepts used in game development with the Unity Game Engine.

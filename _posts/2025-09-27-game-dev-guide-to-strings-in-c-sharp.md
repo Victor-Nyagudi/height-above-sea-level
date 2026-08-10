@@ -145,6 +145,8 @@ var secondWord = "Andreas";
 // Logs 'San Andreas'.
 Debug.Log(firstWord + space + secondWord);
 ```
+**Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
+{: .notice--primary}
 
 ## Interpolated Strings
 

@@ -4,6 +4,7 @@ categories: C#
 tags: beginner-c# scripting
 excerpt: "Whether you're working with non-playable character (NPC) names or text in your game's user interface (UI), you'll most likely run into strings in C#. Strings store and manipulate text."
 image:
+    path: /assets/images/strings_article/strings_article_header_img.jpg
     thumbnail: /assets/images/strings_article/strings_article_thumbnail.jpg
 ---
 

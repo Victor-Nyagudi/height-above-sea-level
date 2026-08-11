@@ -4,6 +4,7 @@ categories: C#
 tags: beginner-c# scripting
 excerpt: "If the player in your game picks up some ammo, you'll need to update the ammo count to reflect this increase. It's also common to reduce the player's health whenever they take damage. These are operations that will require operators."
 image:
+    path: /assets/images/operators_article/operators_article_header_img.jpg
     thumbnail: /assets/images/operators_article/operators_article_thumbnail.jpg
 ---
 

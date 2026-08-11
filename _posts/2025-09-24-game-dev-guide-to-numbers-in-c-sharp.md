@@ -3,6 +3,7 @@ title: A Game Developer's Guide to Numbers in C#
 categories: C#
 tags: beginner-c# scripting
 image:
+    path: /assets/images/numbers_article/numbers_article_header_img.jpg
     thumbnail: /assets/images/numbers_article/numbers_article_thumbnail.jpg
 ---
 

@@ -3,6 +3,7 @@ title: A Game Developer's Guide to Constants in C#
 categories: C#
 tags: beginner-c# scripting
 image:
+    path: /assets/images/constants_article/constants_article_header_img.jpg
     thumbnail: /assets/images/constants_article/constants_article_thumbnail.jpg
 ---
 

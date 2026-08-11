@@ -3,6 +3,7 @@ title: A Game Developer's Guide to Variables in C#
 categories: C#
 tags: beginner-c# scripting
 image:
+    path: /assets/images/variables_article/variables_article_header_img.jpg
     thumbnail: /assets/images/variables_article/variables_article_thumbnail.jpg
 ---
 

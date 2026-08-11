@@ -3,7 +3,8 @@ title: A Game Developer's Guide to Variables in C#
 categories: C#
 tags: beginner-c# scripting
 image:
-    thumbnail: /assets/images/variables_article/variables-thumbnail--landscape.jpg
+    path: /assets/images/variables_article/variables_article_header_img.jpg
+    thumbnail: /assets/images/variables_article/variables_article_thumbnail.jpg
 ---
 
 A variable in C# can be thought of as a mini storage location for temporary data you plan to reuse while building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).

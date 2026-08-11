@@ -22,7 +22,7 @@ title: "Height Above Sea Level"
 description: "Game development using Unity and C#."
 baseurl: "/height-above-sea-level" # the subpath of your site, e.g. "/blog"
 url: "https://victor-nyagudi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/assets/images/hasl_logo_square_black_bg.jpg" # path of site logo, e.g. "/images/logo.png"
+logo: "/assets/images/hasl_logo_square_black_bg_200.jpg" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200

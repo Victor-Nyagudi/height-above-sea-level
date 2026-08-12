@@ -12,7 +12,7 @@ Whether you're working with non-playable character (NPC) names or text in your g
 
 Strings store and manipulate text. They're the foundation of the majority of text-related code you'll write for your game made in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
-This article assumes you have some knowledge of variables, constants, and operators, but if you're not familiar with them, read the linked articles first.
+This article assumes you have some knowledge of [variables]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp), [constants]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp), and [operators]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp), but if you're not familiar with them, read the linked articles first.
 
 If you're a visual learner, you can watch the video version below.
 
@@ -155,7 +155,7 @@ Let's say you have the word "_wood_" and a number next to it in your Unity game'
 
 You can use an interpolated string to display both the number and the word "_wood_" such that as the number changes, the string shows the updated number.
 
-**_Tip:_** Interpolated strings are part of **format strings** - strings whose content is determined dynamically when the game is running.
+**_Tip:_** Interpolated strings are part of [**format strings**](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/#format-strings) - strings whose content is determined dynamically when the game is running.
 {: .notice--info}
 
 Interpolated strings **must** begin with a `$`, and the variable counting wood collected **must** be surrounded by curly braces "{ }".
@@ -180,7 +180,7 @@ If you try writing double quotes inside a string, you'll get an error because C#
 
 You may also notice that pressing <kbd>Enter</kbd> when creating a string variable doesn't move the text to the next line in your game.
 
-These **unique characters that behave differently when placed inside a string** are called escape characters.
+These **unique characters that behave differently when placed inside a string** are called [escape characters](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/#string-escape-sequences).
 
 **_Tip:_** Pressing <kbd>Enter</kbd>, <kbd>Space</kbd>, or <kbd>Tab</kbd> creates a character. You can't see it, but it's there.
 {: .notice--info}
@@ -291,14 +291,14 @@ This post is the fifth in a series breaking down common C# concepts used in game
 
 The next one discusses how to use booleans and is a prerequisite for working with conditional statements.
 
-If you feel comfortable with strings and are ready for the next challenge when working with text, check out regular expressions.
+If you feel comfortable with strings and are ready for the next challenge when working with text, check out [regular expressions](https://youtu.be/Jd3YyiJj8aM?si=Bol89ziajIyO9488).
 
 Here's the full list of posts in the series:
 
-1. A Game Developer's Guide to Variables in C#
-2. A Game Developer's Guide to Constants in C#
-3. A Game Developer's Guide to Numbers in C#
-4. A Game Developer's Guide to Operators in C#
+1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp)
+2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp)
+3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp)
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
 5. A Game Developer's Guide to Strings in C# _(you are here)_
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#

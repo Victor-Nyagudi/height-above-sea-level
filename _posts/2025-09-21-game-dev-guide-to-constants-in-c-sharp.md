@@ -141,15 +141,28 @@ You can create a constant inside the `Start` method and log it to the Unity cons
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
 
-## Variables vs Constants: What's the Difference?
+## Variables vs. Constants: What's the Difference?
 
 Constants and variables have many similarities but are not identical.
 
-![constants versus variables comparison](/assets/images/constants_article/constants-vs-variables-comparison.jpg)
+| Variable | Constant |
+| --- | --- |
+| Can use `var`. | Must explicitly type `const`. `var` doesn't work. |
+| Can change. | Stays the same. |
+| Camel case naming. | Pascal case naming. |
+| Built-in and class types. | Built-in types only. |
+| Can be created without a value. | Must be assigned a value during creation. |
+
 
 - **You have to explicitly type `const` before every constant.**
 
 You can use the `var` keyword with variables in place of the type, but constants follow a stricter format where both the word `const` and the type must be included.
+
+```csharp
+var sbyte MaxLives = 3; // ❌ Can't use 'var' with constants.
+
+const sbyte MaxLives = 3; // ✅ The correct way to declare a constant.
+```
 
 - **Constants can't be changed after they're created.**
 
@@ -169,7 +182,7 @@ MaxAmmo = 50; // ❌ Won't work. You'd have to change it above.
 
 Variables are named using camel case notation, while constants use Pascal case notation.
 
-In **Camel Case notation**, the first letter of the first word is lowercase, while every word after is uppercase.
+In **Camel Case notation**, the first letter of the first word is lowercase, and the first letter of every word after is uppercase e.g. `rotationSpeed`.
 
 In **Pascal Case notation**, the first letter of every word is uppercase.
 
@@ -273,9 +286,11 @@ Debug.Log(PlayerHealth); // This won't be executed.
 
 This makes your game's code consistent with C# best practices and makes it easier to collaborate with other game developers since you'll be using a convention they're familiar with.
 
-- **You can't name a constant after one of the special keywords in C#.**
+- **Avoid naming constants after special keywords in C#.**
 
-If you adhere to the Pascal case naming convention, you can name variables after special keywords in C#, like `return` or `foreach`.
+You can't name a constant after one of the special keywords in C#.
+
+If you adhere to the Pascal case naming convention, you can name constants after special keywords in C#, like `return` or `foreach`.
 
 If you ignore it and use lowercase letters for your constant names that are identical to special keywords, you'll get an error, and your video game's code won't run.
 
@@ -289,7 +304,7 @@ You often don't need to name a constant after a keyword, so this won't be an iss
 
 In the extreme case you have no choice but to name a constant after a special keyword, you'll need to add an underscore at the beginning so C# doesn't confuse it with the special keywords.
 
-- **You should give your constants meaningful and descriptive names.**
+- **Give your constants meaningful and descriptive names.**
 
 Avoid naming constants using one letter or a combination of letters that makes no sense.
 

@@ -7,7 +7,7 @@ image:
     thumbnail: /assets/images/variables_article/variables_article_thumbnail.jpg
 ---
 
-A variable in C# can be thought of as a mini storage location for temporary data you plan to reuse while building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
+A variable in C# can be thought of as **a mini storage location for temporary data you plan on reusing** while building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
 Variables are fundamental to any video game and make up a large percentage of the code you'll write, whether by hand or using visual scripting tools.
 
@@ -45,13 +45,13 @@ The variable's type can be one of the pre-existing types in C#, such as `int`, `
 **_Tip:_** The act of creating a variable is also known as "declaring a variable".
 {: .notice--info}
 
-Even though you can give the variable any name you want, there are certain restrictions to keep in mind and naming conventions you should be aware of. These are discussed below.
+Even though you can give the variable any name you want, there are certain restrictions to keep in mind and [naming conventions](https://youtu.be/UPNLmdRekFA?si=zxP9c2h1uytXMqWK) you should be aware of. These are discussed below.
 
 A variable is assigned a value using one equal sign (=) after the variable's name, followed by the value. Different types have their values written in different ways.
 
 ### String Variables
 
-A string is written using two double quotes (") and, optionally, characters between them. Strings in C# are used to work with text.
+A [string]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp) is written using two double quotes (") and, optionally, characters between them. Strings in C# are used to work with text.
 
 ```csharp
 string name = "Kratos";
@@ -75,7 +75,7 @@ bool hasInternet = true;
 
 ### Number Variables
 
-A number value is written as a regular number with no extra formatting.
+A [number]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp) value is written as a regular number with no extra formatting.
 
 Numbers are used with anything that needs to be counted or when you need to perform mathematical operations like adding, subtracting, etc.
 
@@ -143,7 +143,7 @@ public class Weapon
 
 Fields are often used with properties, another type of variable in the class's body, to make games in Unity. These two are discussed in more detail in separate posts.
 
-Speaking of Unity, the following code is what you see whenever you open a script in Visual Studio, Visual Studio Code, or JetBrains Rider. Assume the script you created is called `Player`.
+Speaking of Unity, the following code is what you see whenever you open a script in [Visual Studio](https://youtu.be/VcU2HGsxeII?si=ILXB_GVjOw_4-glK), [Visual Studio Code](https://youtu.be/bfvq_kTbnd8?si=WeKs4Cn5ttEO3Ki2), or JetBrains Rider. Assume the script you created is called `Player`.
 
 ```csharp
 public class Player : MonoBehaviour
@@ -267,7 +267,7 @@ int return = 2; // ❌ Doesn't work!
 int _return = 5; // ✅ Much better.
 ```
 
-- **You should give your variables meaningful and descriptive names.**
+- **Give your variables meaningful and descriptive names.**
 
 Avoid naming variables using one letter or a combination of letters that makes no sense.
 
@@ -360,7 +360,7 @@ Variables are one of the many concepts in the interconnected world of C#, so you
 
 - Boolean variables often start with "_is_" or "_has_".
 
-Once you feel you have a good grasp of variables, read the next article on constants in C#.
+Once you feel you have a good grasp of variables, read the next article on [constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp).
 
 This article is the first in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
@@ -369,10 +369,10 @@ The next one discusses constants and their role in your game's code.
 Here's the complete list:
 
 1. A Game Developer's Guide to Variables in C# _(you are here)_
-2. A Game Developer's Guide to Constants in C#
-3. A Game Developer's Guide to Numbers in C#
-4. A Game Developer's Guide to Operators in C#
-5. A Game Developer's Guide to Strings in C#
+2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp)
+3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp)
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
+5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp)
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#
 8. A Game Developer's Guide to Conditional Statements in C#

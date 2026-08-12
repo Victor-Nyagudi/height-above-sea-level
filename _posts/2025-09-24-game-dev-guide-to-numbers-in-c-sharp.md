@@ -11,7 +11,7 @@ From the remaining lives a player has to the health potions in their inventory, 
 
 Numbers in C# can be generally categorized into two types: **whole numbers**, also known as integers, and **decimal numbers**, also referred to as floating-point numbers.
 
-This article assumes you have a basic understanding of variables and constants. If you're not familiar with them, read the linked posts first.
+This article assumes you have a basic understanding of [variables]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp) and [constants]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp). If you're not familiar with them, read the linked posts first.
 
 If you're a visual learner, you can watch the video version below.
 
@@ -35,7 +35,7 @@ var three = 3;
 const float Four = 4.0f;
 ```
 
-Mathematical operations are discussed in more detail in the operators article.
+Mathematical operations are discussed in more detail in the [operators]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp) article.
 
 ## Whole Numbers (Integers)
 
@@ -294,9 +294,13 @@ If accuracy is fundamental to the Unity game you're building, the tradeoff could
 
 The one you choose will depend on how accurate you want your numbers to be versus how performant your game is.
 
-A `float` is sufficient for most games, ranging from simple platformers to complex 3D adventure games.
+| `float` | `double` | `decimal` |
+| --- | --- | --- |
+| Numbers end with "f"/"F". | Numbers end with "d"/"D". | Numbers end with "m"/"M". |
+| Consumes the least space. (4 bytes) | Consumes twice as much space as `float`. (8 bytes) | Consumes the most space. (16 bytes) |
+| Good accuracy. | Better accuracy. | Most accurate. |
 
-The added accuracy of the other types won't always add value to your game.
+A `float` is sufficient for most games, ranging from simple platformers to complex 3D adventure games. The added accuracy of the other types won't always add value to your game.
 
 A `decimal` is great in money-oriented games for an extra layer of realism, but this extra detail may go unnoticed, and you end up using up more resources for something that could've used less had you gone with a different type.
 
@@ -335,11 +339,11 @@ The next one discusses how to use numbers in mathematical operations, such as ad
 
 Here's the complete list:
 
-1. A Game Developer's Guide to Variables in C#
-2. A Game Developer's Guide to Constants in C#
+1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp)
+2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp)
 3. A Game Developer's Guide to Numbers in C# _(you are here)_
-4. A Game Developer's Guide to Operators in C#
-5. A Game Developer's Guide to Strings in C#
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
+5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp)
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#
 8. A Game Developer's Guide to Conditional Statements in C#

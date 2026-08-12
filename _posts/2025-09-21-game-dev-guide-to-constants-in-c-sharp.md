@@ -7,7 +7,7 @@ image:
     thumbnail: /assets/images/constants_article/constants_article_thumbnail.jpg
 ---
 
-A constant in C#, the half-brother of a variable, is like a mini storage location for temporary data you'll reuse when building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
+A constant in C#, the half-brother of a [variable]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp), is like **a mini storage location for temporary data** you'll reuse when building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
 As the name suggests, a constant is **a value that stays the same after it is created**. It can only be updated in one place: where you created it.
 
@@ -52,7 +52,7 @@ A constant is assigned a value using one equal sign (=) after the constant's nam
 
 ### String Constant
 
-A string constant is written using two double quotes ("") and, optionally, characters between them. Strings in C# are used to work with text.
+A [string]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp) constant is written using two double quotes ("") and, optionally, characters between them. Strings in C# are used to work with text.
 
 ```csharp
 const string Hero = "Doomfist";
@@ -76,7 +76,7 @@ const bool ShouldAttack = true;
 
 ### Number Constant
 
-A number constant is written as a regular number with no extra formatting.
+A [number]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp) constant is written as a regular number with no extra formatting.
 
 ```csharp
 const int DamageMultiplier = 3;
@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
 }
 ```
 
-Assume you opened a script in Unity called `Player.cs` in your preferred editor: Visual Studio, Visual Studio Code, or JetBrains Rider.
+Assume you opened a script in Unity called `Player.cs` in your preferred editor: [Visual Studio](https://youtu.be/VcU2HGsxeII?si=ILXB_GVjOw_4-glK), [Visual Studio Code](https://youtu.be/bfvq_kTbnd8?si=Kg9KUKYCLUbkbyUH), or JetBrains Rider.
 
 ```csharp
 public class Player : MonoBehaviour
@@ -141,15 +141,28 @@ You can create a constant inside the `Start` method and log it to the Unity cons
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
 
-## Variables vs Constants: What's the Difference?
+## Variables vs. Constants: What's the Difference?
 
 Constants and variables have many similarities but are not identical.
 
-![constants versus variables comparison](/assets/images/constants_article/constants-vs-variables-comparison.jpg)
+| Variable | Constant |
+| --- | --- |
+| Can use `var`. | Must explicitly type `const`. `var` doesn't work. |
+| Can change. | Stays the same. |
+| Camel case naming. | Pascal case naming. |
+| Built-in and class types. | Built-in types only. |
+| Can be created without a value. | Must be assigned a value during creation. |
+
 
 - **You have to explicitly type `const` before every constant.**
 
 You can use the `var` keyword with variables in place of the type, but constants follow a stricter format where both the word `const` and the type must be included.
+
+```csharp
+var sbyte MaxLives = 3; // ❌ Can't use 'var' with constants.
+
+const sbyte MaxLives = 3; // ✅ The correct way to declare a constant.
+```
 
 - **Constants can't be changed after they're created.**
 
@@ -169,7 +182,7 @@ MaxAmmo = 50; // ❌ Won't work. You'd have to change it above.
 
 Variables are named using camel case notation, while constants use Pascal case notation.
 
-In **Camel Case notation**, the first letter of the first word is lowercase, while every word after is uppercase.
+In **Camel Case notation**, the first letter of the first word is lowercase, and the first letter of every word after is uppercase e.g. `rotationSpeed`.
 
 In **Pascal Case notation**, the first letter of every word is uppercase.
 
@@ -273,9 +286,11 @@ Debug.Log(PlayerHealth); // This won't be executed.
 
 This makes your game's code consistent with C# best practices and makes it easier to collaborate with other game developers since you'll be using a convention they're familiar with.
 
-- **You can't name a constant after one of the special keywords in C#.**
+- **Avoid naming constants after special keywords in C#.**
 
-If you adhere to the Pascal case naming convention, you can name variables after special keywords in C#, like `return` or `foreach`.
+You can't name a constant after one of the special keywords in C#.
+
+If you adhere to the Pascal case naming convention, you can name constants after special keywords in C#, like `return` or `foreach`.
 
 If you ignore it and use lowercase letters for your constant names that are identical to special keywords, you'll get an error, and your video game's code won't run.
 
@@ -289,7 +304,7 @@ You often don't need to name a constant after a keyword, so this won't be an iss
 
 In the extreme case you have no choice but to name a constant after a special keyword, you'll need to add an underscore at the beginning so C# doesn't confuse it with the special keywords.
 
-- **You should give your constants meaningful and descriptive names.**
+- **Give your constants meaningful and descriptive names.**
 
 Avoid naming constants using one letter or a combination of letters that makes no sense.
 
@@ -416,11 +431,11 @@ The next one discusses numbers and their role in your game's code.
 
 Here's the complete list:
 
-1. A Game Developer's Guide to Variables in C#
+1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp)
 2. A Game Developer's Guide to Constants in C# _(you are here)_
-3. A Game Developer's Guide to Numbers in C#
-4. A Game Developer's Guide to Operators in C#
-5. A Game Developer's Guide to Strings in C#
+3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp)
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
+5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp)
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#
 8. A Game Developer's Guide to Conditional Statements in C#

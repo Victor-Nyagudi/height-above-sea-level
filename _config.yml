@@ -115,3 +115,8 @@ footer_links:
   - title: Instagram
     url: https://www.instagram.com/HeightAboveSeaLevel/
     icon: fab fa-instagram
+
+# Google ownership verification required to add a search console property. Used in 'head.html'.
+owner:
+  - google:
+    - verify: "Edaf1yKq9mivzeOK_nWSLWHe0IahVclbVhWk-uVwDxk"

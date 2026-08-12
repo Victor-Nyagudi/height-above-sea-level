@@ -33,7 +33,7 @@ Here are the tags the posts may use. **All tags are written in lowercase except 
 - lighting
 - performance
 - scripting
-- set-up-getting-started
+- set-up-and-getting-started
 - tools-and-packages
 - unity-editor
 - user-interface-UI

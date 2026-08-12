@@ -7,7 +7,7 @@ image:
     thumbnail: /assets/images/constants_article/constants_article_thumbnail.jpg
 ---
 
-A constant in C#, the half-brother of a variable, is like a mini storage location for temporary data you'll reuse when building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
+A constant in C#, the half-brother of a [variable]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp), is like **a mini storage location for temporary data** you'll reuse when building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
 As the name suggests, a constant is **a value that stays the same after it is created**. It can only be updated in one place: where you created it.
 
@@ -52,7 +52,7 @@ A constant is assigned a value using one equal sign (=) after the constant's nam
 
 ### String Constant
 
-A string constant is written using two double quotes ("") and, optionally, characters between them. Strings in C# are used to work with text.
+A [string]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp) constant is written using two double quotes ("") and, optionally, characters between them. Strings in C# are used to work with text.
 
 ```csharp
 const string Hero = "Doomfist";
@@ -76,7 +76,7 @@ const bool ShouldAttack = true;
 
 ### Number Constant
 
-A number constant is written as a regular number with no extra formatting.
+A [number]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp) constant is written as a regular number with no extra formatting.
 
 ```csharp
 const int DamageMultiplier = 3;
@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
 }
 ```
 
-Assume you opened a script in Unity called `Player.cs` in your preferred editor: Visual Studio, Visual Studio Code, or JetBrains Rider.
+Assume you opened a script in Unity called `Player.cs` in your preferred editor: [Visual Studio](https://youtu.be/VcU2HGsxeII?si=ILXB_GVjOw_4-glK), [Visual Studio Code](https://youtu.be/bfvq_kTbnd8?si=Kg9KUKYCLUbkbyUH), or JetBrains Rider.
 
 ```csharp
 public class Player : MonoBehaviour
@@ -431,11 +431,11 @@ The next one discusses numbers and their role in your game's code.
 
 Here's the complete list:
 
-1. A Game Developer's Guide to Variables in C#
+1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp)
 2. A Game Developer's Guide to Constants in C# _(you are here)_
-3. A Game Developer's Guide to Numbers in C#
-4. A Game Developer's Guide to Operators in C#
-5. A Game Developer's Guide to Strings in C#
+3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp)
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
+5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp)
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#
 8. A Game Developer's Guide to Conditional Statements in C#

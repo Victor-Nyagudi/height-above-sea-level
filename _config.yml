@@ -32,6 +32,11 @@ google_fonts:
   - name: "Lora"
     weights: "400,400i,700,700i"
 google_analytics: "G-CHJG8HKEGX" # Google Analytics id, e.g. "G-NNNNNNNN". "UA" is no longer used.
+
+# Google ownership verification required to add a search console property.
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md#usage
+google_site_verification: "Edaf1yKq9mivzeOK_nWSLWHe0IahVclbVhWk-uVwDxk"
+
 twitter:
   username: "Vicktor_Oti" # site's Twitter username, e.g. "mmistakes"
 
@@ -115,8 +120,3 @@ footer_links:
   - title: Instagram
     url: https://www.instagram.com/HeightAboveSeaLevel/
     icon: fab fa-instagram
-
-# Google ownership verification required to add a search console property. Used in 'head.html'.
-owner:
-  - google:
-    - verify: "Edaf1yKq9mivzeOK_nWSLWHe0IahVclbVhWk-uVwDxk"

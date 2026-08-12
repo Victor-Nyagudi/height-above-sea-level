@@ -75,7 +75,7 @@ bool hasInternet = true;
 
 ### Number Variables
 
-A [number]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp) value is written as a regular number with no extra formatting.
+A [number]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}) value is written as a regular number with no extra formatting.
 
 Numbers are used with anything that needs to be counted or when you need to perform mathematical operations like adding, subtracting, etc.
 
@@ -360,7 +360,7 @@ Variables are one of the many concepts in the interconnected world of C#, so you
 
 - Boolean variables often start with "_is_" or "_has_".
 
-Once you feel you have a good grasp of variables, read the next article on [constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp).
+Once you feel you have a good grasp of variables, read the next article on [constants in C#]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}).
 
 This article is the first in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
@@ -369,10 +369,10 @@ The next one discusses constants and their role in your game's code.
 Here's the complete list:
 
 1. A Game Developer's Guide to Variables in C# _(you are here)_
-2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp)
-3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp)
-4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
-5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp)
+2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %})
+3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %})
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %})
+5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %})
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#
 8. A Game Developer's Guide to Conditional Statements in C#

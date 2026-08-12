@@ -12,7 +12,7 @@ Whether you're working with non-playable character (NPC) names or text in your g
 
 Strings store and manipulate text. They're the foundation of the majority of text-related code you'll write for your game made in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
-This article assumes you have some knowledge of [variables]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp), [constants]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp), and [operators]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp), but if you're not familiar with them, read the linked articles first.
+This article assumes you have some knowledge of [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}), and [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), but if you're not familiar with them, read the linked articles first.
 
 If you're a visual learner, you can watch the video version below.
 
@@ -295,10 +295,10 @@ If you feel comfortable with strings and are ready for the next challenge when w
 
 Here's the full list of posts in the series:
 
-1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp)
-2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp)
-3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-numbers-in-c-sharp)
-4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
+1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %})
+2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %})
+3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %})
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %})
 5. A Game Developer's Guide to Strings in C# _(you are here)_
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#

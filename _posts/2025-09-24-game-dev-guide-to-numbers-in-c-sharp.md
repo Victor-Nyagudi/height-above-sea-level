@@ -11,7 +11,7 @@ From the remaining lives a player has to the health potions in their inventory, 
 
 Numbers in C# can be generally categorized into two types: **whole numbers**, also known as integers, and **decimal numbers**, also referred to as floating-point numbers.
 
-This article assumes you have a basic understanding of [variables]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp) and [constants]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp). If you're not familiar with them, read the linked posts first.
+This article assumes you have a basic understanding of [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}) and [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}). If you're not familiar with them, read the linked posts first.
 
 If you're a visual learner, you can watch the video version below.
 
@@ -35,7 +35,7 @@ var three = 3;
 const float Four = 4.0f;
 ```
 
-Mathematical operations are discussed in more detail in the [operators]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp) article.
+Mathematical operations are discussed in more detail in the [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}) article.
 
 ## Whole Numbers (Integers)
 
@@ -339,11 +339,11 @@ The next one discusses how to use numbers in mathematical operations, such as ad
 
 Here's the complete list:
 
-1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-variables-in-c-sharp)
-2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-constants-in-c-sharp)
+1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %})
+2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %})
 3. A Game Developer's Guide to Numbers in C# _(you are here)_
-4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-operators-in-c-sharp)
-5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}/c%23/game-dev-guide-to-strings-in-c-sharp)
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %})
+5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %})
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#
 8. A Game Developer's Guide to Conditional Statements in C#

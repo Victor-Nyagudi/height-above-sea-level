@@ -51,7 +51,7 @@ A variable is assigned a value using one equal sign (=) after the variable's nam
 
 ### String Variables
 
-A [string]({{ site.baseurl }}/{{ "c#" | url_encode }}/game-dev-guide-to-strings-in-c-sharp) is written using two double quotes (") and, optionally, characters between them. Strings in C# are used to work with text.
+A [string]({{ site.baseurl }}/{{ "c#" | escape }}/game-dev-guide-to-strings-in-c-sharp) is written using two double quotes (") and, optionally, characters between them. Strings in C# are used to work with text.
 
 ```csharp
 string name = "Kratos";

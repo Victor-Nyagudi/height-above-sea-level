@@ -24,7 +24,7 @@ Here are the tags the posts may use. **All tags are written in lowercase except 
 - art
 - audio
 - beginner-c#
-- camera
+- cameras
 - debugging
 - graphics
 - intermediate-c#

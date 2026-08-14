@@ -20,6 +20,8 @@ If you're a visual learner, you can watch the video version below.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5TVhfwAB4kU?si=f_yR3JXaCEJ0nDxm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+{% include toc %}
+
 ## How do you use strings?
 
 You'll first need to create a `string` variable before you can use it.
@@ -275,7 +277,7 @@ Debug.Log(assassin.TrimStart()); // Logs 'Ezio Auditore '.
 Debug.Log(assassin.Trim()); // Logs 'Ezio Auditore'.
 ```
 
-### Recap
+## Recap
 
 - Strings in C# are used when working with text.
 

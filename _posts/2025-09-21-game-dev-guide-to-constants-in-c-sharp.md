@@ -16,6 +16,8 @@ If the player in your game can only carry a maximum of 20 items in their invento
 
 Constants are fundamental to any video game and are often used with variables, whether in handwritten code or visual scripting tools.
 
+{% include toc %}
+
 ## How do you create a constant in C#?
 
 There are four simple steps to creating a constant.
@@ -414,7 +416,7 @@ public class Enemy
 
 Classes, fields, and modifiers, such as `readonly`, are discussed in more detail in separate articles.
 
-### Recap
+## Recap
 
 - Constants are like mini-storage locations to store temporary data.
 

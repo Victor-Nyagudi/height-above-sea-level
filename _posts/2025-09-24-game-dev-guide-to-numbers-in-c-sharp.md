@@ -20,6 +20,8 @@ If you're a visual learner, you can watch the video version below.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/p9KItGlIlkA?si=_9jQYvE01_rNlQA7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+{% include toc %}
+
 ## How do you create a number in C#?
 
 Numbers already exist in C#, so you don't have to re-create them.
@@ -40,7 +42,7 @@ Mathematical operations are discussed in more detail in the [operators]({{ site.
 
 ## Whole Numbers (Integers)
 
-Whole numbers in video games work well with anything that increases or decreases in fixed steps of one or more, such as ammo, player lives, or coins collected.
+Whole numbers in video games work well with **anything that increases or decreases in fixed steps of one or more**, such as ammo, player lives, or coins collected.
 
 If the player fires their gun, the remaining ammo decreases by one.
 
@@ -50,7 +52,7 @@ When the player picks up ammo, the number jumps to a fixed whole number, such as
 
 There are multiple [integer types in C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) you can use, but the following are the five most common ones that will most likely apply to the Unity game you're building.
 
-## `sbyte`
+### `sbyte`
 
 An `sbyte` is one of the smaller integer types that stores numbers **from -128 to 127**. Trying to store any number less than -128 or greater than 127 will result in an error.
 
@@ -75,7 +77,7 @@ If the player in your game can have at most 3 lives, an `sbyte` would be a good 
 
 You could also use it for character ages in a role-playing game since humans rarely live past the age of 127.
 
-## `byte`
+### `byte`
 
 A `byte` is another small integer type capable of storing numbers **from 0 to 255**.
 
@@ -105,7 +107,7 @@ For example, if your fantasy characters can live up to 250, then you can store t
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
 
-## `short`
+### `short`
 
 A `short`, sometimes written as `Int16`, has a capacity of **-32,768 to 32,767**.
 
@@ -134,7 +136,7 @@ Simply put, if you need a number that can reach the low thousands, a `short` is 
 
 It **takes up 2 bytes of space**.
 
-## `int`
+### `int`
 
 An `int`, also written as `Int32`, is one of the most commonly used integer types. It has a capacity of about **-2.1 billion to around 2.1 billion**.
 
@@ -160,7 +162,7 @@ public class Bank
 
 It **takes up 4 bytes of space**, so if your game is performance-critical and you don't need the large range, one of the smaller types would be a better choice.
 
-## `long`
+### `long`
 
 A `long`, also written as `Int64`, is another one of the larger integer types, surpassing the billions.
 
@@ -190,7 +192,7 @@ You'll more often than not be fine using an `int` over a `long`.
 
 ## Decimal Numbers (Floating-point Numbers)
 
-Decimal numbers in video games work well when dealing with numbers that require greater precision, such as health bars in the user interface or aiming angles.
+Decimal numbers in video games work well **when dealing with numbers that require greater precision**, such as health bars in the user interface or aiming angles.
 
 If the player in your game needs to throw an object, it's a much better experience if they can aim in small, fine movements instead of janky, snappy motions, in _some_ games at least.
 
@@ -199,7 +201,7 @@ C# has three floating-point types to help you achieve this.
 **_Tip:_** You can still use floating-point types with whole numbers, but you can't use integer types with decimal numbers.
 {: .notice--info}
 
-## `float`
+### `float`
 
 Probably the easiest to remember since it uses the same first four words as floating, a `float`, also known as a `Single`, is the smallest of the three.
 
@@ -230,7 +232,7 @@ It has a capacity in the billions on the positive and negative sides and **uses 
 
 This is the least accurate of the three, but it works fine for the majority of games you'd want to make in Unity.
 
-## `double`
+### `double`
 
 A `double` is larger than a `float` and is the default type used with decimal numbers that don't end with a letter.
 
@@ -261,7 +263,7 @@ You can think of it as a middleground between the `float` and `decimal`, balanci
 
 It could work in your game, but the extra precision might be an unnecessary trade-off for the extra space it consumes.
 
-## `decimal`
+### `decimal`
 
 The most accurate of the three, a `decimal` type, is great for games with elaborate banking systems and economies that need numbers to be as precise as possible.
 
@@ -322,7 +324,7 @@ int oneBillion = 1_000_000_000; // ✅ No issues here.
 
 The underscore is a **digit separator**. The computer will still read the number correctly if you use it.
 
-### Recap
+## Recap
 
 - Numbers in C# can generally be classified as whole (integer) or decimal (floating-point) numbers.
 

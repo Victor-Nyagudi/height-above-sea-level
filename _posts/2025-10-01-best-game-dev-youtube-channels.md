@@ -13,29 +13,7 @@ This article focuses on the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=
 
 Whether you're a hobbyist game developer or a student intent on working in a AAA studio, these channels should be useful at some point or another.
 
-The channels are broken down into the following categories:
-
-- Art
-
-- Shaders
-
-- C# & Scripting
-
-- Animation
-
-- Video Game Artificial Intelligence (AI)
-
-- Visual Effects (VFX)
-
-- All-in-one
-
-- Game Design
-
-- Mobile Game Development
-
-- Publishing/Industry Knowledge
-
-- Game Development Challenges
+Expand the table of contents below for an overview of the categories they are grouped under.
 
 {% include toc %}
 

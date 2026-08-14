@@ -18,6 +18,8 @@ If you're a visual learner, you can watch the video version of this post below.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/lm5JnW-yNng?si=GB3tonPVpoQQQbko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+{% include toc %}
+
 ## How do you create a variable in C#?
 
 There are three simple steps to creating a variable.
@@ -349,7 +351,7 @@ You can [practice using variables](https://youtu.be/oFoM-Eq96C8?si=L7m5JfMLFJI4E
 
 Variables are one of the many concepts in the interconnected world of C#, so you'll see more use cases the more you use the programming language.
 
-### Recap
+## Recap
 
 - Variables are like **mini-storage locations to store temporary data**.
 

@@ -116,6 +116,9 @@ You can adjust the lighting settings in the _Lighting_ window to bake lights at 
 
 This flexibility lets you make the necessary adjustments to ensure your game runs at a steady frame rate and maintains optimal performance, even under stress.
 
+**Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
+{: .notice--primary}
+
 ## Does baking lights affect reflections in Unity?
 
 Reflections occur when light bounces off a smooth surface. Reflections in Unity are obtained by placing reflection probes in different areas of your scene.

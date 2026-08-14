@@ -22,6 +22,8 @@ If you're a visual learner, you can watch the video version below.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PGrNsVII6js?si=bZGYvMPiQMP3xm2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+{% include toc %}
+
 ## What is an operator?
 
 Operators are symbols used to perform various operations in C#. The five most common ones you'll use are:
@@ -360,7 +362,7 @@ Debug.Log(!true); // Logs 'false'.
 Debug.Log(!false); // Logs 'true'.
 ```
 
-### Recap
+## Recap
 
 - **Arithmetic operators** are for mathematical operations, such as addition and subtraction.
 

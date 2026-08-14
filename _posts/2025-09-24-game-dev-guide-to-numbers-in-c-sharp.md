@@ -345,7 +345,7 @@ Here's the complete list:
 1. [A Game Developer's Guide to Variables in C#]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %})
 2. [A Game Developer's Guide to Constants in C#]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %})
 3. A Game Developer's Guide to Numbers in C# _(you are here)_
-4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-operators-in-c-sharp %})
+4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %})
 5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %})
 6. A Game Developer's Guide to Booleans in C#
 7. A Game Developer's Guide to Enums in C#

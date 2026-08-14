@@ -181,7 +181,7 @@ Click the button at the bottom of the window labeled _Generate Lighting_ to bake
 
 If you followed the steps correctly, the objects in your level should have more realistic lighting. If not, read the _Unity Lights Troubleshooting Guide_ to help triage the problem.
 
-Baking lights in Unity can take a long time, so you can turn down some of the lighting settings to speed it up.
+[Baking lights in Unity can take a long time]({{ site.baseurl }}{% post_url 2025-11-01-tips-to-speed-up-light-baking-in-unity %}), so you can turn down some of the lighting settings to speed it up.
 
 Here's a breakdown of some of the settings and how they affect light baking:
 

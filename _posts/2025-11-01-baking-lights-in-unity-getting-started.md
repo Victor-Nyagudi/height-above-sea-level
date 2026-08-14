@@ -192,7 +192,7 @@ Even though baking lights saves you performance when the game is running, there 
 
 Lights in the Unity Game Engine can be baked at varying degrees of accuracy. The more accurate the light, the longer it'll take to bake.
 
-Long bake times are a common challenge for many game developers, but there are settings you can adjust to improve them.
+[Long bake times]({{ site.baseurl }}{% post_url 2025-11-01-tips-to-speed-up-light-baking-in-unity %}) are a common challenge for many game developers, but there are settings you can adjust to improve them.
 
 Some of the settings you can change in the _Lighting_ window include the number of times light bounces when it hits a surface, the number of light samples to use when generating lightmaps, or the size of the lightmap.
 
@@ -225,4 +225,4 @@ Baked lights may save some performance beforehand, but they sometimes produce so
 
 ## In Closing
 
-Now that you have a better understanding of baking lights and what it can do for your game, you're ready to learn how to bake lights in the Unity Game Engine.
+Now that you have a better understanding of baking lights and what it can do for your game, you're ready to learn [how to bake lights in the Unity Game Engine]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}).

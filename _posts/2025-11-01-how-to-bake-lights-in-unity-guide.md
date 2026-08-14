@@ -156,7 +156,7 @@ Once you've added all the lights and the scene looks good to you, it's time to b
 
 First, open the _Lighting_ window if it's not open: _Window_ > _Rendering_ > _Lighting_.
 
-Under the _Lighting Settings_ in the Scene tab, you'll need to create a new _Lighting Settings Asset_. This is a file that stores the level's lighting settings and ends with _.lighting_.
+Under the _Lighting Settings_ in the Scene tab, you'll need to create a new _Lighting Settings Asset_. This is a file that stores the level's lighting settings and ends with `.lighting`.
 
 You don't have to adjust any values initially after creating the asset, but it's required to change the lighting settings.
 

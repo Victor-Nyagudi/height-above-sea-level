@@ -90,7 +90,7 @@ This code partially works but has a problem. If the player continuously interact
 
 That's a [bug](https://youtu.be/akyMZwL3bcs?si=j3roXwZ9yXQZQZEI), and it's caused by increasing the player's health without first checking if it's already at its maximum.
 
-### AND operator - `&&`
+### AND Operator - `&&`
 
 You can add a second condition to ensure the player's health increases if they interact with a health orb **and** they're health is below the maximum.
 
@@ -119,7 +119,7 @@ if (player.HasPickedHealthOrb(healthOrb) && player.Health < MaxHealth)
 
 To help you understand better, you can read the above code as, "If the player interacts with a health orb and their health is below the maximum, add them 15 hit points (HP)."
 
-### OR operator - `||`
+### OR Operator - `||`
 
 Consider another scenario. Let's say the game you're making in Unity has fall damage in addition to taking damage from enemy attacks.
 

@@ -50,7 +50,7 @@ Arithmetic operators are used to perform the common **mathematical operations** 
 
 - Division
 
-### Addition
+### Addition `+`
 
 You can add two or more numbers using the (`+`) operator.
 
@@ -99,7 +99,7 @@ Debug.Log(ammo); // Logs '20'.
 **_Warning:_** This is one of the quirks of using the operator that may leave you wondering why the coin counter isn't increasing when it should, so use it with discretion.
 {: .notice--warning}
 
-### Subtraction
+### Subtraction `-`
 
 Taking damage should reduce the player's health. Similarly, using a magic potion should reduce the total potions in the player's inventory.
 
@@ -146,7 +146,7 @@ Debug.Log(health); // Logs '99'.
 **_Tip:_** Only the addition and subtraction operators have a unique variation of them.
 {: .notice--info}
 
-### Multiplication
+### Multiplication `*`
 
 If the game you're making in the Unity game engine has damage multipliers, you can use the multiplication (`*`) operator to implement them.
 
@@ -162,7 +162,7 @@ var boostedDamage = currentDamage * DamageMultiplier;
 Debug.Log(boostedDamage); // Logs '150'.
 ```
 
-### Division
+### Division `/`
 
 Some games have debuffs that negatively impact the player, such as slowing down their movement.
 
@@ -182,7 +182,7 @@ Debug.Log(slowedSpeed); // Logs '50'.
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
 
-### Remainder
+### Remainder `%`
 
 The remainder operator (`%`) is used to get the remainder after dividing a number.
 
@@ -299,6 +299,8 @@ Logical operators are used on values that are either `true` or `false`. These ar
 
 They're commonly used in conditional statements, a topic discussed in more detail in a separate post, to toggle different parts of your Unity game's code on or off.
 
+### AND Operator - `&&`
+
 Let's say you want to give the driver in your racing game 500XP if they finish first in the race.
 
 The two conditions for them to get the XP are:
@@ -309,10 +311,6 @@ The two conditions for them to get the XP are:
 
 You can use the `&&` operator to achieve this.
 
-It lets you chain multiple conditions, so the code in the if statement only executes if **all the conditions are met**.
-
-If even one condition isn't met, the code does not execute.
-
 ```csharp
 var hasFinishedRace = true;
 var finishPosition = 1;
@@ -320,6 +318,12 @@ var finishPosition = 1;
 if (hasFinishedRace && finishPosition == 1)
     Debug.Log("Driver has received 500XP!");
 ```
+
+It lets you chain multiple conditions, so the code in the if statement only executes if **all the conditions are met**.
+
+If even one condition isn't met, the code does not execute.
+
+### OR Operator - `||`
 
 Alternatively, you could give the driver 100XP if they finish the race in any position **or** pass through 5 checkpoints.
 
@@ -340,6 +344,8 @@ var checkpointsPassed = 3;
 if (hasFinishedRace || checkpointsPassed == 5)
     Debug.Log("Driver has received 100XP!");
 ```
+
+### NOT Operator - `!`
 
 The `!` operator **inverts a `true` or `false` value**. For example, `!true` is read as "**NOT true**", while `!false` is "**NOT false**".
 

@@ -72,6 +72,8 @@ sbyte healthOrb = 10;
 Debug.Log(health + healthOrb); // Logs '100'.
 ```
 
+#### Increment Operator `++`
+
 If your game involves the player collecting coins, C# has an operator that can increase the total coins collected by exactly 1, since that most likely will be the value of each coin.
 
 This operator is called the **increment operator**, and it's written using two plus signs: (`++`).
@@ -120,6 +122,8 @@ byte health = 100;
 
 Debug.Log(health - 25); // Logs '75'.
 ```
+
+#### Decrement Operator `--`
 
 A similar operator to the increment operator exists in subtraction: the **decrement operator** (`--`).
 

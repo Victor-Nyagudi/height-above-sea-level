@@ -6,6 +6,7 @@ excerpt: "If the player in your game picks up some ammo, you'll need to update t
 image:
     path: /assets/images/operators_article/operators_article_header_img.jpg
     thumbnail: /assets/images/operators_article/operators_article_thumbnail.jpg
+date: 2026-08-10
 ---
 
 If the player in your game picks up some ammo, you'll need to update the ammo count to reflect this increase.
@@ -50,7 +51,7 @@ Arithmetic operators are used to perform the common **mathematical operations** 
 
 - Division
 
-### Addition
+### Addition `+`
 
 You can add two or more numbers using the (`+`) operator.
 
@@ -71,6 +72,8 @@ sbyte healthOrb = 10;
 
 Debug.Log(health + healthOrb); // Logs '100'.
 ```
+
+#### Increment Operator `++`
 
 If your game involves the player collecting coins, C# has an operator that can increase the total coins collected by exactly 1, since that most likely will be the value of each coin.
 
@@ -99,7 +102,7 @@ Debug.Log(ammo); // Logs '20'.
 **_Warning:_** This is one of the quirks of using the operator that may leave you wondering why the coin counter isn't increasing when it should, so use it with discretion.
 {: .notice--warning}
 
-### Subtraction
+### Subtraction `-`
 
 Taking damage should reduce the player's health. Similarly, using a magic potion should reduce the total potions in the player's inventory.
 
@@ -120,6 +123,8 @@ byte health = 100;
 
 Debug.Log(health - 25); // Logs '75'.
 ```
+
+#### Decrement Operator `--`
 
 A similar operator to the increment operator exists in subtraction: the **decrement operator** (`--`).
 
@@ -146,7 +151,7 @@ Debug.Log(health); // Logs '99'.
 **_Tip:_** Only the addition and subtraction operators have a unique variation of them.
 {: .notice--info}
 
-### Multiplication
+### Multiplication `*`
 
 If the game you're making in the Unity game engine has damage multipliers, you can use the multiplication (`*`) operator to implement them.
 
@@ -162,7 +167,7 @@ var boostedDamage = currentDamage * DamageMultiplier;
 Debug.Log(boostedDamage); // Logs '150'.
 ```
 
-### Division
+### Division `/`
 
 Some games have debuffs that negatively impact the player, such as slowing down their movement.
 
@@ -182,7 +187,7 @@ Debug.Log(slowedSpeed); // Logs '50'.
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
 
-### Remainder
+### Remainder `%`
 
 The remainder operator (`%`) is used to get the remainder after dividing a number.
 
@@ -299,6 +304,8 @@ Logical operators are used on values that are either `true` or `false`. These ar
 
 They're commonly used in conditional statements, a topic discussed in more detail in a separate post, to toggle different parts of your Unity game's code on or off.
 
+### AND Operator - `&&`
+
 Let's say you want to give the driver in your racing game 500XP if they finish first in the race.
 
 The two conditions for them to get the XP are:
@@ -309,10 +316,6 @@ The two conditions for them to get the XP are:
 
 You can use the `&&` operator to achieve this.
 
-It lets you chain multiple conditions, so the code in the if statement only executes if **all the conditions are met**.
-
-If even one condition isn't met, the code does not execute.
-
 ```csharp
 var hasFinishedRace = true;
 var finishPosition = 1;
@@ -320,6 +323,12 @@ var finishPosition = 1;
 if (hasFinishedRace && finishPosition == 1)
     Debug.Log("Driver has received 500XP!");
 ```
+
+It lets you chain multiple conditions, so the code in the if statement only executes if **all the conditions are met**.
+
+If even one condition isn't met, the code does not execute.
+
+### OR Operator - `||`
 
 Alternatively, you could give the driver 100XP if they finish the race in any position **or** pass through 5 checkpoints.
 
@@ -340,6 +349,8 @@ var checkpointsPassed = 3;
 if (hasFinishedRace || checkpointsPassed == 5)
     Debug.Log("Driver has received 100XP!");
 ```
+
+### NOT Operator - `!`
 
 The `!` operator **inverts a `true` or `false` value**. For example, `!true` is read as "**NOT true**", while `!false` is "**NOT false**".
 
@@ -376,7 +387,7 @@ Debug.Log(!false); // Logs 'true'.
 
 This post is the fourth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use [strings]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}) to work with text.
+The next one discusses how to use [strings]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}) to work with text.
 
 Here's the full list of posts in the series:
 
@@ -385,11 +396,11 @@ Here's the full list of posts in the series:
 3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %})
 4. A Game Developer's Guide to Operators in C# _(you are here)_
 5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %})
-6. A Game Developer's Guide to Booleans in C#
-7. A Game Developer's Guide to Enums in C#
-8. A Game Developer's Guide to Conditional Statements in C#
-9. A Game Developer's Guide to Loops in C#
-10. A Game Developer's Guide to Classes in C#
+6. [A Game Developer's Guide to Booleans in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %})
+7. [A Game Developer's Guide to Enums in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %})
+8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
+9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
+10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
 11. A Game Developer's Guide to Access Modifiers in C#
 12. A Game Developer's Guide to Fields & Properties in C#
 13. A Game Developer's Guide to Methods in C#

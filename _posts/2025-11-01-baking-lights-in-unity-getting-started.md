@@ -6,6 +6,7 @@ excerpt: "Different lights in a scene can create a varying atmosphere. These sce
 image:
     path: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
+date: 2026-08-14
 ---
 
 Different lights in a scene can create a varying atmosphere. Brighter light during the day is often associated with a calmer or upbeat atmosphere, such as you'd expect when going for a picnic.

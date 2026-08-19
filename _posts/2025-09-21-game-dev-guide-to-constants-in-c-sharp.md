@@ -6,6 +6,7 @@ excerpt: "A constant in C#, the half-brother of a variable, is like **a mini sto
 image:
     path: /assets/images/constants_article/constants_article_header_img.jpg
     thumbnail: /assets/images/constants_article/constants_article_thumbnail.jpg
+date: 2026-08-10
 ---
 
 A constant in C#, the half-brother of a [variable]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), is like **a mini storage location for temporary data** you'll reuse when building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
@@ -430,7 +431,7 @@ Classes, fields, and modifiers, such as `readonly`, are discussed in more detail
 
 This article is the second in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses numbers and their role in your game's code.
+The next one discusses [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}) and their role in your game's code.
 
 Here's the complete list:
 
@@ -439,11 +440,11 @@ Here's the complete list:
 3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %})
 4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %})
 5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %})
-6. A Game Developer's Guide to Booleans in C#
-7. A Game Developer's Guide to Enums in C#
-8. A Game Developer's Guide to Conditional Statements in C#
-9. A Game Developer's Guide to Loops in C#
-10. A Game Developer's Guide to Classes in C#
+6. [A Game Developer's Guide to Booleans in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %})
+7. [A Game Developer's Guide to Enums in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %})
+8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
+9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
+10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
 11. A Game Developer's Guide to Access Modifiers in C#
 12. A Game Developer's Guide to Fields & Properties in C#
 13. A Game Developer's Guide to Methods in C#

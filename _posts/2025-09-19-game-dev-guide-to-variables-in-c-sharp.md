@@ -6,6 +6,7 @@ excerpt: "A variable in C# can be thought of as **a mini storage location for te
 image:
     path: /assets/images/variables_article/variables_article_header_img.jpg
     thumbnail: /assets/images/variables_article/variables_article_thumbnail.jpg
+date: 2026-08-10
 ---
 
 A variable in C# can be thought of as **a mini storage location for temporary data you plan on reusing** while building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
@@ -66,7 +67,7 @@ string son = "Atreus";
 
 ### Boolean Variables
 
-A boolean value is written using either the `true` or `false` keywords. Booleans are like on/off switches that toggle different parts of your code on or off.
+A [boolean]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}) value is written using either the `true` or `false` keywords. Booleans are like on/off switches that toggle different parts of your code on or off.
 
 ```csharp
 bool isOnline = true;
@@ -122,7 +123,7 @@ public class Player : MonoBehaviour
 }
 ```
 
-Classes are discussed in more detail in a separate post.
+[Classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) are discussed in more detail in a separate post.
 
 ## Where should you put variables?
 
@@ -198,7 +199,7 @@ If you used the correct syntax, for example, double quotes for strings, the comp
 **_Tip:_** Hover over a variable's name in Visual Studio or Visual Studio Code to see its type. This is useful in larger projects with many different variables when you want to know a particular variable's type.
 {: .notice--info}
 
-Some of the other special keywords in C# include `return`, used in methods, `for`, `while`, and `foreach`, used in loops, and `public`, used to modify access to different parts of your code.
+Some of the other special keywords in C# include `return`, used in methods, `for`, `while`, and `foreach`, used in [loops]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}), and `public`, used to modify access to different parts of your code.
 
 ## How do you use variables in C#?
 
@@ -343,7 +344,7 @@ If using these prefixes makes the variable more confusing or if a different name
 
 For example, you can name the variable `playerIsGrounded` instead of `isPlayerGrounded` if you prefer, or use `powerUpPicked` instead of `hasPowerUp`.
 
-You'll see how these names make understanding code easier when you start working with conditional statements.
+You'll see how these names make understanding code easier when you start working with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 
 ## How can I practice using variables in C#?
 
@@ -363,11 +364,9 @@ Variables are one of the many concepts in the interconnected world of C#, so you
 
 - Boolean variables often start with "_is_" or "_has_".
 
-Once you feel you have a good grasp of variables, read the next article on [constants in C#]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}).
-
 This article is the first in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses constants and their role in your game's code.
+The next one discusses [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}) and their role in your game's code.
 
 Here's the complete list:
 
@@ -376,11 +375,11 @@ Here's the complete list:
 3. [A Game Developer's Guide to Numbers in C#]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %})
 4. [A Game Developer's Guide to Operators in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %})
 5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %})
-6. A Game Developer's Guide to Booleans in C#
-7. A Game Developer's Guide to Enums in C#
-8. A Game Developer's Guide to Conditional Statements in C#
-9. A Game Developer's Guide to Loops in C#
-10. A Game Developer's Guide to Classes in C#
+6. [A Game Developer's Guide to Booleans in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %})
+7. [A Game Developer's Guide to Enums in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %})
+8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
+9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
+10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
 11. A Game Developer's Guide to Access Modifiers in C#
 12. A Game Developer's Guide to Fields & Properties in C#
 13. A Game Developer's Guide to Methods in C#

@@ -150,9 +150,9 @@ Here's the complete list of articles in the series:
 5. [A Game Developer's Guide to Strings in C#]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %})
 6. [A Game Developer's Guide to Booleans in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %})
 7. A Game Developer's Guide to Enums in C# _(you are here)_ 
-8. A Game Developer's Guide to Conditional Statements in C#
-9. A Game Developer's Guide to Loops in C#
-10. A Game Developer's Guide to Classes in C#
+8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
+9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
+10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
 11. A Game Developer's Guide to Access Modifiers in C#
 12. A Game Developer's Guide to Fields & Properties in C#
 13. A Game Developer's Guide to Methods in C#

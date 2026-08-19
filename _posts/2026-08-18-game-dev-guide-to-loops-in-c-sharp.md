@@ -329,7 +329,7 @@ Here's the complete list of articles in the series:
 7. [A Game Developer's Guide to Enums in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %})
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. A Game Developer's Guide to Loops in C# _(you are here)_
-10. A Game Developer's Guide to Classes in C#
+10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
 11. A Game Developer's Guide to Access Modifiers in C#
 12. A Game Developer's Guide to Fields & Properties in C#
 13. A Game Developer's Guide to Methods in C#

@@ -319,4 +319,3 @@ Here's the complete list of articles in the series:
 13. A Game Developer's Guide to Methods in C#
 14. A Game Developer's Guide to Lists & Arrays in C#
 15. A Game Developer's Guide to Dates & Times in C#
-

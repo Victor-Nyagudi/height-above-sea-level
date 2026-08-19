@@ -338,7 +338,7 @@ You might find it easier working with `if` statements if there are multiple thin
 
 This article is the eighth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use loops when working with multiple related items.
+The next one discusses how to use [loops]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}) when working with multiple related items.
 
 Here's the complete list of articles in the series:
 

@@ -139,7 +139,7 @@ If you have a collection of items you want to manipulate by adding, removing, or
 
 This article is the seventh in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use conditional statements to control the flow of your code's execution.
+The next one discusses how to use [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}) to control the flow of your code's execution.
 
 Here's the complete list of articles in the series:
 

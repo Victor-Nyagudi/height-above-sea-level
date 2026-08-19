@@ -430,7 +430,7 @@ Classes, fields, and modifiers, such as `readonly`, are discussed in more detail
 
 This article is the second in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses numbers and their role in your game's code.
+The next one discusses [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}) and their role in your game's code.
 
 Here's the complete list:
 

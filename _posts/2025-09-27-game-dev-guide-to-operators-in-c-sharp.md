@@ -386,7 +386,7 @@ Debug.Log(!false); // Logs 'true'.
 
 This post is the fourth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use [strings]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}) to work with text.
+The next one discusses how to use [strings]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}) to work with text.
 
 Here's the full list of posts in the series:
 

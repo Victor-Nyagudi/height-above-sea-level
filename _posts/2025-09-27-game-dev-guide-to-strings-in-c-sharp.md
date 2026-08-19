@@ -291,7 +291,7 @@ Debug.Log(assassin.Trim()); // Logs 'Ezio Auditore'.
 
 This post is the fifth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use booleans and is a prerequisite for working with conditional statements.
+The next one discusses how to use [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}) and is a prerequisite for working with conditional statements.
 
 If you feel comfortable with strings and are ready for the next challenge when working with text, check out [regular expressions](https://youtu.be/Jd3YyiJj8aM?si=Bol89ziajIyO9488).
 

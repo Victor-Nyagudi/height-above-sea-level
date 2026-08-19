@@ -66,7 +66,7 @@ string son = "Atreus";
 
 ### Boolean Variables
 
-A boolean value is written using either the `true` or `false` keywords. Booleans are like on/off switches that toggle different parts of your code on or off.
+A [boolean]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}) value is written using either the `true` or `false` keywords. Booleans are like on/off switches that toggle different parts of your code on or off.
 
 ```csharp
 bool isOnline = true;
@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
 }
 ```
 
-Classes are discussed in more detail in a separate post.
+[Classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) are discussed in more detail in a separate post.
 
 ## Where should you put variables?
 
@@ -198,7 +198,7 @@ If you used the correct syntax, for example, double quotes for strings, the comp
 **_Tip:_** Hover over a variable's name in Visual Studio or Visual Studio Code to see its type. This is useful in larger projects with many different variables when you want to know a particular variable's type.
 {: .notice--info}
 
-Some of the other special keywords in C# include `return`, used in methods, `for`, `while`, and `foreach`, used in loops, and `public`, used to modify access to different parts of your code.
+Some of the other special keywords in C# include `return`, used in methods, `for`, `while`, and `foreach`, used in [loops]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}), and `public`, used to modify access to different parts of your code.
 
 ## How do you use variables in C#?
 
@@ -343,7 +343,7 @@ If using these prefixes makes the variable more confusing or if a different name
 
 For example, you can name the variable `playerIsGrounded` instead of `isPlayerGrounded` if you prefer, or use `powerUpPicked` instead of `hasPowerUp`.
 
-You'll see how these names make understanding code easier when you start working with conditional statements.
+You'll see how these names make understanding code easier when you start working with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 
 ## How can I practice using variables in C#?
 
@@ -363,11 +363,9 @@ Variables are one of the many concepts in the interconnected world of C#, so you
 
 - Boolean variables often start with "_is_" or "_has_".
 
-Once you feel you have a good grasp of variables, read the next article on [constants in C#]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}).
-
 This article is the first in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses constants and their role in your game's code.
+The next one discusses [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}) and their role in your game's code.
 
 Here's the complete list:
 

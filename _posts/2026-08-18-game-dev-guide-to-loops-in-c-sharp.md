@@ -316,7 +316,7 @@ foreach (var tile in tiles)
 
 This article is the ninth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use classes in C# to build large, scalable games.
+The next one discusses how to use [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) in C# to build large, scalable games.
 
 Here's the complete list of articles in the series:
 

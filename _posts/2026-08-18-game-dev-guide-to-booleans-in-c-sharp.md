@@ -147,7 +147,7 @@ Booleans can also be used in classes when declaring fields or properties. Those 
 
 This article is the sixth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use enums to work with multiple related constants.
+The next one discusses how to use [enums]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %}) to work with multiple related constants.
 
 Here's the complete list of articles in the series:
 

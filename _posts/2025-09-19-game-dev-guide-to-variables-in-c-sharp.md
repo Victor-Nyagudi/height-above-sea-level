@@ -6,6 +6,7 @@ excerpt: "A variable in C# can be thought of as **a mini storage location for te
 image:
     path: /assets/images/variables_article/variables_article_header_img.jpg
     thumbnail: /assets/images/variables_article/variables_article_thumbnail.jpg
+date: 2026-08-10
 ---
 
 A variable in C# can be thought of as **a mini storage location for temporary data you plan on reusing** while building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).

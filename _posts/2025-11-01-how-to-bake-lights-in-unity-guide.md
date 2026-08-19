@@ -6,6 +6,7 @@ excerpt: "Baked lights in Unity offer better performance than realtime lights be
 image:
     path: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
     thumbnail: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
+date: 2026-08-14
 ---
 
 Baked lights in Unity offer better performance than realtime lights because all the lighting computations happen before the game runs.

@@ -6,6 +6,7 @@ excerpt: "Whether you're working with non-playable character (NPC) names or text
 image:
     path: /assets/images/strings_article/strings_article_header_img.jpg
     thumbnail: /assets/images/strings_article/strings_article_thumbnail.jpg
+date: 2026-08-10
 ---
 
 Whether you're working with non-playable character (NPC) names or text in your game's user interface (UI), you'll most likely run into strings in C#.

@@ -6,6 +6,7 @@ excerpt: "From the remaining lives a player has to the health potions in their i
 image:
     path: /assets/images/numbers_article/numbers_article_header_img.jpg
     thumbnail: /assets/images/numbers_article/numbers_article_thumbnail.jpg
+date: 2026-08-10
 ---
 
 From the remaining lives a player has to the health potions in their inventory, every video game deals with numbers at some point or another, so knowing how to work with them in C# is crucial to making a successful game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).

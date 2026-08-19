@@ -6,6 +6,7 @@ excerpt: "Music and sound effects (SFX) in video games increase the immersion an
 image:
     path: /assets/images/free_music_sfx_article/free_audio_article_thumbnail.jpg
     thumbnail: /assets/images/free_music_sfx_article/free_audio_article_thumbnail.jpg
+date: 2026-08-14
 ---
 
 Music and sound effects (SFX) in video games increase the immersion and create a more believable experience for the player.

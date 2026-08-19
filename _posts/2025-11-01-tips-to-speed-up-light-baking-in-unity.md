@@ -6,6 +6,7 @@ excerpt: "Baking lights in Unity can improve your game's performance by doing al
 image:
     path: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
+date: 2026-08-14
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) can improve your game's performance by doing all the lighting calculations before the game runs, but the process can sometimes take a long time to complete.

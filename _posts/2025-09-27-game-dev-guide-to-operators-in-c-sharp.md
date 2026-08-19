@@ -6,6 +6,7 @@ excerpt: "If the player in your game picks up some ammo, you'll need to update t
 image:
     path: /assets/images/operators_article/operators_article_header_img.jpg
     thumbnail: /assets/images/operators_article/operators_article_thumbnail.jpg
+date: 2026-08-10
 ---
 
 If the player in your game picks up some ammo, you'll need to update the ammo count to reflect this increase.

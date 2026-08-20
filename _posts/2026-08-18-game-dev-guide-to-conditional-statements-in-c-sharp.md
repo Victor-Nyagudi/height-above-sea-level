@@ -172,7 +172,7 @@ if (player.HasFallenFrom(fallDamageHeight) || player.IsAttacked())
 
 The code now first checks if the player has fallen from a high platform or if an enemy has attacked them.
 
-Once this condition is satisfied, you now know the player's health should reduce, so you check a second time to see how much remaining health they have to determine how much HP you'll deduct.
+Once this condition is satisfied, you now know the player's health should reduce, so you check a second [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) to see how much remaining health they have to determine how much HP you'll deduct.
 
 ### `else` and `else if` Statements
 
@@ -321,7 +321,7 @@ You might find it easier working with `if` statements if there are multiple thin
 
 `switch` statements may be easier to read and work with when you only have a line or two you want to execute for each scenario.
 
-**_Tip:_** Conditional statements could work well when implementing a flashlight. If the player presses a button, the [lights]({% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) turn on and vice versa.
+**_Tip:_** Conditional statements could work well when implementing a flashlight. If the player presses a button, the [lights]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) turn on and vice versa.
 {: .notice--info}
 
 ## Recap

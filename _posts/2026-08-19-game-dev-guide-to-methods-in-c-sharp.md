@@ -107,7 +107,7 @@ Debug.Log(result); // <- Logs '3' to the console.
 
 ### `Start` and `Update` Methods in Unity
 
-Every time you create a script in Unity and open it, there are usually two methods inside the class: `Start` and `Update`.
+Every [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) you create a script in Unity and open it, there are usually two methods inside the class: `Start` and `Update`.
 
 These methods exist because the script **inherits** from the `MonoBehaviour` class, hence the colon (:) and the name "_MonoBehaviour_" after your class's name to signify inheritance.
 
@@ -309,7 +309,7 @@ Variables declared inside a method are only accessible within that method. Tryin
 
 This article is the thirteenth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use lists and arrays to work with groups of items in your game.
+The next one discusses how to use [lists and arrays]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}) to work with groups of items in your game.
 
 Here's the complete list of articles in the series:
 

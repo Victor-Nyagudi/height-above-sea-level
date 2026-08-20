@@ -127,7 +127,7 @@ public class Player : MonoBehaviour
 
 ## Where should you put variables?
 
-Variables are often written inside methods, but they can also be created inside a class's body. Variables created in a class's body have another name: fields.
+Variables are often written inside [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}), but they can also be created inside a class's body. Variables created in a class's body have another name: [fields]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}).
 
 ```csharp
 public class Weapon
@@ -145,7 +145,7 @@ public class Weapon
 }
 ```
 
-Fields are often used with properties, another type of variable in the class's body, to make games in Unity. These two are discussed in more detail in separate posts.
+Fields are often used with [properties]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}), another type of variable in the class's body, to make games in Unity. These two are discussed in more detail in separate posts.
 
 Speaking of Unity, the following code is what you see whenever you open a script in [Visual Studio](https://youtu.be/VcU2HGsxeII?si=ILXB_GVjOw_4-glK), [Visual Studio Code](https://youtu.be/bfvq_kTbnd8?si=WeKs4Cn5ttEO3Ki2), or JetBrains Rider. Assume the script you created is called `Player`.
 
@@ -199,7 +199,7 @@ If you used the correct syntax, for example, double quotes for strings, the comp
 **_Tip:_** Hover over a variable's name in Visual Studio or Visual Studio Code to see its type. This is useful in larger projects with many different variables when you want to know a particular variable's type.
 {: .notice--info}
 
-Some of the other special keywords in C# include `return`, used in methods, `for`, `while`, and `foreach`, used in [loops]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}), and `public`, used to modify access to different parts of your code.
+Some of the other special keywords in C# include `return`, used in methods, `for`, `while`, and `foreach`, used in [loops]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}), and `public`, used to [modify access]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}) to different parts of your code.
 
 ## How do you use variables in C#?
 
@@ -380,8 +380,8 @@ Here's the complete list:
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
 10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

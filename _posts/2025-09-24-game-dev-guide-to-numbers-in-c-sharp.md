@@ -313,7 +313,7 @@ A `decimal` is great in money-oriented games for an extra layer of realism, but 
 
 ## Why can't you use commas to separate big numbers in C#?
 
-Commas are used to separate a group of items in lists, arrays, and other types. Using them to separate large numbers in C# will cause an error.
+Commas are used to separate a group of items in [lists]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}), [arrays]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}), and other types. Using them to separate large numbers in C# will cause an error.
 
 You can use an underscore in place of the commas to separate large numbers into a more human-readable format.
 
@@ -353,8 +353,8 @@ Here's the complete list:
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
 10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

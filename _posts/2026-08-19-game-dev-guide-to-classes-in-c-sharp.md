@@ -60,7 +60,7 @@ public class Enemy : MonoBehaviour
 
 The class in the script is composed of three parts:
 
-1. **`public`** - the access modifier.
+1. **`public`** - the [access modifier]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}).
 
 2. **`class`** - the special keyword required for class creation.
 
@@ -81,11 +81,11 @@ It's mandatory to use the `class` keyword to specify that you want to create a c
 
 The colon (:) and `MonoBehaviour` aren't part of the `Enemy` class because they're part of a programming concept called **inheritance**.
 
-`MonoBehaviour` is a class Unity provides for you to use when coding. It exists by default and lets you connect the code you write to the Unity Game Engine's code so you can manipulate 3D models, [lights]({% post_url 2025-11-01-baking-lights-in-unity-getting-started %}), [audio]({% post_url 2025-10-02-free-music-sfx-for-unity-games %}), visual effects, etc, before or while the game is running.
+`MonoBehaviour` is a class Unity provides for you to use when coding. It exists by default and lets you connect the code you write to the Unity Game Engine's code so you can manipulate 3D models, [lights]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}), [audio]({{ site.baseurl }}{% post_url 2025-10-02-free-music-sfx-for-unity-games %}), visual effects, etc, before or while the game is running.
 
 When you place a colon followed by the name of another class after your class, you can inherit the code from that other class **if that other class's access modifier permits it**.
 
-Inheritance is why there are two methods in the `Enemy` class you didn't add - `Start` and `Update` - because the `Enemy` class **inherited** them from the `MonoBehaviour` class.
+Inheritance is why there are two [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) in the `Enemy` class you didn't add - `Start` and `Update` - because the `Enemy` class **inherited** them from the `MonoBehaviour` class.
 
 **_Tip:_** Inheritance is one of the pillars of **object-oriented programming**.
 {: .notice--info}
@@ -104,7 +104,7 @@ When creating a class, you should ask yourself two questions:
 
 You've just created an enemy, so what do you need to know about it? Well, an enemy often needs some health, a name, a difficulty level, and a way to show they're armed or not.
 
-You can accomplish this by adding fields to the `Enemy` class representing that information. Simply put, **fields are variables declared directly in a class**.
+You can accomplish this by adding [fields]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}) to the `Enemy` class representing that information. Simply put, **fields are variables declared directly in a class**.
 
 ```csharp
 using UnityEngine; // This is mandatory to access MonoBehaviour.
@@ -245,7 +245,7 @@ Placing a period after the class instance gives you access to all the items with
 
 For demonstration purposes, you can make the fields `public` to see their values after logging them to the console.
 
-**_Tip_**: If you want to **expose a class's information to other classes**, you can use a property instead of a field.
+**_Tip_**: If you want to **expose a class's information to other classes**, you can use a [property]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}) instead of a field.
 {: .notice--info}
 
 Placing parentheses after accessing a class's method **calls the method**, i.e., executes the code inside it. Calling a method is also known as **invoking the method**.
@@ -333,7 +333,7 @@ public class Enemy : MonoBehaviour
 
 This article is the tenth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use access modifiers to control access to different parts of your game's code.
+The next one discusses how to use [access modifiers]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}) to control access to different parts of your game's code.
 
 Here's the complete list of articles in the series:
 
@@ -347,8 +347,8 @@ Here's the complete list of articles in the series:
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
 10. A Game Developer's Guide to Classes in C# _(you are here)_
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

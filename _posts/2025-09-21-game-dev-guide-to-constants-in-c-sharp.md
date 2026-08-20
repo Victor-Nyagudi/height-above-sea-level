@@ -41,7 +41,7 @@ const string Name = "Ellie";
 const bool IsFirefly = true;
 ```
 
-The constant's type can be any of the built-in types in C#, such as `int`, `string`, or `bool`. Unlike variables, you can't use a class you created as a constant's type.
+The constant's type can be any of the built-in types in C#, such as `int`, `string`, or `bool`. Unlike variables, you can't use a [class]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) you created as a constant's type.
 
 **_Tip:_** The act of creating a constant is also known as "declaring a constant".
 {: .notice--info}
@@ -68,7 +68,7 @@ const string Ultimate = "Meteor Strike";
 
 ### Boolean Constant
 
-A boolean constant is written using either the `true` or `false` keywords. Booleans are like on/off switches that toggle different parts of your code on or off.
+A [boolean]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}) constant is written using either the `true` or `false` keywords. Booleans are like on/off switches that toggle different parts of your code on or off.
 
 ```csharp
 const bool IsPlayerOne = true;
@@ -96,7 +96,7 @@ Numbers are used with anything that needs to be counted or when you need to perf
 
 ## Where should you put constants?
 
-Constants can be written in methods or inside a class's body.
+Constants can be written in [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) or inside a class's body.
 
 Unlike variables, constants declared in a class's body are still constants - they don't have a special name.
 
@@ -238,7 +238,7 @@ Constants work better for values you want to stay the same throughout the entire
 
 ## How do you use constants in C#?
 
-Since constants "_store_" values temporarily, you can reference that "_stored_" value any time by typing the constant's name.
+Since constants "_store_" values temporarily, you can reference that "_stored_" value any [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) by typing the constant's name.
 
 Let's say you're making a game where the player has a fixed health amount, and picking up armor increases it temporarily.
 
@@ -294,7 +294,7 @@ This makes your game's code consistent with C# best practices and makes it easie
 
 You can't name a constant after one of the special keywords in C#.
 
-If you adhere to the Pascal case naming convention, you can name constants after special keywords in C#, like `return` or `foreach`.
+If you adhere to the Pascal case naming convention, you can name constants after special keywords in C#, like `return` or [`foreach`]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}#foreach-loop).
 
 If you ignore it and use lowercase letters for your constant names that are identical to special keywords, you'll get an error, and your video game's code won't run.
 
@@ -375,11 +375,11 @@ If using these prefixes makes the constant more confusing or if a different name
 
 For example, you can name the constant `PlayerIsAlive` instead of `IsPlayerAlive` if you prefer, or use `Enraged` instead of `IsEnraged`.
 
-You'll see how these names make understanding code easier when you start working with conditional statements.
+You'll see how these names make understanding code easier when you start working with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 
 ## What's the difference between a constant and a `readonly` variable?
 
-You can only mark a variable as `readonly` when it's declared inside a class's body and not inside a method. These kinds of variables are known as fields.
+You can only mark a variable as `readonly` when it's declared inside a class's body and not inside a method. These kinds of variables are known as [fields]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}).
 
 A `readonly` variable is similar to a constant in that its value also cannot be changed after creation - in most places, at least.
 
@@ -415,7 +415,7 @@ public class Enemy
 }
 ```
 
-Classes, fields, and modifiers, such as `readonly`, are discussed in more detail in separate articles.
+Classes, fields, and [modifiers]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}), such as `readonly`, are discussed in more detail in separate articles.
 
 ## Recap
 
@@ -445,8 +445,8 @@ Here's the complete list:
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
 10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

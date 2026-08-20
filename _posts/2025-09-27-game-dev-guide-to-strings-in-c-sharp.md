@@ -43,9 +43,9 @@ A `char` is a type in C# that's similar to a `string` but is not identical. Here
 
 | `char` | `string` |
 | --- | --- |
-| Stores only one character. | Can store one or more characters. |
+| Stores only one character. | Can store zero or more characters. |
 | Written using single quotes. (' ') | Written using double quotes. (" ") |
-| You can't loop through a `char`. | You can loop through a `string`. |
+| You can't [loop]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}) through a `char`. | You can loop through a `string`. |
 
 ```csharp
 char letter = 'H';
@@ -112,11 +112,11 @@ viking.ElementalDamage = Fire;
 viking.ElementalDamage = Ice;
 ```
 
-An enum could also work in this case, but that is covered in more detail in a separate article.
+An [enum]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %}) could also work in this case, but that is covered in more detail in a separate article.
 
 ### `StringBuilder`
 
-C# has a built-in type called a `StringBuilder` you can use for many string changes with a significantly reduced performance cost.
+C# has a built-in type called a [`StringBuilder`](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/#using-stringbuilder-for-fast-string-creation) you can use for many string changes with a significantly reduced performance cost.
 
 For example, if you want to add up to 5 stars at the end of the player's name if they complete a level perfectly, you can use `StringBuilder` to append the stars next to the player's name.
 
@@ -154,7 +154,7 @@ Debug.Log(firstWord + space + secondWord);
 
 ## Interpolated Strings
 
-Let's say you have the word "_wood_" and a number next to it in your Unity game's UI. Every time the player collects some wood, the number should increase.
+Let's say you have the word "_wood_" and a number next to it in your Unity game's UI. Every [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) the player collects some wood, the number should increase.
 
 You can use an interpolated string to display both the number and the word "_wood_" such that as the number changes, the string shows the updated number.
 
@@ -248,7 +248,7 @@ var regularString = "Backslash can be put in here: \";
 
 ## Some Useful String Methods
 
-Methods are covered in more detail in a separate post, but it's worth mentioning some of them now to give you more context on how to better work with strings.
+[Methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) are covered in more detail in a separate post, but it's worth mentioning some of them now to give you more context on how to better work with strings.
 
 Here are some useful built-in string methods you'll use when making a game in Unity.
 
@@ -292,7 +292,7 @@ Debug.Log(assassin.Trim()); // Logs 'Ezio Auditore'.
 
 This post is the fifth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}) and is a prerequisite for working with conditional statements.
+The next one discusses how to use [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}) and is a prerequisite for working with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 
 If you feel comfortable with strings and are ready for the next challenge when working with text, check out [regular expressions](https://youtu.be/Jd3YyiJj8aM?si=Bol89ziajIyO9488).
 
@@ -308,8 +308,8 @@ Here's the full list of posts in the series:
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
 10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

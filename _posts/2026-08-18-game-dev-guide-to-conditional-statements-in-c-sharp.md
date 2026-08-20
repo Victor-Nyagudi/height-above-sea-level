@@ -172,7 +172,7 @@ if (player.HasFallenFrom(fallDamageHeight) || player.IsAttacked())
 
 The code now first checks if the player has fallen from a high platform or if an enemy has attacked them.
 
-Once this condition is satisfied, you now know the player's health should reduce, so you check a second time to see how much remaining health they have to determine how much HP you'll deduct.
+Once this condition is satisfied, you now know the player's health should reduce, so you check a second [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) to see how much remaining health they have to determine how much HP you'll deduct.
 
 ### `else` and `else if` Statements
 
@@ -321,7 +321,7 @@ You might find it easier working with `if` statements if there are multiple thin
 
 `switch` statements may be easier to read and work with when you only have a line or two you want to execute for each scenario.
 
-**_Tip:_** Conditional statements could work well when implementing a flashlight. If the player presses a button, the [lights]({% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) turn on and vice versa.
+**_Tip:_** Conditional statements could work well when implementing a flashlight. If the player presses a button, the [lights]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) turn on and vice versa.
 {: .notice--info}
 
 ## Recap
@@ -352,8 +352,8 @@ Here's the complete list of articles in the series:
 8. A Game Developer's Guide to Conditional Statements in C# _(you are here)_
 9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
 10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

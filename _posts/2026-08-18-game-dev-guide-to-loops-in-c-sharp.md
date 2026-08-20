@@ -170,7 +170,7 @@ A `while` loop executes when a specified condition is satisfied, but, unlike a `
 
 Let's say you're making a 3D platformer game where the player collects scrap metal by breaking boxes, and large boxes contain 100 scrap metal.
 
-You can use a `while` loop to animate the user interface (UI) so that one unit is added to the scrap metal total at a time until it reflects all 100.
+You can use a `while` loop to animate the user interface (UI) so that one unit is added to the scrap metal total at a [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) until it reflects all 100.
 
 The _Crash Bandicoot_ series implements something similar when you break special boxes, and the player's total animates the addition of each Wumpa fruit.
 
@@ -270,7 +270,7 @@ foreach (var hidingSpot in hidingSpots)
 **_Tip:_** A `break` statement is usable inside any loop.
 {: .notice--info}
 
-You can also break out of a loop using the `return` keyword, but this does more than break the loop. The methods article covers it in more detail.
+You can also break out of a loop using the `return` keyword, but this does more than break the loop. The [methods article]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) covers it in more detail.
 
 Aside from breaking a loop, you can also **skip cycles** based on a condition using the `continue` keyword.
 
@@ -330,8 +330,8 @@ Here's the complete list of articles in the series:
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. A Game Developer's Guide to Loops in C# _(you are here)_
 10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

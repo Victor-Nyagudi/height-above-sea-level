@@ -8,7 +8,7 @@ image:
     thumbnail: /assets/images/booleans_article/booleans_article_thumbnail.jpg
 ---
 
-Booleans in C# are like **on/off switches**. They're often used with conditional statements to control the flow of your code's execution.
+Booleans in C# are like **on/off switches**. They're often used with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}) to control the flow of your code's execution.
 
 Booleans can only be one of two values: `true` or `false`. These values have the same meaning in programming as they do in English, and they play a part in how booleans are named.
 
@@ -60,7 +60,7 @@ The boolean value in this scenario acts as a switch. When you turn on a car, the
 
 When you turn off the car, the engine stops. If the value is `false`, the switch is off, and the code block isn't executed.
 
-`if` statements are covered in more detail in the conditional statements article, but they are strongly tied to booleans, so they'll be mentioned briefly.
+[`if` statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}#if-statements) are covered in more detail in the conditional statements article, but they are strongly tied to booleans, so they'll be mentioned briefly.
 
 **_Tip:_** You can use booleans in Unity as a literal switch to turn the [lights]({% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) in a room on or off.
 {: .notice--info}
@@ -128,7 +128,7 @@ if (!isArmed)
     Debug.Log("You can now pick up objects.");
 ```
 
-Booleans can also be used in classes when declaring fields or properties. Those are explained in more detail in separate articles.
+Booleans can also be used in [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) when declaring [fields or properties]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}). Those are explained in more detail in separate articles.
 
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
@@ -161,8 +161,8 @@ Here's the complete list of articles in the series:
 8. [A Game Developer's Guide to Conditional Statements in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %})
 9. [A Game Developer's Guide to Loops in C#]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %})
 10. [A Game Developer's Guide to Classes in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %})
-11. A Game Developer's Guide to Access Modifiers in C#
-12. A Game Developer's Guide to Fields & Properties in C#
-13. A Game Developer's Guide to Methods in C#
-14. A Game Developer's Guide to Lists & Arrays in C#
-15. A Game Developer's Guide to Dates & Times in C#
+11. [A Game Developer's Guide to Access Modifiers in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %})
+12. [A Game Developer's Guide to Fields & Properties in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %})
+13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
+14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
+15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})

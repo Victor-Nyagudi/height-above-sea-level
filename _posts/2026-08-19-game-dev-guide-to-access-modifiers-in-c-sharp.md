@@ -12,7 +12,7 @@ Access modifiers **restrict or authorize access** to certain parts of the game y
 
 Controlling access is important because, as you add more gameplay mechanics, user interface (UI) behavior, and assets, the code becomes more complex, and the risk of introducing bugs increases.
 
-For example, you wouldn't want the player in a fantasy game to swing their sword every time they opened a door.
+For example, you wouldn't want the player in a fantasy game to swing their sword every [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) they opened a door.
 
 You can use an access modifier to restrict access to the code that swings the sword only to the combat section, preventing unintended access by other areas, such as object interactions.
 
@@ -42,7 +42,7 @@ There are three [other access modifiers](https://learn.microsoft.com/en-us/dotne
 
 ## `public`
 
-Any class, [enum]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %}), method, etc., marked `public` is **accessible from virtually anywhere** in your Unity game's code.
+Any class, [enum]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-enums-in-c-sharp %}), [method]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}), etc., marked `public` is **accessible from virtually anywhere** in your Unity game's code.
 
 A class is a good candidate to declare `public` because it needs to interact with other classes for the game to work correctly.
 
@@ -158,12 +158,12 @@ Any class members marked `private` can only be **accessed from within the class*
 
 For example, methods in a class that affect the player's movement are a good candidate to be marked `private` because you wouldn't want other parts of your Unity game's code to interfere with how the player moves.
 
-Fields should also be `private` because they're **implementation details** - information that anything outside the class doesn't need to know.
+[Fields]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}) should also be `private` because they're **implementation details** - information that anything outside the class doesn't need to know.
 
 **_Tip:_** Any class members without an access modifier are `private` by default.
 {: .notice--info}
 
-If you want to expose certain information in a class, you should use a `public` property instead. A separate article discusses properties in more detail.
+If you want to expose certain information in a class, you should use a `public` [property]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}) instead. A separate article discusses properties in more detail.
 
 ```csharp
 public class Player : MonoBehaviour

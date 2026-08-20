@@ -333,7 +333,7 @@ public class Enemy : MonoBehaviour
 
 This article is the tenth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use access modifiers to control access to different parts of your game's code.
+The next one discusses how to use [access modifiers]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}) to control access to different parts of your game's code.
 
 Here's the complete list of articles in the series:
 

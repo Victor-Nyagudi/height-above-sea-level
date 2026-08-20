@@ -300,7 +300,7 @@ public class Player
 
 This article is the eleventh in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses fields and properties in C# and their role in making a game in Unity.
+The next one discusses [fields and properties]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}) in C# and their role in making a game in Unity.
 
 Here's the complete list of articles in the series:
 

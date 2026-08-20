@@ -68,7 +68,7 @@ Regardless, there'll be times you want to expose some information to other class
 
 Fields are declared similarly to variables except:
 
-- You declare fields **directly in the class**, but you declare variables in methods.
+- You declare fields **directly in the class**, but you declare variables in [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}).
 
 - Fields and variables use the Camel Case [naming convention](https://youtu.be/UPNLmdRekFA?si=ZS0wX2z-Hze60nE7), but **fields begin with an underscore**.
 
@@ -78,7 +78,7 @@ Fields are declared similarly to variables except:
 
 Fields let you **reuse code within the class**.
 
-For example, the player in your Unity game could have a speed value that changes every time they pick up a speed booster or run across muddy terrain.
+For example, the player in your Unity game could have a speed value that changes every [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) they pick up a speed booster or run across muddy terrain.
 
 This speed can be 5 miles per hour for demo purposes, and the `Player` class will have methods to increase and decrease the speed.
 
@@ -344,7 +344,7 @@ Use a **property** if:
 
 This article is the twelfth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use methods to perform specific actions in your game's code.
+The next one discusses how to use [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) to perform specific actions in your game's code.
 
 Here's the complete list of articles in the series:
 

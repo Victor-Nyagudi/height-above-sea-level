@@ -170,7 +170,7 @@ A `while` loop executes when a specified condition is satisfied, but, unlike a `
 
 Let's say you're making a 3D platformer game where the player collects scrap metal by breaking boxes, and large boxes contain 100 scrap metal.
 
-You can use a `while` loop to animate the user interface (UI) so that one unit is added to the scrap metal total at a time until it reflects all 100.
+You can use a `while` loop to animate the user interface (UI) so that one unit is added to the scrap metal total at a [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) until it reflects all 100.
 
 The _Crash Bandicoot_ series implements something similar when you break special boxes, and the player's total animates the addition of each Wumpa fruit.
 
@@ -270,7 +270,7 @@ foreach (var hidingSpot in hidingSpots)
 **_Tip:_** A `break` statement is usable inside any loop.
 {: .notice--info}
 
-You can also break out of a loop using the `return` keyword, but this does more than break the loop. The methods article covers it in more detail.
+You can also break out of a loop using the `return` keyword, but this does more than break the loop. The [methods article]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) covers it in more detail.
 
 Aside from breaking a loop, you can also **skip cycles** based on a condition using the `continue` keyword.
 

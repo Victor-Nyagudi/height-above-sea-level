@@ -313,7 +313,7 @@ A `decimal` is great in money-oriented games for an extra layer of realism, but 
 
 ## Why can't you use commas to separate big numbers in C#?
 
-Commas are used to separate a group of items in lists, arrays, and other types. Using them to separate large numbers in C# will cause an error.
+Commas are used to separate a group of items in [lists]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}), [arrays]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}), and other types. Using them to separate large numbers in C# will cause an error.
 
 You can use an underscore in place of the commas to separate large numbers into a more human-readable format.
 

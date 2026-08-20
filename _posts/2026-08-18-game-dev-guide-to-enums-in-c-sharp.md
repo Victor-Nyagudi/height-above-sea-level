@@ -10,7 +10,7 @@ image:
 
 Enums in C# **store related [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %})**. If the game you're building in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL) has seasons or the days of the week, you can store them in an enum.
 
-Despite storing related constants, enums aren't the same as other types in C# used to store many values, such as lists or arrays. The differences are discussed [later in the article](#enum-vs-list-vs-array-in-c-whats-the-difference).
+Despite storing related constants, enums aren't the same as other types in C# used to store many values, such as [lists or arrays]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}). The differences are discussed [later in the article](#enum-vs-list-vs-array-in-c-whats-the-difference).
 
 If you're a visual learner, you can watch the video version below.
 
@@ -24,7 +24,7 @@ If you're a visual learner, you can watch the video version below.
 
 Enums are created in four steps:
 
-1. Write the access modifier.
+1. Write the [access modifier]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}).
 
 2. Write the `enum` keyword.
 
@@ -112,11 +112,11 @@ Even though enums store values, they're not the same as lists or arrays. Some of
 
 - **The values stored in an enum are inherently numbers**. Lists and arrays can store multiple types, such as strings, numbers, booleans, etc.
 
-- **You can't loop through an enum**, but you can do so with lists and arrays.
+- **You can't [loop]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}) through an enum**, but you can do so with lists and arrays.
 
 - **Enums are named using Pascal Case**, while lists and arrays, unless they're constants, are named using Camel Case.
 
-- **Enums can be the only item in a C# file**. Lists and arrays are commonly used in files containing other items, such as classes, methods, or fields and properties.
+- **Enums can be the only item in a C# file**. Lists and arrays are commonly used in files containing other items, such as [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}), [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}), or [fields and properties]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}).
 
 Despite their similar appearance, you should use an enum if you solely want to group related constants.
 

@@ -354,7 +354,7 @@ if (hasFinishedRace || checkpointsPassed == 5)
 
 The `!` operator **inverts a `true` or `false` value**. For example, `!true` is read as "**NOT true**", while `!false` is "**NOT false**".
 
-It's useful when working with predefined Boolean variables that the player controls and can change at any time.
+It's useful when working with predefined boolean variables that the player controls and can change at any time.
 
 You can use it to check if the player is **not** on the ground before playing a flying kick animation.
 
@@ -383,7 +383,7 @@ Debug.Log(!false); // Logs 'true'.
 
 - **Assignment operators** assign or re-assign values to variables.
 
-- **Logical operators** chain conditions together or reverse a Boolean value.
+- **Logical operators** chain conditions together or reverse a boolean value.
 
 This post is the fourth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 

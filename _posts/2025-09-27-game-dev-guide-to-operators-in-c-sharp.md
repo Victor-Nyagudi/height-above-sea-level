@@ -300,9 +300,9 @@ Debug.Log(health); // 'health' is now at '80'.
 
 ## Logical Operators
 
-Logical operators are used on values that are either `true` or `false`. These are known as booleans.
+Logical operators are used on values that are either `true` or `false`. These are known as [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}).
 
-They're commonly used in conditional statements, a topic discussed in more detail in a separate post, to toggle different parts of your Unity game's code on or off.
+They're commonly used in [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}), a topic discussed in more detail in a separate post, to toggle different parts of your Unity game's code on or off.
 
 ### AND Operator - `&&`
 
@@ -338,7 +338,7 @@ The two conditions are:
 
 2. Passing through 5 checkpoints.
 
-The difference this time is that **only one condition** must be met for the code to execute.
+The difference this [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) is that **only one condition** must be met for the code to execute.
 
 You can use the `||` operator to achieve this. The two symbols are called a **double pipe**.
 

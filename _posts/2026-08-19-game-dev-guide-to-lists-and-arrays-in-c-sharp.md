@@ -279,7 +279,7 @@ Use a **list** if:
 
 This article is the fourteenth in a series breaking down common C# concepts used in game development with the Unity Game Engine.
 
-The next one discusses how to use dates and times in your game.
+The next one discusses how to use [dates and times]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) in your game.
 
 Here's the complete list of articles in the series:
 

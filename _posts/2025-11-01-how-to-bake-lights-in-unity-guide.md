@@ -13,17 +13,21 @@ Baked lights in Unity offer better performance than realtime lights because all 
 
 They add realism to your game by simulating bounced light and how it lights up different areas in the scene.
 
-Coupled with reflection probes and light probes, you can achieve realistic lighting at a fraction of the cost.
+Coupled with [reflection probes]({{ site.baseurl }}{% post_url 2026-08-21-reflection-probes-in-unity %}) and light probes, you can achieve realistic lighting at a fraction of the cost.
 
 This guide walks you through all the things you need to do before [baking lights in the Unity Game Engine]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) and provides additional useful information to achieve your desired lighting setup.
 
 If you're reading this article on a smaller device, right-click on the images (long-press on touch devices) and select _Open image in new tab_ to view them at full size.
 
+If you're new to Unity and don't know the basics, such as the _Hierarchy_ window, _Inspector_ window, or how to work with assets, watch this introductory video to get up to speed.
+
+<div class="responsive-embed responsive-embed-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kOo1CaDdCF0?si=VUJrJdahaGk-Esrj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 {% include toc %}
 
 ## Set Up Process
-
-If you're new to Unity and don't know the basics, such as the _Hierarchy_ window, _Inspector_ window, or how to work with assets, watch this [introductory video](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL) to get up to speed.
 
 The first step in preparing your models for light baking is to **ensure they can generate lightmap UVs**.
 
@@ -180,7 +184,7 @@ Click the button at the bottom of the window labeled _Generate Lighting_ to bake
   <figcaption>After baking lights.</figcaption>
 </figure>
 
-If you followed the steps correctly, the objects in your level should have more realistic lighting. If not, read the _Unity Lights Troubleshooting Guide_ to help triage the problem.
+If you followed the steps correctly, the objects in your level should have more realistic lighting. If not, read the [_Unity Lights Troubleshooting Guide_]({{ site.baseurl }}{% post_url 2026-08-21-unity-lights-troubleshooting-guide %}) to help triage the problem.
 
 [Baking lights in Unity can take a long time]({{ site.baseurl }}{% post_url 2025-11-01-tips-to-speed-up-light-baking-in-unity %}), so you can turn down some of the lighting settings to speed it up.
 

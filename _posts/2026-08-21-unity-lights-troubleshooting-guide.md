@@ -57,7 +57,7 @@ If you'd like to dive deeper into why lights in Unity are still taking a long ti
 Reflections in Unity are achieved using reflection probes. Reflection probes take snapshots of the predefined area and store them in a cubemap.
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/baking_lights_get_started_article/reflection_probe_img.jpg' | absolute_url }}" alt="A large reflection probe in front of a house in Unity.">
+  <img src="{{ '/assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg' | absolute_url }}" alt="A large reflection probe in front of a house in Unity.">
   <figcaption>The large sphere to the left is a reflection probe.</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ If you want the smooth objects in your scene to have reflections, **place a refl
 If, after placing reflection probes in a scene and baking lights, the reflections appear blurry, you can **adjust the reflection probe's resolution** to sharpen them.
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/lights_troubleshooting_article/reflection_probe_resolution_32_img.jpg' | absolute_url }}" alt="Reflection from a 32-unit resolution reflection probe in Unity.">
+  <img src="{{ '/assets/images/reflection_probes_article/reflection_probe_resolution_32_img.jpg' | absolute_url }}" alt="Reflection from a 32-unit resolution reflection probe in Unity.">
   <figcaption>Reflection from a 32-unit resolution reflection probe.</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ Select the reflection probe in the scene and, in the _Inspector_ window, unfold 
 Click the _Resolution_ setting's dropdown and choose a higher number to increase the sharpness of blurry reflections.
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/lights_troubleshooting_article/reflection_probe_resolution_256_img.jpg' | absolute_url }}" alt="Reflection from a 256-unit resolution reflection probe in Unity.">
+  <img src="{{ '/assets/images/reflection_probes_article/reflection_probe_resolution_256_img.jpg' | absolute_url }}" alt="Reflection from a 256-unit resolution reflection probe in Unity.">
   <figcaption>Reflection from a 256-unit resolution reflection probe.</figcaption>
 </figure>
 

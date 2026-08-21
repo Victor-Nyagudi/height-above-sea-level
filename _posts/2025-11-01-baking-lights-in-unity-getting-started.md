@@ -129,7 +129,7 @@ Reflections occur when light bounces off a smooth surface. Reflections in Unity 
   <figcaption>The large sphere to the left is a reflection probe.</figcaption>
 </figure>
 
-Reflection probes take snapshots of the environment in an area you define and store them in a cubemap.
+[Reflection probes]({{ site.baseurl }}{% post_url 2026-08-21-reflection-probes-in-unity %}) take snapshots of the environment in an area you define and store them in a cubemap.
 
 A **cubemap** is like a hollow box surrounding the reflection probe, and the inside walls of the cubemap are where the snapshots are stored.
 
@@ -208,7 +208,7 @@ Some lightmaps can produce noisy results due to the lighting settings or geometr
 
 A lightmap is noisy when it produces smudges and other strange shapes or discolorations on the surface of objects.
 
-This _Unity Lights Troubleshooting Guide_ can help you find the problem and provides potential solutions.
+This [_Unity Lights Troubleshooting Guide_]({{ site.baseurl }}{% post_url 2026-08-21-unity-lights-troubleshooting-guide %}) can help you find the problem and provides potential solutions.
 
 ### Inaccurate Shadows
 

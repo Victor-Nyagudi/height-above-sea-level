@@ -54,7 +54,7 @@ If you'd like to dive deeper into why lights in Unity are still taking a long ti
 
 ## No reflections after baking lights in Unity.
 
-Reflections in Unity are achieved using reflection probes. Reflection probes take snapshots of the predefined area and store them in a cubemap.
+Reflections in Unity are achieved using [reflection probes]({{ site.baseurl }}{% post_url 2026-08-21-reflection-probes-in-unity %}). Reflection probes take snapshots of the predefined area and store them in a cubemap.
 
 <figure class="align-center">
   <img src="{{ '/assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg' | absolute_url }}" alt="A large reflection probe in front of a house in Unity.">

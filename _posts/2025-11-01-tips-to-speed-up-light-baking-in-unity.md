@@ -142,7 +142,7 @@ Using the _Subtractive_ lighting mode may improve the light baking times, but th
 
 - Adding many lights to a level can increase the time it takes to bake lights in Unity. Instead of using multiple light sources, you can **use fewer lights with a longer range and higher intensity** to light up more areas.
 
-- Many reflection probes may also negatively impact bake times. Use fewer reflection probes in larger, open areas where fewer objects appear in a reflection. **Reducing the reflection probe's resolution also helps**.
+- Many [reflection probes]({{ site.baseurl }}{% post_url 2026-08-21-reflection-probes-in-unity %}) may also negatively impact bake times. Use fewer reflection probes in larger, open areas where fewer objects appear in a reflection. **Reducing the reflection probe's resolution also helps**.
 
 - **Too many light probes may affect light baking times**. Use fewer, spaced-out light probes in open areas and more, condensed light probes in areas with many objects where light will often bounce, leading to more complex lighting calculations.
 
@@ -186,4 +186,4 @@ The tests and settings used in this article were on a computer with the followin
 
 Computers with better hardware will perform better, while those with poorer hardware might experience degraded performance.
 
-If you're still experiencing trouble with lights, read the _Unity Lights Troubleshooting Guide_ to help you diagnose the problem.
+If you're still experiencing trouble with lights, read the [_Unity Lights Troubleshooting Guide_]({{ site.baseurl }}{% post_url 2026-08-21-unity-lights-troubleshooting-guide %}) to help you diagnose the problem.

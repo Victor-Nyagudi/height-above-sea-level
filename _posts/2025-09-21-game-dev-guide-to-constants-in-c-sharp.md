@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Constants in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "A constant in C#, the half-brother of a variable, is like **a mini storage location for temporary data** you'll reuse when building a video game in the Unity Game Engine. As the name suggests, a constant is **a value that stays the same after it is created**."
 image:
     path: /assets/images/constants_article/constants_article_header_img.jpg

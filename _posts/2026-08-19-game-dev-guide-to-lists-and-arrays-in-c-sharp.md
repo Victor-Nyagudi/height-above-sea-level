@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Lists & Arrays in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Inventory items. Weapons carried. Checkpoints. These are all groups of related items in a game you should store together, and lists and arrays are the perfect data structures for that. Lists and arrays in C# are examples of collections that store items."
 image:
     path: /assets/images/lists_arrays_article/lists_arrays_article_thumbnail.jpg

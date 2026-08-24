@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Access Modifiers in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Access modifiers restrict or authorize access to certain parts of the game you're building in the Unity Game Engine. For example, you wouldn't want the player in a fantasy game to swing their sword every time they opened a door."
 image:
     path: /assets/images/access_modifiers_article/access_modifiers_article_thumbnail.jpg

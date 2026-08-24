@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Enums in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Enums in C# store related constants. Despite their storage capabilities, enums aren't the same as other types in C# used to store many values, such as lists or arrays."
 image:
     path: /assets/images/enums_article/enums_article_thumbnail.jpg

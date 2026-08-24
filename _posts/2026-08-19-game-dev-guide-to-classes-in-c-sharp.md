@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Classes in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Classes are the building blocks of any game you'll make in the Unity Game Engine. They interact with each other to create amazing gameplay mechanics. Each class in your game should handle one thing."
 image:
     path: /assets/images/classes_article/classes_article_thumbnail.jpg

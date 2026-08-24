@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Dates & Times in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "_Metal Gear Solid 3: Snake Eater_ had a creative feature that few expected when it was released on the PlayStation 2 back in 2004. It had a boss fight where, if you closed the game and didn't play it for two weeks, the boss would die of old age, and you'd proceed to the next level."
 image:
     path: /assets/images/dates_times_article/dates_times_article_thumbnail.jpg

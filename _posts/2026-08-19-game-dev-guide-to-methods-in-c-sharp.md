@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Methods in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Methods, sometimes called functions, perform actions in a game. If you want the player to run, jump, attack, heal, reload, or perform any other action, you'll most likely use one. Methods are named using verbs - words that represent actions."
 image:
     path: /assets/images/methods_article/methods_article_thumbnail.jpg

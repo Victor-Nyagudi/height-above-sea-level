@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Numbers in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "From the remaining lives a player has to the health potions in their inventory, every video game deals with numbers at some point or another, so knowing how to work with them in C# is crucial to making a successful game in the Unity Game Engine."
 image:
     path: /assets/images/numbers_article/numbers_article_header_img.jpg

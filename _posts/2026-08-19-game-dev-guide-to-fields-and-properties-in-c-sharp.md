@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Fields & Properties in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Fields and properties tell you more about a class. They're technically variables, so they're like mini-storage locations for any information related to the class. Since classes are declared using nouns, think of fields and properties as the adjectives."
 image:
     path: /assets/images/fields_properties_article/fields_properties_article_thumbnail.jpg

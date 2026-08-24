@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Booleans in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Booleans in C# are like on/off switches. They're often used with conditional statements to control the flow of your code's execution. Booleans can only be one of two values: `true` or `false`."
 image:
     path: /assets/images/booleans_article/booleans_article_thumbnail.jpg

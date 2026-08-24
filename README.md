@@ -10,7 +10,7 @@ replacement for the previous HASL blog I built using Next.js and Strapi.
 Here are the categories the posts will cover. **Categories are written in title case**. These are subject to change.
 
 - Unity
-- C#
+- Scripting (formerly C# - changed it to scripting because of issues with the '#' being converted to '%23' in the URL)
 
 ## Tags
 
@@ -18,16 +18,16 @@ Here are the tags the posts may use. **All tags are written in lowercase except 
 
 - 2D
 - 3D
-- advanced-c#
+- advanced-c-sharp
 - AI
 - animation
 - art
 - audio
-- beginner-c#
+- beginner-c-sharp
 - cameras
 - debugging
 - graphics
-- intermediate-c#
+- intermediate-c-sharp
 - input
 - level-design
 - lighting

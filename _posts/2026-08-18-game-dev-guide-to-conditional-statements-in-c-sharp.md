@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Conditional Statements in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Conditional statements control the execution of your Unity game's code, a programming concept known as control flow. One of the simplest use cases for conditional statements is moving the character in a game you're building in the Unity Game Engine."
 image:
     path: /assets/images/conditional_statements_article/conditional_statements_article_thumbnail.jpg

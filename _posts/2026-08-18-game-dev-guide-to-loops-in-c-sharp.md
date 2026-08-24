@@ -1,7 +1,7 @@
 ---
 title: A Game Developer's Guide to Loops in C#
-categories: C#
-tags: beginner-c# scripting
+categories: Scripting
+tags: beginner-c-sharp
 excerpt: "Loops are one of the fundamental tools you'll use when making a game in the Unity Game Engine. You can use them to execute code multiple times without repeating it or to search a collection of items for one that meets a specific criterion."
 image:
     path: /assets/images/loops_article/loops_article_thumbnail.jpg

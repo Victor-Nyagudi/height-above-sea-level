@@ -1,7 +1,7 @@
 ---
 title: "Baking Lights in Unity: Everything You Need to Know to Get Started"
 categories: Unity
-tags: lighting
+tags: lighting 3D
 excerpt: "Different lights in a scene can create a varying atmosphere. These scenarios can be accomplished using the correct lights in the Unity Game Engine, and an important concept when using Unity lights is baking."
 image:
     path: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg

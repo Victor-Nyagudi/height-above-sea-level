@@ -1,7 +1,7 @@
 ---
 title: "How to Bake Lights in Unity: A Step-by-Step Guide"
 categories: Unity
-tags: lighting
+tags: lighting 3D
 excerpt: "Baked lights in Unity offer better performance than realtime lights because all the lighting computations happen before the game runs. They add realism to your game by simulating bounced light and how it lights up different areas in the scene."
 image:
     path: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg

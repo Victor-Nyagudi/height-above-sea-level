@@ -254,3 +254,5 @@ Higher values for _Direct Samples_, _Indirect Samples_, or _Environment Samples_
 - If changing light settings yields no results, it's worth it to [debug](https://youtu.be/akyMZwL3bcs?si=I0L86fI1kbzNWoV6) any scripts attached to a light source to ensure everything's working as intended.
 
 - Extend the reflection probe's box size a small distance past the area it's meant to cover. The probe's effect tends to gradually fade to the edge of the box rather than stop suddenly, so you might notice some poorly lit areas at the edges of reflection probes if they don't extend past designated areas or overlap.
+
+- If Unity is consuming more memory (RAM) than usual after baking lights multiple times, try restarting it to free up some. Some jobs may not run to completion when baking lights, resulting in memory leaks that continuously consume resources.

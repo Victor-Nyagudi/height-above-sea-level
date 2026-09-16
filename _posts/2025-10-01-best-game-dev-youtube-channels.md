@@ -6,6 +6,7 @@ image:
     path: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
     thumbnail: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
 date: 2026-08-14
+last_modified_at: 2026-09-16
 ---
 
 The rise of content creation has made game development more accessible than ever before. Social media these days is filled with content teaching aspiring game developers, but YouTube arguably stands out as the best platform for learning how to make games.

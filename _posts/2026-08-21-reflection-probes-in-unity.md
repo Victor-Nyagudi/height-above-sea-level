@@ -6,6 +6,7 @@ excerpt: "Reflections in Unity behave differently from reflections in the real w
 image:
     path: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
     thumbnail: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
+last_modified_at: 2026-09-16
 ---
 
 Reflections in Unity behave differently from reflections in the real world. Real-world reflections occur when light bounces off smooth, polished surfaces.
@@ -16,10 +17,10 @@ A **cubemap** is like a hollow box, and the snapshots the reflection probe took 
 
 Creating reflections in this way yields realistic reflections at a more affordable cost compared to calculating lighting data that more closely mimics real-world light behavior.
 
-This article assumes you're familiar with the basics of Unity. If you're not and need a refresher, watch this introductory video below.
+Reflection probes are part of baking lights, so if you're unfamiliar with the light baking process, watch the video below for a live demonstration.
 
 <div class="responsive-embed responsive-embed-16by9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/kOo1CaDdCF0?si=VUJrJdahaGk-Esrj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 {% include toc %}

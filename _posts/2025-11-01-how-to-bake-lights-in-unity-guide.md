@@ -7,6 +7,7 @@ image:
     path: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
     thumbnail: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
 date: 2026-08-14
+last_modified_at: 2026-09-16
 ---
 
 Baked lights in Unity offer better performance than realtime lights because all the lighting computations happen before the game runs.
@@ -19,10 +20,10 @@ This guide walks you through all the things you need to do before [baking lights
 
 If you're reading this article on a smaller device, right-click on the images (long-press on touch devices) and select _Open image in new tab_ to view them at full size.
 
-If you're new to Unity and don't know the basics, such as the _Hierarchy_ window, _Inspector_ window, or how to work with assets, watch this introductory video to get up to speed.
+If you're a visual learner, you can watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/kOo1CaDdCF0?si=VUJrJdahaGk-Esrj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 {% include toc %}

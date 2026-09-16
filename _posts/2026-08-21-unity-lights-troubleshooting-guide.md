@@ -6,6 +6,7 @@ excerpt: "Multiple things can go wrong when baking lights in the Unity Game Engi
 image:
     path: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
     thumbnail: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
+last_modified_at: 2026-09-16
 ---
 
 Multiple things can go wrong when baking lights in the Unity Game Engine. Some objects may still be dark after baking, some areas may not receive enough light, or shadows may appear off.
@@ -17,7 +18,7 @@ This article also assumes you know [how to bake lights in Unity]({{ site.baseurl
 This introductory video covers these basics, in case you don't know them.
 
 <div class="responsive-embed responsive-embed-16by9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/kOo1CaDdCF0?si=VUJrJdahaGk-Esrj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 {% include toc %}
@@ -65,7 +66,7 @@ The object's material will first need to be smooth enough to reflect light; othe
 
 If you want the smooth objects in your scene to have reflections, **place a reflection probe nearby and adjust the area it covers** based on what you'd like to reflect.
 
-**_Tip:_** Use fewer reflection probes in large, open areas where there's little to show in reflections. More reflection probes work better in tighter areas with corners, but too many can hurt your game's performance.
+**_Tip:_** Use fewer reflection probes in large, open areas where there's little to show in reflections. More reflection probes work better in tighter areas with corners, but too many can significantly increase bake times.
 {: .notice--info}
 
 ## Blurry reflections after baking lights in Unity.
@@ -248,6 +249,10 @@ Higher values for _Direct Samples_, _Indirect Samples_, or _Environment Samples_
 
 ## Bonus
 
-**Faulty scripts** controlling lights can also cause problems in Unity. For example, a script that's supposed to increase a light source's intensity may end up decreasing it to 0 if it's written poorly.
+- **Faulty scripts** controlling lights can also cause problems in Unity. For example, a script that's supposed to increase a light source's intensity may end up decreasing it to 0 if it's written poorly.
 
-If changing light settings yields no results, it's worth it to [debug](https://youtu.be/akyMZwL3bcs?si=I0L86fI1kbzNWoV6) any scripts attached to a light source to ensure everything's working as intended.
+- If changing light settings yields no results, it's worth it to [debug](https://youtu.be/akyMZwL3bcs?si=I0L86fI1kbzNWoV6) any scripts attached to a light source to ensure everything's working as intended.
+
+- Extend the reflection probe's box size a small distance past the area it's meant to cover. The probe's effect tends to gradually fade to the edge of the box rather than stop suddenly, so you might notice some poorly lit areas at the edges of reflection probes if they don't extend past designated areas or overlap.
+
+- If Unity is consuming more memory (RAM) than usual after baking lights multiple times, try restarting it to free up some. Some jobs may not run to completion when baking lights, resulting in memory leaks that continuously consume resources.

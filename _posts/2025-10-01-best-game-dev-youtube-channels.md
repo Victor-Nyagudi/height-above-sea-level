@@ -6,6 +6,7 @@ image:
     path: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
     thumbnail: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
 date: 2026-08-14
+last_modified_at: 2026-09-16
 ---
 
 The rise of content creation has made game development more accessible than ever before. Social media these days is filled with content teaching aspiring game developers, but YouTube arguably stands out as the best platform for learning how to make games.
@@ -24,7 +25,7 @@ Expand the table of contents below for an overview of the categories they are gr
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/saultoons_youtube_channel_img.jpg' | absolute_url }}" alt="Saultoons YouTube channel">
-  <figcaption>Saultoons YouTube channel</figcaption>
+  <figcaption><em>Saultoons</em> YouTube channel</figcaption>
 </figure> 
 
 [_Saultoons_](https://www.youtube.com/@saultoons) teaches pixel art, from setting up Aseprite, a popular pixel art tool, to pixel art animation.
@@ -39,7 +40,7 @@ The community is active and participates in the annual Septembit Challenge, wher
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/blender_g_youtube_channel_img.jpg' | absolute_url }}" alt="Blender Guru YouTube channel">
-  <figcaption>Blender Guru YouTube channel</figcaption>
+  <figcaption><em>Blender Guru</em> YouTube channel</figcaption>
 </figure> 
 
 [_Blender Guru_](https://www.youtube.com/@blenderguru) specializes in making 3D content using Blender, a popular, free, and open-source tool widely used in the video game industry.
@@ -52,7 +53,7 @@ If you're interested in creating 3D environments or characters, knowing how to u
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/brandon_jg_youtube_channel_img.jpg' | absolute_url }}" alt="Brandon James Greer YouTube channel">
-  <figcaption>Brandon James Greer YouTube channel</figcaption>
+  <figcaption><em>Brandon James Greer</em> YouTube channel</figcaption>
 </figure>
 
 [Brandon James Greer's channel](https://www.youtube.com/@BJGpixel) focuses on creating and animating pixel art.
@@ -73,7 +74,7 @@ If you're interested in learning pixel art while diving deeper into the design c
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/ben_c_youtube_channel_img.jpg' | absolute_url }}" alt="Ben Cloward YouTube channel">
-  <figcaption>Ben Cloward YouTube channel</figcaption>
+  <figcaption><em>Ben Cloward</em> YouTube channel</figcaption>
 </figure>
 
 [Ben Cloward](https://www.youtube.com/@BenCloward) is an industry veteran specializing in shader creation using Unity's shader graph and code.
@@ -91,7 +92,7 @@ Ben's content ranges from beginner to advanced, so there's something for game de
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/d_moran_youtube_channel_img.jpg' | absolute_url }}" alt="Dan Moran YouTube channel">
-  <figcaption>Dan Moran YouTube channel</figcaption>
+  <figcaption><em>Dan Moran</em> YouTube channel</figcaption>
 </figure>
 
 [Dan Moran's channel](https://www.youtube.com/@DanMoranGameDev) is a treasure trove of shader case studies for popular video games like _Overwatch_, _Dishonored_, and _No Man's Sky_.
@@ -104,7 +105,7 @@ The videos on the channel are well-structured and well-paced, with a light comed
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/d_ilett_youtube_channel_img.jpg' | absolute_url }}" alt="Daniel Ilett YouTube channel">
-  <figcaption>Daniel Ilett YouTube channel</figcaption>
+  <figcaption><em>Daniel Ilett</em> YouTube channel</figcaption>
 </figure>
 
 [Daniel Ilett's channel](https://www.youtube.com/@danielilett) explores shaders in Unity built using Unity's Shader Graph in the Universal Render Pipeline (URP).
@@ -125,10 +126,10 @@ Although it's not a YouTube channel, [gamemath.com](https://gamemath.com/) is a 
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/hasl_youtube_channel_img.jpg' | absolute_url }}" alt="Height Above Sea Level YouTube channel">
-  <figcaption>Height Above Sea Level YouTube channel</figcaption>
+  <figcaption><em>Height Above Sea Level</em> YouTube channel</figcaption>
 </figure>
 
-[_Height Above Sea Level_](https://www.youtube.com/@HeightAboveSeaLevel) is a beginner-oriented channel dedicated to teaching aspiring game developers how to code in C#, the scripting language of the Unity Game Engine.
+[_Height Above Sea Level_](https://www.youtube.com/@HeightAboveSeaLevel) is a beginner-oriented channel dedicated to teaching aspiring game developers how to code in [C#]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), the scripting language of the Unity Game Engine.
 
 It has [a playlist covering the fundamental C# concepts](https://youtube.com/playlist?list=PLKCFltnebRSVQHQ9tf5PSmk4X0KNqO6FU&si=EkaBHaPuJCXxoqmb) you'll apply when making your game in Unity.
 
@@ -138,7 +139,7 @@ There are bi-weekly questions posted on the [_Posts_ tab](https://www.youtube.co
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/j_weimann_youtube_channel_img.jpg' | absolute_url }}" alt="Jason Weimann YouTube channel">
-  <figcaption>Jason Weimann YouTube channel</figcaption>
+  <figcaption><em>Jason Weimann</em> YouTube channel</figcaption>
 </figure>
 
 [Jason Weimann's channel](https://www.youtube.com/@Unity3dCollege) is code-oriented, specifically with the Unity Game Engine.
@@ -151,7 +152,7 @@ Jason Weimann also has podcast-style videos where developers come together to di
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/turbo_youtube_channel_img.jpg' | absolute_url }}" alt="Turbo Makes Games YouTube channel">
-  <figcaption>Turbo Makes Games YouTube channel</figcaption>
+  <figcaption><em>Turbo Makes Games</em> YouTube channel</figcaption>
 </figure>
 
 [_Turbo Makes Games_](https://www.youtube.com/@TurboMakesGames) is a code-oriented YouTube channel dedicated to advanced Unity game developers.
@@ -170,7 +171,7 @@ Despite being away for quite some time, [_Infallible Code_](https://www.youtube.
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/i_heart_youtube_channel_img.jpg' | absolute_url }}" alt="iHeartGameDev YouTube channel">
-  <figcaption>iHeartGameDev YouTube channel</figcaption>
+  <figcaption><em>iHeartGameDev</em> YouTube channel</figcaption>
 </figure>
 
 [iHeartGameDev's channel](https://www.youtube.com/@iHeartGameDev) covers the animation process in Unity, from setting up the 3D model to creating state machines.
@@ -181,7 +182,7 @@ The content is beginner-friendly and includes C# code along with the animation. 
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/fimpossible_youtube_channel_img.jpg' | absolute_url }}" alt="FImpossible Creations YouTube channel">
-  <figcaption>FImpossible Creations YouTube channel</figcaption>
+  <figcaption><em>FImpossible Creations</em> YouTube channel</figcaption>
 </figure>
 
 [_FImpossible Creations_](https://www.youtube.com/@FImpossibleCreations) is one of the few YouTube channels that teaches how to work with animations for animals and other multi-legged creatures.
@@ -196,7 +197,7 @@ If the game you're making in the Unity game engine has animals or non-humanoid c
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/holistic_3d_youtube_channel_img.jpg' | absolute_url }}" alt="Holistic 3D YouTube channel">
-  <figcaption>Holistic 3D YouTube channel</figcaption>
+  <figcaption><em>Holistic 3D</em> YouTube channel</figcaption>
 </figure>
 
 Led by Dr. Penny de Byl, [_Holistic3D_](https://www.youtube.com/@Holistic3d) tackles simple artificial intelligence (AI) in video games to complex non-player character (NPC) systems.
@@ -209,7 +210,7 @@ The content is structured a lot like a university course, and you'll be learning
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/ai_games_youtube_channel_img.jpg' | absolute_url }}" alt="AI and Games YouTube channel">
-  <figcaption>AI and Games YouTube channel</figcaption>
+  <figcaption><em>AI and Games</em> YouTube channel</figcaption>
 </figure>
 
 [_AI and Games_](https://www.youtube.com/@AIandGames) discusses artificial intelligence in popular video game titles, such as _Alien Isolation_ and _Hitman_.
@@ -223,8 +224,8 @@ _AI and Games_ is a great channel if you're looking for inspiration for the AI i
 ### Gabriel Aguiar Prod.
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/best_youtube_channels_article/g_aguiar_youtube_channel_img.jpg' | absolute_url }}" alt="Gabriel Aguiar YouTube channel">
-  <figcaption>Gabriel Aguiar YouTube channel</figcaption>
+  <img src="{{ '/assets/images/best_youtube_channels_article/g_aguiar_youtube_channel_img.jpg' | absolute_url }}" alt="Gabriel Aguiar Prod. YouTube channel">
+  <figcaption><em>Gabriel Aguiar Prod.</em> YouTube channel</figcaption>
 </figure>
 
 [_Gabriel Aguiar Prod._](https://www.youtube.com/@GabrielAguiarProd) covers visual effects in the Unity Game Engine, Unreal Engine, and Godot.
@@ -239,27 +240,42 @@ If you're an aspiring game developer who enjoys the artistic side of game develo
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/brackeys_youtube_channel_img.jpg' | absolute_url }}" alt="Brackeys YouTube channel">
-  <figcaption>Brackeys YouTube channel</figcaption>
+  <figcaption><em>Brackeys</em> YouTube channel</figcaption>
 </figure>
 
 Certain YouTube channels cover a broad range of topics and are best viewed as an all-in-one solution.
 
 [_Brackeys_](https://www.youtube.com/@Brackeys) is arguably the largest game development channel on YouTube, with content dating back as far as twelve years ago.
 
-Its content covers shaders, animation, lighting, audio, 3D modeling, C#, and more.
+Its content covers shaders, animation, [lighting]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}), [audio]({% post_url 2025-10-02-free-music-sfx-for-unity-games %}), 3D modeling, C#, and more.
 
 _Brackeys_ also hosts multiple game jams each year with thousands of participants, so if you're looking to flex your game development skills in a jam, this is a great place to do it.
 
-### The Official Unity YouTube Channel
+### Official Unity YouTube Channel
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/unity_youtube_channel_img.jpg' | absolute_url }}" alt="Unity YouTube channel">
-  <figcaption>Unity YouTube channel</figcaption>
+  <figcaption><em>Unity</em> YouTube channel</figcaption>
 </figure>
 
-The [official Unity YouTube channel ](https://www.youtube.com/@unity)is the best place for the most accurate and up-to-date content on the Unity Game Engine.
+The [official Unity YouTube channel](https://www.youtube.com/@unity) is the best place for the most accurate and up-to-date content on the Unity Game Engine.
 
 Updates to the engine, upcoming conferences, show reels, tutorials, and more are posted on the channel. The content also covers popular topics like cameras, 2D games, shaders, and more.
+
+### GDC Festival of Gaming
+
+<figure class="align-center">
+  <img src="{{ '/assets/images/best_youtube_channels_article/gdc_youtube_channel_img.jpg' | absolute_url }}" alt="GDC Festival of Gaming YouTube channel">
+  <figcaption><em>GDC Festival of Gaming</em> YouTube channel</figcaption>
+</figure>
+
+[_GDC Fesitval of Gaming_](https://www.youtube.com/@GDCFestivalofGaming) provides excellent talks by developers from large video game studios and indies alike on how they accomplished specific mechanics in their games.
+
+Some developers come from notable video game franchises, such as <em>The Last Of Us</em>, <em>Destiny</em>, and <em>Ghost Of Tsushima</em>.
+
+These talks cover topics, such as animation, audio, programming, enemy AI, lighting, and more.
+
+GDC stands for <em>Game Developer's Conference</em>, but they rebranded to <em>GDC Festival of Gaming</em> in 2025. This conference occurs annualy, mainly in California, USA.
 
 ## Game Design
 
@@ -267,7 +283,7 @@ Updates to the engine, upcoming conferences, show reels, tutorials, and more are
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/gmtk_youtube_channel_img.jpg' | absolute_url }}" alt="Game Maker's Toolkit (GMTK) YouTube channel">
-  <figcaption>Game Maker's Toolkit (GMTK) YouTube channel</figcaption>
+  <figcaption><em>Game Maker's Toolkit</em> (GMTK) YouTube channel</figcaption>
 </figure>
 
 [_Game Maker's Toolkit_](https://www.youtube.com/@GMTK) is one of the most popular YouTube channels covering game design principles in video games.
@@ -276,13 +292,32 @@ Some of the videos also explore level design and environmental design, so there'
 
 _Game Maker's Toolkit_, commonly referred to as GMTK, is another channel with regular game jams if, for some reason, you miss out on Brackeys' game jams.
 
+### Amin Montazeri
+
+<figure class="align-center">
+  <img src="{{ '/assets/images/best_youtube_channels_article/amin_m_youtube_channel_img.jpg' | absolute_url }}" alt="Amin Montazeri's YouTube channel">
+  <figcaption><em>Amin Montazeri</em> YouTube channel</figcaption>
+</figure>
+
+[Amin Montazeri](https://www.youtube.com/@aminmontaze) is a level designer with extensive experience designing levels for multiplayer games, especially first-person shooters (FPS).
+
+His YouTube channel explores different issues that arise when developing levels. From tackling poor sight lines to approaching doors in levels the right away, there's plenty to look forward to for aspiring level designers and game developers curious about the process.
+
+Amin creates levels in both Unity and Unreal Engine, leveraging pre-made assets from the respective asset stores and custom models for a richer and more engaging experience.
+
+### Honorable Mentions
+
+Jason de Heras, a combat designer who has worked on AAA titles like <em>God Of War</em> and <em>Star Wars Jedi: Fallen Order</em>, breaks down combat systems and combat design on his [blog](https://www.jasondeheras.com/blog).
+
+From <em>Sekiro</em> to <em>Hollow Knight</em>, he covers enemy design and melee combat systems in multiple games in excellent detail.
+
 ## Mobile Game Development
 
 ### Creauctopus
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/creauctopus_youtube_channel_img.jpg' | absolute_url }}" alt="Creauctopus YouTube channel">
-  <figcaption>Creauctopus YouTube channel</figcaption>
+  <figcaption><em>Creauctopus</em> YouTube channel</figcaption>
 </figure>
 
 [_Creauctopus_](https://www.youtube.com/@miniyeti88), headed by mobile game developer Ivan, teaches you about mobile game development, monetizing your mobile game, and all the details involved with publishing to the Google and Apple app stores.
@@ -297,7 +332,7 @@ The channel also shares revenue earned from various mobile games and how to mane
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/t_brush_youtube_channel_img.jpg' | absolute_url }}" alt="Thomas Brush YouTube channel">
-  <figcaption>Thomas Brush YouTube channel</figcaption>
+  <figcaption><em>Thomas Brush</em> YouTube channel</figcaption>
 </figure>
 
 [Thomas Brush's channel](https://www.youtube.com/@thomasbrush) features podcast-style interviews with successful indie game developers and industry veterans.
@@ -312,7 +347,7 @@ If podcasts are your thing, you'll probably enjoy the content on Thomas Brush's 
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/dani_youtube_channel_img.jpg' | absolute_url }}" alt="Dani YouTube channel">
-  <figcaption>Dani YouTube channel</figcaption>
+  <figcaption><em>Dani</em> YouTube channel</figcaption>
 </figure>
 
 [Dani's YouTube channel](https://www.youtube.com/@Danidev) is filled with wacky, over-the-top, and funny content of video games and game development.
@@ -325,7 +360,7 @@ If you're in for a bit of entertainment, Dani's channel is sure to provide it. J
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/blackthorn_youtube_channel_img.jpg' | absolute_url }}" alt="Blackthornprod YouTube channel">
-  <figcaption>Blackthornprod YouTube channel</figcaption>
+  <figcaption><em>Blackthornprod</em> YouTube channel</figcaption>
 </figure>
 
 Initially starting as a channel focused on teaching art and using Unity, [_Blackthornprod_](https://www.youtube.com/@Blackthornprod) has pivoted to game development challenges involving multiple developers.
@@ -338,7 +373,7 @@ The challenges are both entertaining and provide good insight into the concessio
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/mix_jam_youtube_channel_img.jpg' | absolute_url }}" alt="Mix and Jam YouTube channel">
-  <figcaption>Mix and Jam YouTube channel</figcaption>
+  <figcaption><em>Mix and Jam</em> YouTube channel</figcaption>
 </figure>
 
 [_Mix and Jam_](https://www.youtube.com/@mixandjam) is a channel that recreates game mechanics from popular video game titles in the Unity Game Engine.

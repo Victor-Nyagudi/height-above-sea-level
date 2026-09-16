@@ -7,13 +7,18 @@ image:
     path: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
 date: 2026-08-14
+last_modified_at: 2026-09-16
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) can improve your game's performance by doing all the lighting calculations before the game runs, but the process can sometimes take a long time to complete.
 
 There are several reasons for the lengthy bake times, which can take hours in some cases, but there are adjustments you can make to prevent this.
 
-This article assumes you know [how to bake lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}) and explores the settings you can change to improve bake times.
+This article assumes you know [how to bake lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}) and explores the settings you can change to improve bake times. If you don't, watch the video below for a live demonstration.
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 If you're reading this article on a smaller device, right-click on images (long press on touch devices) and select _Open image in new tab_ to view them at full size.
 
@@ -116,7 +121,7 @@ You can always lower the lightmap resolution if the time it takes to bake lights
 ## Lighting Mode
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/baking_lights_taking_long_article/lightmap_resolution_option_img.jpg' | absolute_url }}" alt="The Lighting Mode dropdown in Unity's Lighting window.">
+  <img src="{{ '/assets/images/baking_lights_taking_long_article/lighting_window_lighting_mode_img.jpg' | absolute_url }}" alt="The Lighting Mode dropdown in Unity's Lighting window.">
   <figcaption><em>Lighting Mode</em> option in the <em>Lighting</em> window.</figcaption>
 </figure>
 
@@ -142,11 +147,13 @@ Using the _Subtractive_ lighting mode may improve the light baking times, but th
 
 - Adding many lights to a level can increase the time it takes to bake lights in Unity. Instead of using multiple light sources, you can **use fewer lights with a longer range and higher intensity** to light up more areas.
 
-- Many [reflection probes]({{ site.baseurl }}{% post_url 2026-08-21-reflection-probes-in-unity %}) may also negatively impact bake times. Use fewer reflection probes in larger, open areas where fewer objects appear in a reflection. **Reducing the reflection probe's resolution also helps**.
+- Many [reflection probes]({{ site.baseurl }}{% post_url 2026-08-21-reflection-probes-in-unity %}) can also negatively impact bake times. Use fewer reflection probes in larger, open areas where fewer objects appear in a reflection. **Reducing the reflection probe's resolution also helps**.
 
 - **Too many light probes may affect light baking times**. Use fewer, spaced-out light probes in open areas and more, condensed light probes in areas with many objects where light will often bounce, leading to more complex lighting calculations.
 
 - In some cases, baking lights might be taking too long because of **hardware limitations**, so you'll need parts that are more capable of handling all the lighting computations you require.
+
+- **Complex geometry and post-processing effects** can increase bake times. If possible, use simpler geometry and simple post-processing for more manageable bake times.
 
 ## What are the best light settings in Unity?
 

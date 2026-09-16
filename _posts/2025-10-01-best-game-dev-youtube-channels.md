@@ -128,7 +128,7 @@ Although it's not a YouTube channel, [gamemath.com](https://gamemath.com/) is a 
   <figcaption><em>Height Above Sea Level</em> YouTube channel</figcaption>
 </figure>
 
-[_Height Above Sea Level_](https://www.youtube.com/@HeightAboveSeaLevel) is a beginner-oriented channel dedicated to teaching aspiring game developers how to code in C#, the scripting language of the Unity Game Engine.
+[_Height Above Sea Level_](https://www.youtube.com/@HeightAboveSeaLevel) is a beginner-oriented channel dedicated to teaching aspiring game developers how to code in [C#]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), the scripting language of the Unity Game Engine.
 
 It has [a playlist covering the fundamental C# concepts](https://youtube.com/playlist?list=PLKCFltnebRSVQHQ9tf5PSmk4X0KNqO6FU&si=EkaBHaPuJCXxoqmb) you'll apply when making your game in Unity.
 
@@ -246,20 +246,35 @@ Certain YouTube channels cover a broad range of topics and are best viewed as an
 
 [_Brackeys_](https://www.youtube.com/@Brackeys) is arguably the largest game development channel on YouTube, with content dating back as far as twelve years ago.
 
-Its content covers shaders, animation, lighting, audio, 3D modeling, C#, and more.
+Its content covers shaders, animation, [lighting]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}), [audio]({% post_url 2025-10-02-free-music-sfx-for-unity-games %}), 3D modeling, C#, and more.
 
 _Brackeys_ also hosts multiple game jams each year with thousands of participants, so if you're looking to flex your game development skills in a jam, this is a great place to do it.
 
-### The Official Unity YouTube Channel
+### Official Unity YouTube Channel
 
 <figure class="align-center">
   <img src="{{ '/assets/images/best_youtube_channels_article/unity_youtube_channel_img.jpg' | absolute_url }}" alt="Unity YouTube channel">
   <figcaption><em>Unity</em> YouTube channel</figcaption>
 </figure>
 
-The [official Unity YouTube channel ](https://www.youtube.com/@unity)is the best place for the most accurate and up-to-date content on the Unity Game Engine.
+The [official Unity YouTube channel](https://www.youtube.com/@unity) is the best place for the most accurate and up-to-date content on the Unity Game Engine.
 
 Updates to the engine, upcoming conferences, show reels, tutorials, and more are posted on the channel. The content also covers popular topics like cameras, 2D games, shaders, and more.
+
+### GDC Festival of Gaming
+
+<figure class="align-center">
+  <img src="{{ '/assets/images/best_youtube_channels_article/gdc_youtube_channel_img.jpg' | absolute_url }}" alt="GDC Festival of Gaming YouTube channel">
+  <figcaption><em>GDC Festival of Gaming</em> YouTube channel</figcaption>
+</figure>
+
+[_GDC Fesitval of Gaming_](https://www.youtube.com/@GDCFestivalofGaming) provides excellent talks by developers from large video game studios and indies alike on how they accomplished specific mechanics in their games.
+
+Some developers come from notable video game franchises, such as <em>The Last Of Us</em>, <em>Destiny</em>, and <em>Ghost Of Tsushima</em>.
+
+These talks cover topics, such as animation, audio, programming, enemy AI, lighting, and more.
+
+GDC stands for <em>Game Developer's Conference</em>, but they rebranded to <em>GDC Festival of Gaming</em> in 2025. This conference occurs annualy, mainly in California, USA.
 
 ## Game Design
 

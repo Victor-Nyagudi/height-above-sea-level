@@ -121,7 +121,7 @@ You can always lower the lightmap resolution if the time it takes to bake lights
 ## Lighting Mode
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/baking_lights_taking_long_article/lighting_window_lighting_mode_img.png' | absolute_url }}" alt="The Lighting Mode dropdown in Unity's Lighting window.">
+  <img src="{{ '/assets/images/baking_lights_taking_long_article/lighting_window_lighting_mode_img.jpg' | absolute_url }}" alt="The Lighting Mode dropdown in Unity's Lighting window.">
   <figcaption><em>Lighting Mode</em> option in the <em>Lighting</em> window.</figcaption>
 </figure>
 

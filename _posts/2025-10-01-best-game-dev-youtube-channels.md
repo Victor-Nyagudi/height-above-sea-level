@@ -291,7 +291,9 @@ Amin creates levels in both Unity and Unreal Engine, leveraging pre-made assets 
 
 ### Honorable Mentions
 
+Jason de Heras, a combat designer who has worked on AAA titles like <em>God Of War</em> and <em>Star Wars Jedi: Fallen Order</em>, breaks down combat systems and combat design on his [blog](https://www.jasondeheras.com/blog).
 
+From <em>Sekiro</em> to <em>Hollow Knight</em>, he covers enemy design and melee combat systems in multiple games in excellent detail.
 
 ## Mobile Game Development
 

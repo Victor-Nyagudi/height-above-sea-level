@@ -223,8 +223,8 @@ _AI and Games_ is a great channel if you're looking for inspiration for the AI i
 ### Gabriel Aguiar Prod.
 
 <figure class="align-center">
-  <img src="{{ '/assets/images/best_youtube_channels_article/g_aguiar_youtube_channel_img.jpg' | absolute_url }}" alt="Gabriel Aguiar YouTube channel">
-  <figcaption>Gabriel Aguiar YouTube channel</figcaption>
+  <img src="{{ '/assets/images/best_youtube_channels_article/g_aguiar_youtube_channel_img.jpg' | absolute_url }}" alt="Gabriel Aguiar Prod. YouTube channel">
+  <figcaption>Gabriel Aguiar Prod. YouTube channel</figcaption>
 </figure>
 
 [_Gabriel Aguiar Prod._](https://www.youtube.com/@GabrielAguiarProd) covers visual effects in the Unity Game Engine, Unreal Engine, and Godot.
@@ -275,6 +275,23 @@ Updates to the engine, upcoming conferences, show reels, tutorials, and more are
 Some of the videos also explore level design and environmental design, so there's something for any aspiring game developer interested in the design aspect of game development.
 
 _Game Maker's Toolkit_, commonly referred to as GMTK, is another channel with regular game jams if, for some reason, you miss out on Brackeys' game jams.
+
+### Amin Montazeri
+
+<figure class="align-center">
+  <img src="{{ '/assets/images/best_youtube_channels_article/amin_m_youtube_channel_img.jpg' | absolute_url }}" alt="Amin Montazeri's YouTube channel">
+  <figcaption>Amin Montazeri YouTube channel</figcaption>
+</figure>
+
+[Amin Montazeri](https://www.youtube.com/@aminmontaze) is a level designer with extensive experience designing levels for multiplayer games, especially first-person shooters (FPS).
+
+His YouTube channel explores different issues that arise when developing levels. From tackling poor sight lines to approaching doors in levels the right away, there's plenty to look forward to for aspiring level designers and game developers curious about the process.
+
+Amin creates levels in both Unity and Unreal Engine, leveraging pre-made assets from the respective asset stores and custom models for a richer and more engaging experience.
+
+### Honorable Mentions
+
+
 
 ## Mobile Game Development
 

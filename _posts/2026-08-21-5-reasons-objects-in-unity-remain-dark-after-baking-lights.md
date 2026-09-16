@@ -6,11 +6,18 @@ excerpt: "Baking lights in Unity doesn't always yield the desired results. One c
 image:
     path: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
     thumbnail: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
+last_modified_at: 2026-09-16
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) doesn't always yield the desired results. One common issue you might run into is objects in your level appearing darker than expected, sometimes even darker than they were before baking lights.
 
 There are multiple reasons why this happens, but there are lighting-related steps you can take to mitigate it.
+
+If you're unsure of how to bake lights properly in Unity, watch the video below for a live demonstration.
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 {% include toc %}
 
@@ -95,7 +102,7 @@ This happens because the lighting data hasn't been updated, and the only way to 
 
 _Realtime_ and _Mixed_ light types will update the lighting as you move the light sources around the scene, but the lighting may still appear off, and some objects might still be dark.
 
-If constantly baking lights sounds tedious, you can check the _Auto Generate_ box at the bottom of the Lighting window to bake lights every time lights are moved, added, or anything affecting lights in the scene happens.
+If constantly baking lights sounds tedious, you can check the _Auto Generate_ box at the bottom of the <em>Lighting</em> window to bake lights every time lights are moved, added, or anything affecting lights in the scene happens.
 
 Enabling this option may increase bake times, so use it with discretion.
 

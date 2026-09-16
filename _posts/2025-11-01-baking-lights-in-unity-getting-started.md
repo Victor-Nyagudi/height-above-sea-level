@@ -7,11 +7,18 @@ image:
     path: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
 date: 2026-08-14
+last_modified_at: 2026-09-16
 ---
 
 Different lights in a scene can create a varying atmosphere. Brighter light during the day is often associated with a calmer or upbeat atmosphere, such as you'd expect when going for a picnic.
 
 Dim lights at night create a gloomier, scarier atmosphere. These scenarios can be accomplished using the correct lights in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL), and an important concept when using Unity lights is baking.
+
+If you're a visual learner and already have an understanding of what baking lights entails, watch the video below for a live demonstration of the process inside the Unity Editor.
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 {% include toc %}
 
@@ -90,7 +97,7 @@ Mixed lights also cast dynamic shadows on moving objects.
 | --- | --- | --- |
 | Calculations done **as game runs**. | Calculations done **before** game runs. | Calculations can be done **as game runs or before**. |
 | Dynamic shadows. | Static shadows. | Dynamic shadows. |
-| Direct lights only. | Direct & indirect lights. | Direct & indirect lights. |
+| Direct light only. | Direct & indirect light. | Direct & indirect light. |
 | Highest performance impact. | More performant. | Variable performance impact. |
 
 Which light you choose will depend on your goals. Do you have many moving objects that need light? Realtime or mixed lights are a good choice. The same applies to a moving light source, such as a flashlight.

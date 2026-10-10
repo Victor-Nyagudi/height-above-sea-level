@@ -224,6 +224,12 @@ It lets you adjust your game's color contrast, exposure, or even perform some co
 
 The post-processing effect that makes objects glow in Unity is called **_Bloom_**. You can also adjust the intensity and threshold of the glow in your scene.
 
+Watch the video below to learn how to add post-processing to your game.
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ssiGC787bc4?si=8pafp4EkZ8zXgEdr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ## The scene is still bright after removing/disabling all lights.
 
 If, after removing or disabling lights in a scene, the scene remains bright, you should **bake the lights again to update the lightmap**.

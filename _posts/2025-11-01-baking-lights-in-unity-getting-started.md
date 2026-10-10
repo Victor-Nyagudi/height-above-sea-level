@@ -179,6 +179,12 @@ You can use **light probes** in your game to leverage the performance gains of b
 
 Light probes store light information **as it passes through empty spaces**, while lightmaps store light information **when it hits an object's surface**.
 
+Watch the video below for a deeper explanation of light probes and how to add them to a scene.
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EVmOxebx2Tw?si=HjE2Kfo2IkWX6eKe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 If you have a dynamic object in the scene, such as a vehicle, you can place light probes in empty areas to store the bounced light information from static objects.
 
 For example, if the car is driving past a blue building, the shadow cast on it from a realtime or mixed light should be slightly blue because of the bounced light.

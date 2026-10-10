@@ -1,12 +1,12 @@
 ---
 title: "Unity Lights Troubleshooting Guide"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Multiple things can go wrong when baking lights in the Unity Game Engine. Some objects may still be dark after baking, some areas may not receive enough light, or shadows may appear off. Before you do any troubleshooting, there are a few concepts you should know before baking lights in Unity."
 image:
     path: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
     thumbnail: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 Multiple things can go wrong when baking lights in the Unity Game Engine. Some objects may still be dark after baking, some areas may not receive enough light, or shadows may appear off.

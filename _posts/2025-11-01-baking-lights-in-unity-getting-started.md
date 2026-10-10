@@ -1,13 +1,13 @@
 ---
 title: "Baking Lights in Unity: Everything You Need to Know to Get Started"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Different lights in a scene can create a varying atmosphere. These scenarios can be accomplished using the correct lights in the Unity Game Engine, and an important concept when using Unity lights is baking."
 image:
     path: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 Different lights in a scene can create a varying atmosphere. Brighter light during the day is often associated with a calmer or upbeat atmosphere, such as you'd expect when going for a picnic.

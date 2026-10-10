@@ -1,12 +1,12 @@
 ---
 title: "5 Reasons Why Objects in Unity are Still Dark After Baking Lights"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Baking lights in Unity doesn't always yield the desired results. One common issue you might run into is objects in your level appearing darker than expected, sometimes even darker than they were before baking lights."
 image:
     path: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
     thumbnail: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) doesn't always yield the desired results. One common issue you might run into is objects in your level appearing darker than expected, sometimes even darker than they were before baking lights.

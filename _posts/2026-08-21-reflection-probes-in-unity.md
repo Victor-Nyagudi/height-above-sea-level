@@ -1,12 +1,12 @@
 ---
 title: "Reflection Probes in Unity: How to Get the Most Out of Them"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Reflections in Unity behave differently from reflections in the real world. Real-world reflections occur when light bounces off smooth, polished surfaces. The Unity Game Engine simulates this behavior using reflection probes."
 image:
     path: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
     thumbnail: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 Reflections in Unity behave differently from reflections in the real world. Real-world reflections occur when light bounces off smooth, polished surfaces.

@@ -1,12 +1,12 @@
 ---
 title: "5 Reasons Why Objects in Unity are Still Dark After Baking Lights"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Baking lights in Unity doesn't always yield the desired results. One common issue you might run into is objects in your level appearing darker than expected, sometimes even darker than they were before baking lights."
 image:
     path: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
     thumbnail: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) doesn't always yield the desired results. One common issue you might run into is objects in your level appearing darker than expected, sometimes even darker than they were before baking lights.
@@ -71,6 +71,14 @@ Lastly, ensure the **_Indirect Multiplier_ option in the GameObject's _Light_ co
 
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
+
+Another common scenario is placing point lights inside light bulbs to light up a room. If done incorrectly, the level will still be dark, or there'll be bright spots all over.
+
+Watch the video below to learn how to correctly place point lights when working with bulbs or other small sources of light.
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RgnaWr4G7KU?si=cEiMgykuo_cWh4Um" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Incorrect Light Settings
 

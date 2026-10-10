@@ -1,13 +1,13 @@
 ---
 title: "Baking Lights in Unity Taking Too Long? 5 Tips to Speed It Up"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Baking lights in Unity can improve your game's performance by doing all the lighting calculations before the game runs, but the process can sometimes take a long time to complete."
 image:
     path: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) can improve your game's performance by doing all the lighting calculations before the game runs, but the process can sometimes take a long time to complete.

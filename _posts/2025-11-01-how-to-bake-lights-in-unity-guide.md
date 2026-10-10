@@ -1,13 +1,13 @@
 ---
 title: "How to Bake Lights in Unity: A Step-by-Step Guide"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Baked lights in Unity offer better performance than realtime lights because all the lighting computations happen before the game runs. They add realism to your game by simulating bounced light and how it lights up different areas in the scene."
 image:
     path: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
     thumbnail: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 Baked lights in Unity offer better performance than realtime lights because all the lighting computations happen before the game runs.
@@ -103,7 +103,7 @@ Directional lights are good for **light coming from a source very far away**, su
 
 ### Point Light
 
-Point lights are good for **lights that light up an area in a radius**, such as light from candles, a lantern, or a fire.
+[Point lights](https://youtu.be/RgnaWr4G7KU?si=8Jvyv_IAa4_9Xnbc) are good for **lights that light up an area in a radius**, such as light from candles, a lantern, or a fire.
 
 <figure class="align-center">
   <img src="{{ '/assets/images/how_to_bake_lights_article/point_light_house_img.jpg' | absolute_url }}" alt="A point light in front of a house in Unity.">

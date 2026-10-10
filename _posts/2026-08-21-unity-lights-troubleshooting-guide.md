@@ -1,12 +1,12 @@
 ---
 title: "Unity Lights Troubleshooting Guide"
 categories: Unity
-tags: lighting 3D
+tags: lighting 3D universal-render-pipeline
 excerpt: "Multiple things can go wrong when baking lights in the Unity Game Engine. Some objects may still be dark after baking, some areas may not receive enough light, or shadows may appear off. Before you do any troubleshooting, there are a few concepts you should know before baking lights in Unity."
 image:
     path: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
     thumbnail: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
-last_modified_at: 2026-09-16
+last_modified_at: 2026-10-10
 ---
 
 Multiple things can go wrong when baking lights in the Unity Game Engine. Some objects may still be dark after baking, some areas may not receive enough light, or shadows may appear off.
@@ -223,6 +223,12 @@ The glowing effect can be achieved through [post-processing](https://docs.unity3
 It lets you adjust your game's color contrast, exposure, or even perform some color correction.
 
 The post-processing effect that makes objects glow in Unity is called **_Bloom_**. You can also adjust the intensity and threshold of the glow in your scene.
+
+Watch the video below to learn how to add post-processing to your game.
+
+<div class="responsive-embed responsive-embed-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ssiGC787bc4?si=8pafp4EkZ8zXgEdr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## The scene is still bright after removing/disabling all lights.
 

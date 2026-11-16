@@ -7,7 +7,7 @@ image:
     path: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
     thumbnail: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 Baked lights in Unity offer better performance than realtime lights because all the lighting computations happen before the game runs.
@@ -25,6 +25,10 @@ If you're a visual learner, you can watch the video version below.
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -209,3 +213,5 @@ Here's a breakdown of some of the settings and how they affect light baking:
 You now know how to bake lights in the Unity Game Engine, and what's left is to tweak the settings until you achieve the desired lighting in your level.
 
 You can go a step further and adjust the final appearance of your game using post-processing to achieve things like glowing objects or effects like film grain for games set in older times.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

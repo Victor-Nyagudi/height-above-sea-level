@@ -6,7 +6,7 @@ image:
     path: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
     thumbnail: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-09-16
+last_modified_at: 2026-11-16
 ---
 
 The rise of content creation has made game development more accessible than ever before. Social media these days is filled with content teaching aspiring game developers, but YouTube arguably stands out as the best platform for learning how to make games.
@@ -16,6 +16,10 @@ This article focuses on the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=
 Whether you're a hobbyist game developer or a student intent on working in a AAA studio, these channels should be useful at some point or another.
 
 Expand the table of contents below for an overview of the categories they are grouped under.
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -381,3 +385,5 @@ The challenges are both entertaining and provide good insight into the concessio
 Some of the videos include mechanics from games such as _Overwatch_, _Balatro_, _The Legend of Zelda_, and _Red Dead Redemption_.
 
 These are some of the current game development content creators, and the number will grow as more people start creating content.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

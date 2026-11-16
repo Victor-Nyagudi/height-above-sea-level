@@ -6,7 +6,7 @@ excerpt: "Multiple things can go wrong when baking lights in the Unity Game Engi
 image:
     path: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
     thumbnail: /assets/images/lights_troubleshooting_article/lights_troubleshooting_article_thumbnail.jpg
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 Multiple things can go wrong when baking lights in the Unity Game Engine. Some objects may still be dark after baking, some areas may not receive enough light, or shadows may appear off.
@@ -20,6 +20,10 @@ This introductory video covers these basics, in case you don't know them.
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -262,3 +266,5 @@ Higher values for _Direct Samples_, _Indirect Samples_, or _Environment Samples_
 - Extend the reflection probe's box size a small distance past the area it's meant to cover. The probe's effect tends to gradually fade to the edge of the box rather than stop suddenly, so you might notice some poorly lit areas at the edges of reflection probes if they don't extend past designated areas or overlap.
 
 - If Unity is consuming more memory (RAM) than usual after baking lights multiple times, try restarting it to free up some. Some jobs may not run to completion when baking lights, resulting in memory leaks that continuously consume resources.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

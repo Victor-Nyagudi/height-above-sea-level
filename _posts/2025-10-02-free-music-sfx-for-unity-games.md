@@ -7,6 +7,7 @@ image:
     path: /assets/images/free_music_sfx_article/free_audio_article_thumbnail.jpg
     thumbnail: /assets/images/free_music_sfx_article/free_audio_article_thumbnail.jpg
 date: 2026-08-14
+last_modified_at: 2026-11-16
 ---
 
 Music and sound effects (SFX) in video games increase the immersion and create a more believable experience for the player.
@@ -16,6 +17,10 @@ From footstep sounds when the character is walking to the birds chirping in a fo
 Good audio doesn't always come cheap, but there are places where you can find good music and sound effects at no extra cost.
 
 Here are five websites where you can download free music and sound effects for your game made in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -110,3 +115,5 @@ A simple search for royalty-free or free sound effects should reveal more channe
 If you're a fan of the AI hype train, you can leverage one of the AI models to generate music and sound effects for your Unity game.
 
 There's been some friction between artists and AI companies over the use of their work to train AI models and the ethics behind it, but the argument remains unresolved.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

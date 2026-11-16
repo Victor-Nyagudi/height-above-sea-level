@@ -7,7 +7,7 @@ image:
     path: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_get_started_article/baking_lights_getting_started_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 Different lights in a scene can create a varying atmosphere. Brighter light during the day is often associated with a calmer or upbeat atmosphere, such as you'd expect when going for a picnic.
@@ -19,6 +19,10 @@ If you're a visual learner and already have an understanding of what baking ligh
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -243,3 +247,5 @@ Baked lights may save some performance beforehand, but they sometimes produce so
 ## In Closing
 
 Now that you have a better understanding of baking lights and what it can do for your game, you're ready to learn [how to bake lights in the Unity Game Engine]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}).
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

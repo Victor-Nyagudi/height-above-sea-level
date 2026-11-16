@@ -7,7 +7,7 @@ image:
     path: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) can improve your game's performance by doing all the lighting calculations before the game runs, but the process can sometimes take a long time to complete.
@@ -19,6 +19,10 @@ This article assumes you know [how to bake lights in Unity]({{ site.baseurl }}{%
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 If you're reading this article on a smaller device, right-click on images (long press on touch devices) and select _Open image in new tab_ to view them at full size.
 
@@ -194,3 +198,5 @@ The tests and settings used in this article were on a computer with the followin
 Computers with better hardware will perform better, while those with poorer hardware might experience degraded performance.
 
 If you're still experiencing trouble with lights, read the [_Unity Lights Troubleshooting Guide_]({{ site.baseurl }}{% post_url 2026-08-21-unity-lights-troubleshooting-guide %}) to help you diagnose the problem.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

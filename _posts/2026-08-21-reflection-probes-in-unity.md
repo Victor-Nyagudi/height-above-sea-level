@@ -6,7 +6,7 @@ excerpt: "Reflections in Unity behave differently from reflections in the real w
 image:
     path: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
     thumbnail: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 Reflections in Unity behave differently from reflections in the real world. Real-world reflections occur when light bounces off smooth, polished surfaces.
@@ -22,6 +22,10 @@ Reflection probes are part of baking lights, so if you're unfamiliar with the li
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -182,3 +186,5 @@ These devices include the PlayStation 4 Pro, PlayStation 5, Xbox One X, and mid 
 ## In Closing
 
 Reflections, though not mandatory for a game, immerse the player deeper into the worlds you create when combined with proper lighting and level design.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

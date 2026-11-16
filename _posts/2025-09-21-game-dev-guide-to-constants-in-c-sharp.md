@@ -12,7 +12,7 @@ last_modified_at: 2026-11-16
 
 A constant in C#, the half-brother of a [variable]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), is like **a mini storage location for temporary data** you'll reuse when building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
-As the name suggests, a constant is **a value that stays the same after it is created**. It can only be updated in one place: where you created it.
+As the name suggests, a constant is **a value that stays the same after it is created**. You can only update in one place: where you created it.
 
 If the player in your game can only carry a maximum of 20 items in their inventory, you can store that number in a constant so you don't accidentally change it somewhere else in the code.
 
@@ -29,8 +29,11 @@ Constants are fundamental to any video game and are often used with variables, w
 There are four simple steps to creating a constant.
 
 1. Write the keyword `const`.
+
 2. Write the constant's type.
+
 3. Write the constant's name.
+
 4. Give the constant a value.
 
 ```csharp
@@ -133,6 +136,15 @@ public class Player : MonoBehaviour
 
 Assume you opened a script in Unity called `Player.cs` in your preferred editor: [Visual Studio](https://youtu.be/VcU2HGsxeII?si=ILXB_GVjOw_4-glK), [Visual Studio Code](https://youtu.be/bfvq_kTbnd8?si=Kg9KUKYCLUbkbyUH), or JetBrains Rider.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/196526/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/196526/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ```csharp
 public class Player : MonoBehaviour
 {
@@ -223,9 +235,18 @@ const Enemy Cyclops = new Enemy(); // ❌ Causes an error.
 
 - **Constants must have a value when they're created.**
 
-A variable can be declared without assigning a value to it, while a constant must have a value when you create it.
+You can declare a variable without assigning a value to it, while a constant must have a value when you create it.
 
 You'll need to assign a value to the variable at some point, but this difference shows the fluidity you have with variables compared to constants.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/341020/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/341020/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ```csharp
 int healthPotions; // ✅ Can be declared without value.
@@ -271,7 +292,9 @@ Debug.Log(PlayerHealth + 75); // Logs '175'.
 Using a constant here gave you three benefits:
 
 1. **You didn't have to repeat `100`**. You can use the `PlayerHealth` constant where the number should be, and it's like the actual number is there instead.
+
 2. **The constant's name provided more context**. Repeating `100` raises questions. Why is that number used in multiple places? What is it for? Why is it not another number like `50` or `90`?
+
 3. **You don't have to worry about accidentally changing the player's health**. Using a constant ensures the player's health will always be `100`.
 
 If you tried changing the `PlayerHealth` constant, for example, by setting it equal to `125`, you'll get an error, and the code won't run.
@@ -379,6 +402,15 @@ You don't always have to start boolean constants with "_is_" or "_has_" - it's m
 If using these prefixes makes the constant more confusing or if a different name works better, you can name it something else.
 
 For example, you can name the constant `PlayerIsAlive` instead of `IsPlayerAlive` if you prefer, or use `Enraged` instead of `IsEnraged`.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/279952/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/279952/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You'll see how these names make understanding code easier when you start working with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 

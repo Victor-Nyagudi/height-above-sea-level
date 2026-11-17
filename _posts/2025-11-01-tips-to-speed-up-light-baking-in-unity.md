@@ -14,7 +14,9 @@ last_modified_at: 2026-11-16
 
 There are several reasons for the lengthy bake times, which can take hours in some cases, but there are adjustments you can make to prevent this.
 
-This article assumes you know [how to bake lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}) and explores the settings you can change to improve bake times. If you don't, watch the video below for a live demonstration.
+This article assumes you know [how to bake lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}) and explores the settings you can change to improve bake times.
+
+If you don't, watch the video below for a live demonstration using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -57,6 +59,15 @@ There are currently two options: _Progressive CPU_ and _Progressive GPU_.
 If you're experiencing long bake times using the _Progressive CPU_, switch to the _Progressive GPU_.
 
 The CPU is already handling other tasks, such as running the Unity Editor and any other open programs, so offloading some of the work to the GPU can help speed up bake times since it doesn't normally handle as many tasks as the CPU.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 A simple internal test using Windows' built-in _Task Manager_ revealed that baking lights using the _Progressive CPU_ consumed up to 100% of the CPU for an extended period.
 
@@ -146,6 +157,15 @@ The visual fidelity of your game will determine the lighting mode you'll use whe
 **_Subtractive_** offers simple lighting and low-fidelity shadows. This is a great option for low-poly games or games with stylized art.
 
 Using the _Subtractive_ lighting mode may improve the light baking times, but the other modes may not have a big impact if the level's lighting is set up correctly.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/99888/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/99888/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## Bonus
 

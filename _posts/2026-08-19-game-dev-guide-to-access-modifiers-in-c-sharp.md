@@ -19,7 +19,7 @@ You can use an access modifier to restrict access to the code that swings the sw
 
 This article builds on the [classes article]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) and assumes you're familiar with other C# concepts, such as [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), and [strings]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/m-lhhtfG1tE?si=wPXywbQ4MIz4uaRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -76,6 +76,15 @@ The classes article mentioned **inheritance**, one of the core C# programming co
 A class inheriting from another becomes the **child/derived class**, and the class it inherits from becomes the **parent/base class**.
 
 Let's say you want to make a game in Unity that has three types of enemies: a light minion, a heavy minion, and an archer.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/335880/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/335880/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 All these enemies will have a couple of things in common.
 
@@ -161,7 +170,16 @@ This access modifier can be helpful if you want to limit control of a group of r
 
 Any class members marked `private` can only be **accessed from within the class**.
 
-For example, methods in a class that affect the player's movement are a good candidate to be marked `private` because you wouldn't want other parts of your Unity game's code to interfere with how the player moves.
+For example, methods in a class that affect the player's movement are a good candidate to be marked `private` because you wouldn't want other parts of your Unity game's code to carelessly interfere with the player's character controller.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/233710/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/233710/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 [Fields]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}) should also be `private` because they're **implementation details** - information that anything outside the class doesn't need to know.
 
@@ -254,6 +272,15 @@ public class PlayerTwo : PlayerOne { }
 ### `static`
 
 The `static` modifier lets you **use class members without creating an instance of the class**.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/242307/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/242307/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 It can be useful when working with utility classes - classes that store shared, helpful methods you'd otherwise repeat in multiple places.
 

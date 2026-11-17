@@ -377,3 +377,14 @@
     display: none;
   }
 }
+
+.unity-affiliate--vertical {
+    display: none;
+
+  @include breakpoint($large) {
+    display: block;
+
+    position: sticky;
+    top: 48px;
+  }
+}

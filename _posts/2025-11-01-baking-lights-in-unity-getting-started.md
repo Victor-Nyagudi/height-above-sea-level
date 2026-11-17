@@ -14,7 +14,7 @@ Different lights in a scene can create a varying atmosphere. Brighter light duri
 
 Dim lights at night create a gloomier, scarier atmosphere. These scenarios can be accomplished using the correct lights in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL), and an important concept when using Unity lights is baking.
 
-If you're a visual learner and already have an understanding of what baking lights entails, watch the video below for a live demonstration of the process inside the Unity Editor.
+If you're a visual learner and already have an understanding of what baking lights entails, watch the video below for a live demonstration of the process using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -35,6 +35,15 @@ These calculations take more time as the number of lights in your Unity game inc
 Since most objects in a game don't move throughout the level, these lighting calculations can be completed ahead of time and stored, freeing up computer resources to handle other tasks, such as animations and visual effects.
 
 **The process of calculating lighting data before the game runs** is called baking lights, and the precomputed lighting data is stored in a special texture called a **lightmap**.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/293680/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/293680/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## What are lightmaps in Unity used for?
 
@@ -108,6 +117,15 @@ Which light you choose will depend on your goals. Do you have many moving object
 
 Is most of the scene static? Baked lights will save you some performance.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/139776/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/139776/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ## Why You Should Bake Lights
 
 Regardless of which light mode you choose, it's still worth baking lights for a couple of reasons.
@@ -176,6 +194,15 @@ This can be useful for low-end devices, such as mobile phones, VR headsets, or l
 A hybrid approach of baked lights and some realtime reflection probes can also work. It all depends on your game's needs.
 
 The single source of truth will always be the game's performance when you test it using Unity's profiler.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/194338/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/194338/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## Indirect Lighting and Dynamic Objects in Unity
 

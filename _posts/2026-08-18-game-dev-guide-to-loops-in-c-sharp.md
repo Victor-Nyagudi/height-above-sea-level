@@ -15,7 +15,7 @@ You can use them to **execute code multiple times without repeating it** or to *
 
 This article assumes you're familiar with other C# concepts, such as [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}), and [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/l4jiGjc6jiI?si=nkd53pCJctQ7dhXv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -101,6 +101,15 @@ An increment (`++`) or decrement (`--`) operator is common in the iterator secti
 
 Let's say the game you're making in Unity has a turret that fires 5 times when the player is in range.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/169039/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/169039/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 One approach would be to manually repeat the code to fire the turret, which would be tedious and prone to bugs.
 
 A better way would be to write the code that fires the turret once in a loop that executes 5 times.
@@ -162,7 +171,14 @@ The `statueDirection` variable represents the current statue's direction you're 
 
 The variable's name can be anything you want. You could rename it to `statueOrientation` or `direction`. The most important thing is the actual collection you're looping over, which comes after the `in` keyword.
 
-You can read the code above as, "If the player falls from a high point **or** an enemy attacks them, take away 10 hit points."
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/340412/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/340412/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
@@ -242,6 +258,15 @@ This loop isn't as common as the other three, but it's worth knowing in case you
 You can break a loop any time using the `break` keyword. Breaking a loop early can be beneficial when you're searching a collection for a particular item.
 
 Let's say the game you're building in Unity has a gadget that can highlight the location of a hidden collectible randomly placed in one of 50 hiding spots.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/193955/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/193955/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You could store the hiding spots in an array, and then loop through each hiding spot while checking if the current hiding spot has the collectible.
 

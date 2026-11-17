@@ -13,7 +13,7 @@ Enums in C# **store related [constants]({{ site.baseurl }}{% post_url 2025-09-21
 
 Despite storing related constants, enums aren't the same as other types in C# used to store many values, such as [lists or arrays]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}). The differences are discussed [later in the article](#enum-vs-list-vs-array-in-c-whats-the-difference).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OboSgv98Km0?si=cSKnEYKHLesTyiD6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -58,6 +58,15 @@ Debug.Log(Season.Winter); // Logs 'Winter'.
 
 Let's say you want to make a game in Unity where the day of the week is updated every 24 in-game hours, similar to the _Grand Theft Auto_ series. Every in-game Saturday, a random special weapon is available for purchase.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/182966/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/182966/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 One approach is to store each day of the week in a [string]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}) and then check if the current day is Saturday before releasing a special weapon.
 
 ```csharp
@@ -101,7 +110,7 @@ if (currentDay == DayOfWeek.Saturday)
     Debug.Log("A new special weapon is available!");
 ```
 
-## Enum vs. List vs. Array in C#. What's the difference?
+## Enum vs. List vs. Array in C#: What's the difference?
 
 | Enum | List | Array |
 | --- | --- | --- |

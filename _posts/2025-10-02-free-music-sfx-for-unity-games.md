@@ -35,6 +35,15 @@ Pixabay has thousands of royalty-free music and sound effects you can use in you
 
 The sound effects include gunfire, footsteps, monster sounds, user interface (UI) sounds, and more.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/54116/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/54116/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 You can start downloading audio without creating an account, but the option is available for anyone who expects to use the platform often.
 
 If you love a particular track or sound effect, you can donate to the artists, or, if they're available for hire, hire them to create more audio for your game.
@@ -86,11 +95,20 @@ The website doesn't include previews of the music, but you can listen to them on
   <figcaption>Audio from the Unity Asset Store</figcaption>
 </figure>
 
-The official [Unity Asset Store](https://assetstore.unity.com/) remains one of the best places for any assets you'll need to make a game in the Unity Game Engine.
+The official [Unity Asset Store](https://af.unity.com/sr/camref:1100l5shyf) remains one of the best places for any assets you'll need to make a game in the Unity Game Engine.
 
 It's curated for game developers seeking assets ranging from free to hundreds of dollars, all with varying quality.
 
 The Asset Store offers audio and sound effects for multiple video game genres. Whether you're looking for chip tunes for a pixel art game or sci-fi explosions for your sci-fi first-person shooter, you'll most likely find it in the Asset Store.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/22391/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/22391/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You can also save any assets you like but don't currently need for later. Once you find one, add it to your assets and download it inside the Unity Game Engine.
 

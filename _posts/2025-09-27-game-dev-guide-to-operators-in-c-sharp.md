@@ -18,7 +18,7 @@ It's also common to reduce the player's health whenever they take damage. These 
 
 This article assumes you have some knowledge of [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}), and [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), but if you don't, read the linked articles to get up to speed.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/PGrNsVII6js?si=bZGYvMPiQMP3xm2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -61,6 +61,15 @@ Arithmetic operators are used to perform the common **mathematical operations** 
 You can add two or more numbers using the (`+`) operator.
 
 This is useful in actions in your Unity game that increase a number. For example, if the player harvests some wood, the wood counter in the user interface should increase.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/386122/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/386122/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 Alternatively, collecting health pick-ups should replenish the player's health after they've taken damage.
 
@@ -176,7 +185,16 @@ Debug.Log(boostedDamage); // Logs '150'.
 
 Some games have debuffs that negatively impact the player, such as slowing down their movement.
 
-Let's say there's an evil wizard in your game that casts a spell on the player, reducing their movement speed by 50%.
+Let's say there's an evil wizard in your game that casts a magic spell on the player, reducing their movement speed by 50%.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/247933/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/247933/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You can divide the player's speed by 2 to get the new speed when the debuff is applied using the division (`/`) operator.
 
@@ -312,6 +330,15 @@ They're commonly used in [conditional statements]({{ site.baseurl }}{% post_url 
 ### AND Operator - `&&`
 
 Let's say you want to give the driver in your racing game 500XP if they finish first in the race.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/403/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/403/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 The two conditions for them to get the XP are:
 

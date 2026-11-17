@@ -17,7 +17,7 @@ If the player presses the <kbd>W</kbd> key, the character should move forward. I
 
 This article assumes you're familiar with [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}), the backbone of conditional statements, as well as [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), and [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dotDK_PBCF4?si=k-5nNjPRi8INNqCt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -68,6 +68,15 @@ if (player.HasPickedUpMoney() == true)
 ```
 
 The code in the parentheses represents the condition, and **conditions must be a boolean value**.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/84433/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/84433/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 A boolean value can only be either `true` or `false`. Think of an `if` statement as saying, "If the condition is true, execute the code inside the code block. If not, skip the code in the code block, and execute whatever comes after the `if` statement."
 
@@ -183,6 +192,15 @@ Once this condition is satisfied, you now know the player's health should reduce
 
 Suppose you're building a fighting game in Unity where each fighter has a special meter that lets them perform special moves as the meter fills.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/137306/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/137306/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 The meter enables a unique special move at 25%, 50%, 75%, and the ultimate move at 100%; however, only one can be performed before the meter resets.
 
 Each percentage mark represents a scenario to check for. You can combine an `if` statement with an `else if` and `else` statements to achieve this.
@@ -272,6 +290,15 @@ You can read it as, "In the case the meter is at 25%, unlock the _Sonic Pulse_ s
 The `break` keyword is used after each `case` to **ensure the code only executes the `true` case**. Removing this would execute the code for the other cases below the `true` one.
 
 Similar to `if` statements, a `default` case is included at the bottom when none of the cases above it are `true`; the `switch` statement equivalent of the `else` block in `if` statements.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/287786/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/287786/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** You can have as many cases as you want before the `default` statement. Any more than five, and the code starts to look messy.
 {: .notice--info}

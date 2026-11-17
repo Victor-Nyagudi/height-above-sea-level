@@ -19,7 +19,7 @@ Each villager will need a name, an occupation, and some money. These three will 
 
 This article assumes you understand how to work with [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) and [access modifiers]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}) in C#.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OzFI5Bw-CW4?si=iJ5GnSgYSpUl6q3D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -59,6 +59,15 @@ That's why you declare the `_health` field as `private`. If you changed the acce
 Placing related code inside a class while restricting access to certain parts to hide implementation details is known as **encapsulation** in programming.
 
 Regardless, there'll be times you want to expose some information to other classes or methods, and you can do so using [properties](#properties-in-c-explained).
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/280621/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/280621/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** Since you can use a field and a variable in a method, the underscore helps you distinguish them.
 {: .notice--info}
@@ -223,6 +232,15 @@ If you need to expose certain parts of a class to other classes, it's better to 
 
 The earlier example mentioned a `Villager` class for NPCs. Let's say you want to spawn farmer villagers in a particular area.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/343744/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/343744/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 Before you spawn any villagers, you'll first need to know their occupation. If their occupation is `private`, there's no way for the code spawning NPCs to know which villager is a farmer.
 
 Instead of using a `private` field for the occupation, use a `public` property. Using a property automatically **creates a `private` backing field behind the scenes**.
@@ -311,6 +329,15 @@ public class Villager
 If you need to, **you can also use access modifiers, such as `private`, `protected`, etc., on getters and setters** to control what code can interact with them.
 
 There are other ways to achieve these gameplay mechanics, and tweaking properties is merely one of them.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/768/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/768/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## Fields vs. Properties: Which Should You Use?
 

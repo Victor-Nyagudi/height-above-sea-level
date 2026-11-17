@@ -15,7 +15,7 @@ Booleans can only be one of two values: `true` or `false`. These values have the
 
 This article assumes you know how to use [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), and [strings]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}), and will reference them in code examples.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Yt3EzAm6SGQ?si=pIzsDw5Y9A43mFk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -46,7 +46,16 @@ var hasPowerUp = false;
 
 In addition to making it easier to distinguish boolean variables from other variables in C#, this naming convention improves your code's readability.
 
-Consider this example. Let's say the game you're building in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL) has a character that can punch or fire their gun, depending on whether they're armed or not at the moment.
+Consider this example. Let's say the game you're building in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL) has a scavenger character that can punch or fire their gun, depending on whether they're armed or not at the moment.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/261065/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/261065/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You can use a boolean value, like `isArmed`, to check if the player is holding a weapon. If this value is true, the character fires their gun. If not, they punch.
 
@@ -74,7 +83,7 @@ When you turn off the car, the engine stops. If the value is `false`, the switch
 
 ### Comparison and Equality Operators
 
-**Comparison operators and equality operators result in a boolean value**. In a way, these operators ask a question. They can also be used in the condition of a conditional statement.
+**[Comparison operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}#comparison-operators) and [equality operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}#equality-operators) result in a boolean value**. In a way, these operators ask a question. They can also be used in the condition of a conditional statement.
 
 Some examples of comparison operators include greater than `>`, less than `<`, and greater than or equal to `>=`.
 
@@ -123,6 +132,15 @@ For example, `!true` is `false`. You can read it as "NOT true", meaning false. S
 The NOT operator is useful for boolean values that change often. This is evident in scenarios, such as the one mentioned earlier in this article, where the player can either be armed or disarmed.
 
 There'll be times you want to do other things when the player is unarmed, such as carrying heavy objects. For simplicity's sake, assume there's no way to holster the weapon.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/289021/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/289021/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 Picking up or dropping weapons changes the `isArmed` boolean variable, so you can check if the player is unarmed by placing an exclamation mark before `isArmed`, turning it into "is NOT armed", then lifting an object.
 

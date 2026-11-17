@@ -20,7 +20,7 @@ This guide walks you through all the things you need to do before [baking lights
 
 If you're reading this article on a smaller device, right-click on the images (long-press on touch devices) and select _Open image in new tab_ to view them at full size.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below that uses the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -68,6 +68,15 @@ Once the model is in the scene, the _Inspector_ window will display new informat
 If you modeled the GameObject using _ProBuilder_, it will likely have a _ProBuilder MeshFilter_ component with a _Lightmap Static_ checkbox that'll be automatically checked when you check the _Static_ checkbox.
 
 The GameObject should have a _Mesh Renderer_ component in the _Inspector_. Click it to unfold the dropdown, revealing other dropdowns.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** If you don't see this component, it might be on one of the GameObject's children. You can check for children in the _Hierarchy_ window.
 {: .notice--info}
@@ -154,6 +163,15 @@ You can change the lighting mode from _Realtime_, _Mixed_, or _Baked_ based on w
 Realtime and mixed lights have crisper, dynamic shadows but have a bigger impact on performance.
 
 Baked lights are the best for performance but **don't update the lighting when they're moved** and **don't cast dynamic shadows for moving objects**.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/302183/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/302183/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** You can bake lights in Unity for all three light types to improve your game's appearance. You don't have to use realtime lights only.
 {: .notice--info}

@@ -15,7 +15,7 @@ Before you do any troubleshooting, there are a few [concepts you should know bef
 
 This article also assumes you know [how to bake lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}) and are familiar with the setup process, the _Lighting_ window, and the general workflow associated with adding lights and other GameObjects to a scene.
 
-This introductory video covers these basics, in case you don't know them.
+This introductory video covers these basics using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/), in case you don't know them.
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -41,6 +41,17 @@ GameObjects must be marked _Static_ in the _Inspector_ window, the _Contribute G
 The **light sources in the scene may also have an _Intensity_ or _Range_ that's too low to illuminate objects well**. Increasing these values in the _Inspector_ window can help brighten things up.
 
 If you're still having trouble with dark objects, read the [_5 Reasons Why Objects in Unity are Still Dark After Baking Lights_]({{ site.baseurl }}{% post_url 2026-08-21-5-reasons-objects-in-unity-remain-dark-after-baking-lights %}) article, where the issue is discussed in more detail.
+
+Here's the [link to the wooden bucket](https://af.unity.com/ot/vwMRL5J/) in the image above.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## Baking lights in Unity is taking too long.
 
@@ -69,6 +80,17 @@ Reflections in Unity are achieved using [reflection probes]({{ site.baseurl }}{%
 The object's material will first need to be smooth enough to reflect light; otherwise, it won't show any reflections. You can adjust the material's _Smoothness_ in the _Inspector_ window with the material selected.
 
 If you want the smooth objects in your scene to have reflections, **place a reflection probe nearby and adjust the area it covers** based on what you'd like to reflect.
+
+The skybox in the image above is from the [_Skybox Series Free_ asset](https://af.unity.com/ot/RlNpA0G/).
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/103633/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/103633/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** Use fewer reflection probes in large, open areas where there's little to show in reflections. More reflection probes work better in tighter areas with corners, but too many can significantly increase bake times.
 {: .notice--info}
@@ -112,6 +134,17 @@ Setting a light source's mode to _Baked_ results in its light only showing after
 You'll need to use either _Realtime_ or _Mixed_ lights to cast sharper shadows.
 
 You can still cast soft shadows with _Realtime_ or _Mixed_ lights by changing the _Shadow Type_ in the GameObject's _Light_ component in the _Inspector_ window under the _Shadows_ dropdown.
+
+The blue house in the image above is part of the [_POLYGON - Starter Pack_ asset](https://af.unity.com/ot/vwGpaOG/).
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/156819/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/156819/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## No shadows as objects move in Unity.
 
@@ -206,6 +239,17 @@ Ensure the material's _Surface Type_ is set to _Transparent_. Click the color ba
     <figcaption>Transparent windows on a pickup truck.</figcaption>
 </figure>
 
+The [pickup](https://af.unity.com/ot/9Ob8DaD/), [trees](https://assetstore.unity.com/packages/3d/vegetation/trees/urp-tree-models-253340), [ground textures](https://af.unity.com/ot/eO1AWvo/), and [country house](https://af.unity.com/ot/Nd4bqQX/) in the images above are all available for free on the [Unity Asset Store](https://af.unity.com/sr/camref:1100l5shyf).
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/135387/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/135387/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ## Area lights in Unity don't light up the scene.
 
 Light from **_Area_ lights must be baked** for it to affect the scene.
@@ -223,6 +267,15 @@ If you make any changes to an _Area_ light, such as increasing its _Intensity_ o
 </figure>
 
 The glowing effect can be achieved through [post-processing](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/manual/index.html). Post-processing is similar to adding filters to an image.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/125731/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/125731/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 It lets you adjust your game's color contrast, exposure, or even perform some color correction.
 

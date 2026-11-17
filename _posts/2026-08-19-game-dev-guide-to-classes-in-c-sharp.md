@@ -17,7 +17,7 @@ Code related to an enemy ogre, such as its health, damage output, and attacks, w
 
 This article assumes you're familiar with [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}), [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), and [strings]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/I7GYjvfSgIU?si=q2VMSeHJoLtTCZUe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -38,6 +38,15 @@ Adding a script in Unity automatically opens it in [Visual Studio](https://youtu
 A **namespace** stores many related classes, and an **assembly** stores many namespaces. An assembly is like a large container and eventually becomes the executable file (`.exe`) that you open to run the final game.
 
 Let's say you want to add an enemy ogre to your Unity game. After adding its 3D model to the scene, you'll attach an `Enemy` script to it.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/159080/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/159080/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 Here's what the script `Enemy.cs` initially looks like when you open it.
 
@@ -145,6 +154,15 @@ A field is composed of three mandatory parts and one optional part:
 4. **An optional assigned value**. The field uses the type's default value if this is missing, e.g., `false` for booleans, or `0` for numbers.
 
 **Fields are named using the camelCase convention prefixed with an underscore** e.g. `_woodCollected` to distinguish them from the other variables inside the class.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/65518/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/65518/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 Fields also have an access modifier, but unlike classes, **fields should be `private`** because **they store information that other classes shouldn't know about**. A separate article discusses this in more detail.
 
@@ -258,6 +276,15 @@ Placing parentheses after accessing a class's method **calls the method**, i.e.,
 ## Class Constructor
 
 The parentheses after the class's name represent its **constructor**. If you don't define one, C# automatically creates a default constructor for you. A class's constructor **determines how you construct class instances**.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/206237/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/206237/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You're currently creating an enemy with some predefined values based on what you specified in the `Enemy` class.
 

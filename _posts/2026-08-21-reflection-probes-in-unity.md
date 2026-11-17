@@ -17,7 +17,7 @@ A **cubemap** is like a hollow box, and the snapshots the reflection probe took 
 
 Creating reflections in this way yields realistic reflections at a more affordable cost compared to calculating lighting data that more closely mimics real-world light behavior.
 
-Reflection probes are part of baking lights, so if you're unfamiliar with the light baking process, watch the video below for a live demonstration.
+Reflection probes are part of baking lights, so if you're unfamiliar with the light baking process, watch the video below for a live demonstration using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -60,6 +60,15 @@ You'll first need to **mark any objects you want to show in a reflection as stat
   <img src="{{ '/assets/images/how_to_bake_lights_article/static_checkbox_img.jpg' | absolute_url }}" alt="The 'Static' checkbox in Unity.">
   <figcaption>The <em>Static</em> checkbox in the <em>Inspector</em> window.</figcaption>
 </figure>
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You can do this by selecting the GameObject and, in the _Inspector_ window, checking the box next to _Static_.
 
@@ -151,9 +160,18 @@ A **32-unit resolution reflection probe** creates simple reflections that look l
   <figcaption>Simple reflection from a low-resolution reflection probe.</figcaption>
 </figure>
 
-These are **baked almost instantly**.
+These **bake almost instantly**.
 
 You may have seen something similar in games made for the PlayStation 1, PlayStation 2, Xbox, and early 2000s PCs, where the hardware had significant limitations compared to recent consoles and computers.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/207246/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/207246/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ### 256-unit Resolution
 
@@ -164,7 +182,7 @@ A **256-unit reflection probe** creates more detailed reflections, with clearly 
   <figcaption>Good reflection from a mid-resolution reflection probe.</figcaption>
 </figure>
 
-These are **baked in about 3 seconds**.
+These **bake in about 3 seconds**.
 
 These reflections are more prevalent on the PlayStation 3, PlayStation 4, Xbox 360, Xbox One, and early 2010s PCs, where the hardware was capable of handling heavier loads.
 

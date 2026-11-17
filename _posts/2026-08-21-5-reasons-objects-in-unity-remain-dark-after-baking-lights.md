@@ -13,7 +13,7 @@ last_modified_at: 2026-11-16
 
 There are multiple reasons why this happens, but there are lighting-related steps you can take to mitigate it.
 
-If you're unsure of how to bake lights properly in Unity, watch the video below for a live demonstration.
+If you're unsure of how to bake lights properly in Unity, watch the video below for a live demonstration using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -49,6 +49,15 @@ If, at any moment, you stop or cancel the light baking process, some objects in 
 You'll need to **let the process run to completion** so the lighting calculations are done for everything in the scene.
 
 You might be tempted to interrupt the process because [baking lights in Unity is taking too long]({{ site.baseurl }}{% post_url 2025-11-01-tips-to-speed-up-light-baking-in-unity %}), but there are settings you can adjust to improve the bake times.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## Poorly Set Up Light Sources
 
@@ -102,6 +111,15 @@ You'll most likely use mixed lights in your Unity game, so always keep this sett
 Ensure the **_Direct Samples_, _Indirect Samples_, _Environmental Samples_, and _Max Bounces_ have a value of at least 1 or more**.
 
 These settings control the samples used in calculating lighting data and the number of times light bounces in the scene, respectively.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** Hover over each setting's name in the _Lighting_ window, and a tooltip will pop up, explaining what it's for.
 {: .notice--info}

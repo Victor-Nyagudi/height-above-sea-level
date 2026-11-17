@@ -347,6 +347,15 @@ Given a boolean variable can only be `true` or `false`, appending "_is_" or "_ha
 
 For example, if you want to know if the player has picked a power-up, you can create a boolean variable called `hasPowerUp`.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/271664/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/271664/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 If the player `hasPowerUp`, then the variable is `true`, and you can boost the player's attack damage.
 
 If the player doesn't have a power-up, then the answer to the "hasPowerUp?" question is `false`, so the player's attack damage stays at the default number.

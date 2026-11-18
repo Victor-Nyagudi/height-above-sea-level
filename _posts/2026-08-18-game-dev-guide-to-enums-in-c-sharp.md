@@ -6,17 +6,22 @@ excerpt: "Enums in C# store related constants. Despite their storage capabilitie
 image:
     path: /assets/images/enums_article/enums_article_thumbnail.jpg
     thumbnail: /assets/images/enums_article/enums_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
 Enums in C# **store related [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %})**. If the game you're building in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL) has seasons or the days of the week, you can store them in an enum.
 
 Despite storing related constants, enums aren't the same as other types in C# used to store many values, such as [lists or arrays]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %}). The differences are discussed [later in the article](#enum-vs-list-vs-array-in-c-whats-the-difference).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OboSgv98Km0?si=cSKnEYKHLesTyiD6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -52,6 +57,15 @@ Debug.Log(Season.Winter); // Logs 'Winter'.
 {: .notice--info}
 
 Let's say you want to make a game in Unity where the day of the week is updated every 24 in-game hours, similar to the _Grand Theft Auto_ series. Every in-game Saturday, a random special weapon is available for purchase.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/182966/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/182966/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 One approach is to store each day of the week in a [string]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}) and then check if the current day is Saturday before releasing a special weapon.
 
@@ -96,7 +110,7 @@ if (currentDay == DayOfWeek.Saturday)
     Debug.Log("A new special weapon is available!");
 ```
 
-## Enum vs. List vs. Array in C#. What's the difference?
+## Enum vs. List vs. Array in C#: What's the difference?
 
 | Enum | List | Array |
 | --- | --- | --- |
@@ -158,3 +172,5 @@ Here's the complete list of articles in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

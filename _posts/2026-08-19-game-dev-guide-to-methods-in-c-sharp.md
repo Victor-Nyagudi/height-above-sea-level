@@ -6,19 +6,24 @@ excerpt: "Methods, sometimes called functions, perform actions in a game. If you
 image:
     path: /assets/images/methods_article/methods_article_thumbnail.jpg
     thumbnail: /assets/images/methods_article/methods_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
 Methods, sometimes called functions, **perform actions in a game**. If you want the player to run, jump, attack, heal, reload, or perform any other action, you'll most likely use one.
 
-Methods are **named using verbs** - words that represent actions. Examples include `Run`, `Jump`, `Attack`, or `Reload`.
+Methods are **named using verbs** - words that represent actions. Examples include `Run()`, `Jump()`, `Attack()`, or `Reload()`.
 
 This article assumes you're familiar with [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}), [access modifiers]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}), and [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/6LvkfBS10YM?si=4pfIkarp9yTvRGNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -43,7 +48,7 @@ These four sections are the **method signature**.
     * 'public' - access modifier
     * 'void' - return type
     * 'Run' - name
-    * 'speed' - parameter
+    * 'float speed' - parameter type (float) and name (speed)
 */
 public void Run(float speed)
 {
@@ -63,6 +68,15 @@ Methods declared inside a class without the `static` modifier are called **insta
 If a method is `public`, you can access it using **dot notation** on the class instance and invoke it by placing an opening and a closing parentheses after its name.
 
 **Invoking a method** executes the code between its curly braces. If you don't invoke a method, the code inside it never executes.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/189879/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/189879/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** Invoking a method is also known as "**calling a method**".
 {: .notice--info}
@@ -85,7 +99,7 @@ A **`void` return type** means the method performs an action and doesn't return 
 
 Any other type, such as `int`, `bool`, `string`, etc., means **the method returns a value of that type**.
 
-For example, if you had an `Add` method that adds two [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), you'd want to use the total in other parts of the code, wouldn't you?
+For example, if you had an `Add()` method that adds two [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), you'd want to use the total in other parts of the code, wouldn't you?
 
 You can use the `return` keyword to **return the result to the code that called the method**, and it can use the result elsewhere.
 
@@ -105,15 +119,15 @@ var result = calculator.Add(1, 2);
 Debug.Log(result); // <- Logs '3' to the console.
 ```
 
-### `Start` and `Update` Methods in Unity
+### `Start()` and `Update()` Methods in Unity
 
-Every [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) you create a script in Unity and open it, there are usually two methods inside the class: `Start` and `Update`.
+Every [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) you create a script in Unity and open it, there are usually two methods inside the class: `Start()` and `Update()`.
 
 These methods exist because the script **inherits** from the `MonoBehaviour` class, hence the colon (:) and the name "_MonoBehaviour_" after your class's name to signify inheritance.
 
-The **`Start` method is called before the first frame**, and is a good place to initialize values, access components attached to a GameObject, or perform initial setup.
+The **`Start()` method is called before the first frame**, and is a good place to initialize values, access components attached to a GameObject, or perform initial setup.
 
-Try logging a message in the Unity console in this method. The console logs the message once because Unity calls `Start` once.
+Try logging a message in the Unity console in this method. The console logs the message once because Unity calls `Start()` once.
 
 ```csharp
 public class Vehicle : MonoBehaviour
@@ -129,9 +143,9 @@ public class Vehicle : MonoBehaviour
 }
 ```
 
-The **`Update` method is called on every frame** and is a good place to perform actions that occur continuously in your Unity game, such as movement or updating time on a clock.
+The **`Update()` method is called on every frame** and is a good place to perform actions that occur continuously in your Unity game, such as movement or updating time on a clock.
 
-Logging a message to the Unity console in this method writes it continuously until you deactivate the script because `Update` is **called on every frame**, and there are multiple frames per second when the game is running.
+Logging a message to the Unity console in this method writes it continuously until you deactivate the script because `Update()` is **called on every frame**, and there are multiple frames per second when the game is running.
 
 You don't have to create an instance of your class or the `MonoBehaviour` class to call these methods because Unity handles that for you.
 
@@ -175,11 +189,20 @@ Method parameters, sometimes called **method arguments**, are **values supplied 
 **_Tip:_** To avoid confusion, use the word "_parameters_" when describing the values before calling the method and "_arguments_" during or after you call the method.
 {: .notice--info}
 
-The `Add` method mentioned earlier requires the code that calls it to supply the two values it should add.
+The `Add()` method mentioned earlier requires the code that calls it to supply the two values it should add.
 
 If you tried calling the method without supplying those values, you'd get an error because it requires them to execute.
 
 It's up to you, the game developer, to decide if a method should receive external values. You can always create one with no parameters.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/103349/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/103349/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 If you're unsure whether a method needs parameters or not, ask yourself the following questions:
 
@@ -260,6 +283,15 @@ If you want to **use both named and positional arguments**, you must supply the 
 
 If you want a variation of a method, for example, an attack that deals regular damage and another that deals elemental damage, you can overload the method.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/222901/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/222901/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 Method overloading involves **creating multiple methods with the same name but different parameters and potentially different return types**.
 
 ```csharp
@@ -328,3 +360,5 @@ Here's the complete list of articles in the series:
 13. A Game Developer's Guide to Methods in C# _(you are here)_
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

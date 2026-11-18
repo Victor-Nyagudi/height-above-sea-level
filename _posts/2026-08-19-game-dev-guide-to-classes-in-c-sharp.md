@@ -6,6 +6,7 @@ excerpt: "Classes are the building blocks of any game you'll make in the Unity G
 image:
     path: /assets/images/classes_article/classes_article_thumbnail.jpg
     thumbnail: /assets/images/classes_article/classes_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
 Classes are the **building blocks** of any game you'll make in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL). They interact with each other to create amazing gameplay mechanics.
@@ -16,11 +17,15 @@ Code related to an enemy ogre, such as its health, damage output, and attacks, w
 
 This article assumes you're familiar with [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}), [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), and [strings]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/I7GYjvfSgIU?si=q2VMSeHJoLtTCZUe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -33,6 +38,15 @@ Adding a script in Unity automatically opens it in [Visual Studio](https://youtu
 A **namespace** stores many related classes, and an **assembly** stores many namespaces. An assembly is like a large container and eventually becomes the executable file (`.exe`) that you open to run the final game.
 
 Let's say you want to add an enemy ogre to your Unity game. After adding its 3D model to the scene, you'll attach an `Enemy` script to it.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/159080/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/159080/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 Here's what the script `Enemy.cs` initially looks like when you open it.
 
@@ -140,6 +154,15 @@ A field is composed of three mandatory parts and one optional part:
 4. **An optional assigned value**. The field uses the type's default value if this is missing, e.g., `false` for booleans, or `0` for numbers.
 
 **Fields are named using the camelCase convention prefixed with an underscore** e.g. `_woodCollected` to distinguish them from the other variables inside the class.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/65518/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/65518/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 Fields also have an access modifier, but unlike classes, **fields should be `private`** because **they store information that other classes shouldn't know about**. A separate article discusses this in more detail.
 
@@ -254,6 +277,15 @@ Placing parentheses after accessing a class's method **calls the method**, i.e.,
 
 The parentheses after the class's name represent its **constructor**. If you don't define one, C# automatically creates a default constructor for you. A class's constructor **determines how you construct class instances**.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/206237/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/206237/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 You're currently creating an enemy with some predefined values based on what you specified in the `Enemy` class.
 
 If you wanted to adjust each enemy's health as you create them, you can add a constructor with a health parameter, and then include the new health in the parentheses while instantiating the class.
@@ -352,3 +384,5 @@ Here's the complete list of articles in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

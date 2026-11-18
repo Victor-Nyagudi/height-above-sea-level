@@ -6,6 +6,7 @@ excerpt: "Fields and properties tell you more about a class. They're technically
 image:
     path: /assets/images/fields_properties_article/fields_properties_article_thumbnail.jpg
     thumbnail: /assets/images/fields_properties_article/fields_properties_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
 Fields and properties **tell you more about a class**. They're technically [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), so they're like mini-storage locations for any information related to the class.
@@ -18,11 +19,15 @@ Each villager will need a name, an occupation, and some money. These three will 
 
 This article assumes you understand how to work with [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) and [access modifiers]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-access-modifiers-in-c-sharp %}) in C#.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OzFI5Bw-CW4?si=iJ5GnSgYSpUl6q3D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -54,6 +59,15 @@ That's why you declare the `_health` field as `private`. If you changed the acce
 Placing related code inside a class while restricting access to certain parts to hide implementation details is known as **encapsulation** in programming.
 
 Regardless, there'll be times you want to expose some information to other classes or methods, and you can do so using [properties](#properties-in-c-explained).
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/280621/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/280621/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** Since you can use a field and a variable in a method, the underscore helps you distinguish them.
 {: .notice--info}
@@ -218,6 +232,15 @@ If you need to expose certain parts of a class to other classes, it's better to 
 
 The earlier example mentioned a `Villager` class for NPCs. Let's say you want to spawn farmer villagers in a particular area.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/343744/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/343744/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 Before you spawn any villagers, you'll first need to know their occupation. If their occupation is `private`, there's no way for the code spawning NPCs to know which villager is a farmer.
 
 Instead of using a `private` field for the occupation, use a `public` property. Using a property automatically **creates a `private` backing field behind the scenes**.
@@ -307,6 +330,15 @@ If you need to, **you can also use access modifiers, such as `private`, `protect
 
 There are other ways to achieve these gameplay mechanics, and tweaking properties is merely one of them.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/768/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/768/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ## Fields vs. Properties: Which Should You Use?
 
 | Field | Property |
@@ -363,3 +395,5 @@ Here's the complete list of articles in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

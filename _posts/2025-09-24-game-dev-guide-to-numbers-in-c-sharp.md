@@ -7,6 +7,7 @@ image:
     path: /assets/images/numbers_article/numbers_article_header_img.jpg
     thumbnail: /assets/images/numbers_article/numbers_article_thumbnail.jpg
 date: 2026-08-10
+last_modified_at: 2026-11-16
 ---
 
 From the remaining lives a player has to the health potions in their inventory, every video game deals with numbers at some point or another, so knowing how to work with them in C# is crucial to making a successful game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
@@ -15,11 +16,15 @@ Numbers in C# can be generally categorized into two types: **whole numbers**, al
 
 This article assumes you have a basic understanding of [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}) and [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}). If you're not familiar with them, read the linked posts first.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/p9KItGlIlkA?si=_9jQYvE01_rNlQA7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -50,6 +55,15 @@ If the player fires their gun, the remaining ammo decreases by one.
 If they hold down the fire button to empty the clip, the ammo continuously decreases by one until it reaches zero, and they run out of ammunition.
 
 When the player picks up ammo, the number jumps to a fixed whole number, such as 25, not 25.5. The same applies to losing and gaining lives.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/88439/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/88439/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 There are multiple [integer types in C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) you can use, but the following are the five most common ones that will most likely apply to the Unity game you're building.
 
@@ -195,6 +209,15 @@ You'll more often than not be fine using an `int` over a `long`.
 
 Decimal numbers in video games work well **when dealing with numbers that require greater precision**, such as health bars in the user interface or aiming angles.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/160269/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/160269/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 If the player in your game needs to throw an object, it's a much better experience if they can aim in small, fine movements instead of janky, snappy motions, in _some_ games at least.
 
 C# has three floating-point types to help you achieve this.
@@ -308,6 +331,15 @@ A `float` is sufficient for most games, ranging from simple platformers to compl
 
 A `decimal` is great in money-oriented games for an extra layer of realism, but this extra detail may go unnoticed, and you end up using up more resources for something that could've used less had you gone with a different type.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/150589/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/150589/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 **_Tip:_** If you don't assign a value to a number variable, whole or decimal, the number defaults to 0.
 {: .notice--info}
 
@@ -358,3 +390,5 @@ Here's the complete list:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

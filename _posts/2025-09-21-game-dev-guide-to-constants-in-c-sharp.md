@@ -7,15 +7,20 @@ image:
     path: /assets/images/constants_article/constants_article_header_img.jpg
     thumbnail: /assets/images/constants_article/constants_article_thumbnail.jpg
 date: 2026-08-10
+last_modified_at: 2026-11-16
 ---
 
 A constant in C#, the half-brother of a [variable]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), is like **a mini storage location for temporary data** you'll reuse when building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
-As the name suggests, a constant is **a value that stays the same after it is created**. It can only be updated in one place: where you created it.
+As the name suggests, a constant is **a value that stays the same after it is created**. You can only update in one place: where you created it.
 
 If the player in your game can only carry a maximum of 20 items in their inventory, you can store that number in a constant so you don't accidentally change it somewhere else in the code.
 
 Constants are fundamental to any video game and are often used with variables, whether in handwritten code or visual scripting tools.
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -24,8 +29,11 @@ Constants are fundamental to any video game and are often used with variables, w
 There are four simple steps to creating a constant.
 
 1. Write the keyword `const`.
+
 2. Write the constant's type.
+
 3. Write the constant's name.
+
 4. Give the constant a value.
 
 ```csharp
@@ -128,6 +136,15 @@ public class Player : MonoBehaviour
 
 Assume you opened a script in Unity called `Player.cs` in your preferred editor: [Visual Studio](https://youtu.be/VcU2HGsxeII?si=ILXB_GVjOw_4-glK), [Visual Studio Code](https://youtu.be/bfvq_kTbnd8?si=Kg9KUKYCLUbkbyUH), or JetBrains Rider.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/196526/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/196526/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ```csharp
 public class Player : MonoBehaviour
 {
@@ -218,9 +235,18 @@ const Enemy Cyclops = new Enemy(); // ❌ Causes an error.
 
 - **Constants must have a value when they're created.**
 
-A variable can be declared without assigning a value to it, while a constant must have a value when you create it.
+You can declare a variable without assigning a value to it, while a constant must have a value when you create it.
 
 You'll need to assign a value to the variable at some point, but this difference shows the fluidity you have with variables compared to constants.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/341020/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/341020/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ```csharp
 int healthPotions; // ✅ Can be declared without value.
@@ -266,7 +292,9 @@ Debug.Log(PlayerHealth + 75); // Logs '175'.
 Using a constant here gave you three benefits:
 
 1. **You didn't have to repeat `100`**. You can use the `PlayerHealth` constant where the number should be, and it's like the actual number is there instead.
+
 2. **The constant's name provided more context**. Repeating `100` raises questions. Why is that number used in multiple places? What is it for? Why is it not another number like `50` or `90`?
+
 3. **You don't have to worry about accidentally changing the player's health**. Using a constant ensures the player's health will always be `100`.
 
 If you tried changing the `PlayerHealth` constant, for example, by setting it equal to `125`, you'll get an error, and the code won't run.
@@ -375,6 +403,15 @@ If using these prefixes makes the constant more confusing or if a different name
 
 For example, you can name the constant `PlayerIsAlive` instead of `IsPlayerAlive` if you prefer, or use `Enraged` instead of `IsEnraged`.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/279952/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/279952/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 You'll see how these names make understanding code easier when you start working with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 
 ## What's the difference between a constant and a `readonly` variable?
@@ -450,3 +487,5 @@ Here's the complete list:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

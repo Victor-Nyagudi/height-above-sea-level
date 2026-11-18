@@ -6,6 +6,7 @@ excerpt: "Loops are one of the fundamental tools you'll use when making a game i
 image:
     path: /assets/images/loops_article/loops_article_thumbnail.jpg
     thumbnail: /assets/images/loops_article/loops_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
 Loops are one of the fundamental tools you'll use when making a game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
@@ -14,11 +15,15 @@ You can use them to **execute code multiple times without repeating it** or to *
 
 This article assumes you're familiar with other C# concepts, such as [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), [booleans]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}), and [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}).
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/l4jiGjc6jiI?si=nkd53pCJctQ7dhXv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -96,6 +101,15 @@ An increment (`++`) or decrement (`--`) operator is common in the iterator secti
 
 Let's say the game you're making in Unity has a turret that fires 5 times when the player is in range.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/169039/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/169039/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 One approach would be to manually repeat the code to fire the turret, which would be tedious and prone to bugs.
 
 A better way would be to write the code that fires the turret once in a loop that executes 5 times.
@@ -157,7 +171,14 @@ The `statueDirection` variable represents the current statue's direction you're 
 
 The variable's name can be anything you want. You could rename it to `statueOrientation` or `direction`. The most important thing is the actual collection you're looping over, which comes after the `in` keyword.
 
-You can read the code above as, "If the player falls from a high point **or** an enemy attacks them, take away 10 hit points."
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/340412/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/340412/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **Interested in making games in Unity?** [Become a patron](https://www.patreon.com/cw/heightabovesealevel) on Patreon and gain access to cheat sheets, behind-the-scenes content, advanced scripting videos, and more.
 {: .notice--primary}
@@ -238,6 +259,15 @@ You can break a loop any time using the `break` keyword. Breaking a loop early c
 
 Let's say the game you're building in Unity has a gadget that can highlight the location of a hidden collectible randomly placed in one of 50 hiding spots.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/193955/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/193955/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 You could store the hiding spots in an array, and then loop through each hiding spot while checking if the current hiding spot has the collectible.
 
 Once the loop reaches the hiding spot with the collectible, you highlight it, and then break out of the loop since there's no need to go through the remaining items looking for something you've already found.
@@ -276,7 +306,7 @@ Aside from breaking a loop, you can also **skip cycles** based on a condition us
 
 Suppose your Unity game has a set of tiles on the floor, and you want to place a trap on the even-numbered tiles.
 
-You can store all the tiles in an array, and, while looping through them, check if the tile is an even number using the remainder operator (`%`). If it is, place a trap. Otherwise, skip it using the `continue` keyword.
+You can store all the tiles in an array, and, while looping through them, check if the tile is an even number using the [remainder operator]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}#remainder-) (`%`). If it is, place a trap. Otherwise, skip it using the `continue` keyword.
 
 ```csharp
 public class Tile
@@ -335,3 +365,5 @@ Here's the complete list of articles in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

@@ -7,7 +7,7 @@ image:
     path: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
     thumbnail: /assets/images/how_to_bake_lights_article/how_to_bake_lights_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 Baked lights in Unity offer better performance than realtime lights because all the lighting computations happen before the game runs.
@@ -20,11 +20,15 @@ This guide walks you through all the things you need to do before [baking lights
 
 If you're reading this article on a smaller device, right-click on the images (long-press on touch devices) and select _Open image in new tab_ to view them at full size.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below that uses the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -64,6 +68,15 @@ Once the model is in the scene, the _Inspector_ window will display new informat
 If you modeled the GameObject using _ProBuilder_, it will likely have a _ProBuilder MeshFilter_ component with a _Lightmap Static_ checkbox that'll be automatically checked when you check the _Static_ checkbox.
 
 The GameObject should have a _Mesh Renderer_ component in the _Inspector_. Click it to unfold the dropdown, revealing other dropdowns.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 **_Tip:_** If you don't see this component, it might be on one of the GameObject's children. You can check for children in the _Hierarchy_ window.
 {: .notice--info}
@@ -151,6 +164,15 @@ Realtime and mixed lights have crisper, dynamic shadows but have a bigger impact
 
 Baked lights are the best for performance but **don't update the lighting when they're moved** and **don't cast dynamic shadows for moving objects**.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/302183/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/302183/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 **_Tip:_** You can bake lights in Unity for all three light types to improve your game's appearance. You don't have to use realtime lights only.
 {: .notice--info}
 
@@ -209,3 +231,5 @@ Here's a breakdown of some of the settings and how they affect light baking:
 You now know how to bake lights in the Unity Game Engine, and what's left is to tweak the settings until you achieve the desired lighting in your level.
 
 You can go a step further and adjust the final appearance of your game using post-processing to achieve things like glowing objects or effects like film grain for games set in older times.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

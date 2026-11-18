@@ -7,17 +7,22 @@ image:
     path: /assets/images/variables_article/variables_article_header_img.jpg
     thumbnail: /assets/images/variables_article/variables_article_thumbnail.jpg
 date: 2026-08-10
+last_modified_at: 2026-11-16
 ---
 
-A variable in C# can be thought of as **a mini storage location for temporary data you plan on reusing** while building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
+Variables in C# are like **mini storage locations for temporary data you plan on reusing** while building a video game in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL).
 
-Variables are fundamental to any video game and make up a large percentage of the code you'll write, whether by hand or using visual scripting tools.
+They're fundamental to any video game and make up a large percentage of the code you'll write, whether by hand or using visual scripting tools.
 
-If you're a visual learner, you can watch the video version of this post below.
+If you're a visual learner, watch the video version of this post below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/lm5JnW-yNng?si=GB3tonPVpoQQQbko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -96,7 +101,16 @@ int attackDamage = 499;
 
 The types you create will often be from the classes you also create.
 
-For example, if you create a `Weapon` class to handle weapons in your game, you can store one "copy", commonly called an instance, in a variable.
+For example, if you create a `Weapon` class to handle fantasy weapons in your game, you can store one "copy", commonly called an instance, in a variable.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/226554/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/226554/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ```csharp
 // Classes you create will often be in a separate file.
@@ -171,6 +185,15 @@ You can create a variable inside the `Start` method and log it to the Unity cons
 `var` is one of the special keywords in C#. It's used when creating variables as a shorter and less repetitive way compared to constantly repeating a variable's type.
 
 Let's say you wanted to create three strings to store a character's first, middle, and last name.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/31805/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/31805/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You'd have to declare the `string` type before each of the variables, but with `var`, you don't need to repeat it. You can also use it with other types, such as numbers and booleans.
 
@@ -324,6 +347,15 @@ Given a boolean variable can only be `true` or `false`, appending "_is_" or "_ha
 
 For example, if you want to know if the player has picked a power-up, you can create a boolean variable called `hasPowerUp`.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/271664/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/271664/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 If the player `hasPowerUp`, then the variable is `true`, and you can boost the player's attack damage.
 
 If the player doesn't have a power-up, then the answer to the "hasPowerUp?" question is `false`, so the player's attack damage stays at the default number.
@@ -385,3 +417,5 @@ Here's the complete list:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

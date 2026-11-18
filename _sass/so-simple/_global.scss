@@ -355,3 +355,36 @@
 .hidden-post-image {
   display: none;
 }
+
+.unity-affiliate-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.unity-affiliate--wide  {
+  display: none;
+
+  @include breakpoint($medium) {
+    display: block;
+  }
+}
+
+.unity-affiliate--square {
+  display: block;
+
+  @include breakpoint($medium) {
+    display: none;
+  }
+}
+
+.unity-affiliate--vertical {
+    display: none;
+
+  @include breakpoint($large) {
+    display: block;
+
+    position: sticky;
+    top: 48px;
+  }
+}

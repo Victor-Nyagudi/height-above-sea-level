@@ -6,7 +6,7 @@ image:
     path: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
     thumbnail: /assets/images/best_youtube_channels_article/best_youtube_channels_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-09-16
+last_modified_at: 2026-11-16
 ---
 
 The rise of content creation has made game development more accessible than ever before. Social media these days is filled with content teaching aspiring game developers, but YouTube arguably stands out as the best platform for learning how to make games.
@@ -16,6 +16,10 @@ This article focuses on the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=
 Whether you're a hobbyist game developer or a student intent on working in a AAA studio, these channels should be useful at some point or another.
 
 Expand the table of contents below for an overview of the categories they are grouped under.
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -35,6 +39,15 @@ The channel's owner, commonly referred to as Saul, also specializes in hand-draw
 Saultoons' content is beginner-friendly with a touch of comedy while covering topics such as hue-shifting, the twelve principles of animation, and color palettes.
 
 The community is active and participates in the annual Septembit Challenge, where aspiring game artists and developers create pixel art from 30 prompts in 30 days.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/165188/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/165188/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ### Blender Guru
 
@@ -112,7 +125,18 @@ The videos on the channel are well-structured and well-paced, with a light comed
 
 The channel's tutorials cover popular shader effects, including holograms, outlines, dissolves, and cel shading.
 
-It also recreates cool effects from popular video games such as _Metal Gear Solid_, _The Legend of Zelda_, and _Pokémon_.
+They also cover cool effects from popular video games such as _Metal Gear Solid_, _The Legend of Zelda_, and _Pokémon_.
+
+Some of [Daniel's shaders](https://af.unity.com/ot/eOlN920/) are available for free or purchase on the Unity Asset Store.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/246720/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/246720/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ### Honorable Mentions
 
@@ -161,6 +185,17 @@ The content covers Unity's flagship Data-Oriented Technology Stack (DOTS) and th
 
 Beginners will struggle to grasp most of the concepts discussed, but advanced Unity game developers intending to build larger games will likely reap the most.
 
+Some of [Turbo's DOTS projects](https://af.unity.com/ot/lQ0lPde/) are available on the Unity Asset Store.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/309340/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/309340/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ### Honorable Mentions
 
 Despite being away for quite some time, [_Infallible Code_](https://www.youtube.com/@InfallibleCode) still offers useful insight into writing and debugging video game code using the Unity Game Engine.
@@ -190,6 +225,17 @@ The content is beginner-friendly and includes C# code along with the animation. 
 The content covers inverse kinematics, an important concept in animation you'll encounter if you want the characters in your game to pick up objects or interact with swords and other weapons.
 
 If the game you're making in the Unity game engine has animals or non-humanoid characters, _FImpossible Creations_ is a gold mine that'll help you animate them.
+
+They also [publish assets on the Unity Asset Store](https://af.unity.com/ot/eO1AW9d/) that help speed up game development.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/154245/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/154245/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## Video Game Artificial Intelligence (AI)
 
@@ -233,6 +279,17 @@ _AI and Games_ is a great channel if you're looking for inspiration for the AI i
 The visual effects range from muzzle flashes to anime water commonly found in stylized games.
 
 If you're an aspiring game developer who enjoys the artistic side of game development, particularly VFX, this is a YouTube channel worth checking out.
+
+Gabriel Aguiar Prod. also publishes [VFX assets](https://af.unity.com/ot/eOlN95m/) on the Unity Asset Store.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/409976/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/409976/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## All-in-One
 
@@ -369,6 +426,15 @@ Its most popular videos involve challenging game developers to make a game witho
 
 The challenges are both entertaining and provide good insight into the concessions that are made when there are deadlines but no interactions.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/222143/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/222143/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ### Mix and Jam
 
 <figure class="align-center">
@@ -380,4 +446,15 @@ The challenges are both entertaining and provide good insight into the concessio
 
 Some of the videos include mechanics from games such as _Overwatch_, _Balatro_, _The Legend of Zelda_, and _Red Dead Redemption_.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/158456/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/158456/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 These are some of the current game development content creators, and the number will grow as more people start creating content.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

@@ -7,18 +7,24 @@ image:
     path: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
     thumbnail: /assets/images/baking_lights_taking_long_article/baking_taking_long_thumbnail.jpg
 date: 2026-08-14
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) can improve your game's performance by doing all the lighting calculations before the game runs, but the process can sometimes take a long time to complete.
 
 There are several reasons for the lengthy bake times, which can take hours in some cases, but there are adjustments you can make to prevent this.
 
-This article assumes you know [how to bake lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}) and explores the settings you can change to improve bake times. If you don't, watch the video below for a live demonstration.
+This article assumes you know [how to bake lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-how-to-bake-lights-in-unity-guide %}) and explores the settings you can change to improve bake times.
+
+If you don't, watch the video below for a live demonstration using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 If you're reading this article on a smaller device, right-click on images (long press on touch devices) and select _Open image in new tab_ to view them at full size.
 
@@ -53,6 +59,15 @@ There are currently two options: _Progressive CPU_ and _Progressive GPU_.
 If you're experiencing long bake times using the _Progressive CPU_, switch to the _Progressive GPU_.
 
 The CPU is already handling other tasks, such as running the Unity Editor and any other open programs, so offloading some of the work to the GPU can help speed up bake times since it doesn't normally handle as many tasks as the CPU.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 A simple internal test using Windows' built-in _Task Manager_ revealed that baking lights using the _Progressive CPU_ consumed up to 100% of the CPU for an extended period.
 
@@ -143,6 +158,15 @@ The visual fidelity of your game will determine the lighting mode you'll use whe
 
 Using the _Subtractive_ lighting mode may improve the light baking times, but the other modes may not have a big impact if the level's lighting is set up correctly.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/99888/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/99888/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ## Bonus
 
 - Adding many lights to a level can increase the time it takes to bake lights in Unity. Instead of using multiple light sources, you can **use fewer lights with a longer range and higher intensity** to light up more areas.
@@ -194,3 +218,5 @@ The tests and settings used in this article were on a computer with the followin
 Computers with better hardware will perform better, while those with poorer hardware might experience degraded performance.
 
 If you're still experiencing trouble with lights, read the [_Unity Lights Troubleshooting Guide_]({{ site.baseurl }}{% post_url 2026-08-21-unity-lights-troubleshooting-guide %}) to help you diagnose the problem.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

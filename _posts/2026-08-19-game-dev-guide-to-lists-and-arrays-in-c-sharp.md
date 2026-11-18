@@ -6,6 +6,7 @@ excerpt: "Inventory items. Weapons carried. Checkpoints. These are all groups of
 image:
     path: /assets/images/lists_arrays_article/lists_arrays_article_thumbnail.jpg
     thumbnail: /assets/images/lists_arrays_article/lists_arrays_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
 Inventory items. Weapons carried. Checkpoints. These are all groups of related items in a game you should store together, and lists and arrays are the perfect data structures for that.
@@ -18,11 +19,15 @@ Lists and arrays group items and provide mechanisms for adding, removing, and up
 
 This article assumes you're familiar with [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}), [loops]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-loops-in-c-sharp %}), and [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) because those are the areas you'll use lists and arrays most.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/vxeRdUW45mk?si=NgqfnN8HIIH50G3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -35,6 +40,15 @@ Arrays are a collection in C# that **store a fixed number of items**. The total 
 Once you've created an array, **you can't add or remove items from it**. You can only update the existing items to new ones.
 
 A specified type followed by an opening and closing square bracket signifies an array in C#, e.g., `int[]` or `Weapon[]`.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/96478/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/96478/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 An array can store items of different types, e.g., `int`, [`bool`]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-booleans-in-c-sharp %}), [`string`]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}), or classes you created. You can even have an array that stores other arrays.
 
@@ -162,6 +176,15 @@ Lists in C# are collection types that **store a flexible number of items**. Unli
 
 The `System.Collections.Generic` namespace stores lists in C#, so you'll have to **add the `using` statement at the top of the file** if you want to use them in your Unity game's scripts.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/87744/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/87744/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ```csharp
 // This line is mandatory when using lists.
 using System.Collections.Generic;
@@ -210,6 +233,15 @@ Each list has a `Count` property that **returns the total number of items in the
 You can also loop through a list using the `for` or `foreach` loops.
 
 For example, if the player in your Unity game collects ammo from a crate that replenishes the ammo of all weapons, you can loop through the weapons list and update each weapon's ammo value to its maximum.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/93011/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/93011/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ```csharp
 using System.Collections.Generic;
@@ -298,3 +330,5 @@ Here's the complete list of articles in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. A Game Developer's Guide to Lists & Arrays in C# _(you are here)_
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

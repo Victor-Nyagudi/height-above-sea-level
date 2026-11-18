@@ -6,18 +6,22 @@ excerpt: "Baking lights in Unity doesn't always yield the desired results. One c
 image:
     path: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
     thumbnail: /assets/images/objects_still_dark_article/objects_still_dark_article_thumbnail.jpg
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 [Baking lights in Unity]({{ site.baseurl }}{% post_url 2025-11-01-baking-lights-in-unity-getting-started %}) doesn't always yield the desired results. One common issue you might run into is objects in your level appearing darker than expected, sometimes even darker than they were before baking lights.
 
 There are multiple reasons why this happens, but there are lighting-related steps you can take to mitigate it.
 
-If you're unsure of how to bake lights properly in Unity, watch the video below for a live demonstration.
+If you're unsure of how to bake lights properly in Unity, watch the video below for a live demonstration using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -45,6 +49,15 @@ If, at any moment, you stop or cancel the light baking process, some objects in 
 You'll need to **let the process run to completion** so the lighting calculations are done for everything in the scene.
 
 You might be tempted to interrupt the process because [baking lights in Unity is taking too long]({{ site.baseurl }}{% post_url 2025-11-01-tips-to-speed-up-light-baking-in-unity %}), but there are settings you can adjust to improve the bake times.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/122218/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ## Poorly Set Up Light Sources
 
@@ -99,6 +112,15 @@ Ensure the **_Direct Samples_, _Indirect Samples_, _Environmental Samples_, and 
 
 These settings control the samples used in calculating lighting data and the number of times light bounces in the scene, respectively.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 **_Tip:_** Hover over each setting's name in the _Lighting_ window, and a tooltip will pop up, explaining what it's for.
 {: .notice--info}
 
@@ -120,3 +142,5 @@ Enabling this option may increase bake times, so use it with discretion.
 ## In Closing
 
 These are a few reasons why objects in your Unity game's level might still be dark after baking lights, but if you're still experiencing problems with lighting, the _Unity Lights Troubleshooting Guide_ should help you even further.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

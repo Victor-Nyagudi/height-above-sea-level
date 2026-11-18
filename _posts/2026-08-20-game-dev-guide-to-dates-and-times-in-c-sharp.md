@@ -6,9 +6,10 @@ excerpt: "_Metal Gear Solid 3: Snake Eater_ had a creative feature that few expe
 image:
     path: /assets/images/dates_times_article/dates_times_article_thumbnail.jpg
     thumbnail: /assets/images/dates_times_article/dates_times_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
-_Metal Gear Solid 3: Snake Eater_ had a creative feature that few expected when it was released on the PlayStation 2 back in 2004.
+[_Metal Gear Solid 3: Snake Eater_](https://en.wikipedia.org/wiki/Metal_Gear_Solid_3:_Snake_Eater) had a creative feature that few expected when it was released on the PlayStation 2 back in 2004.
 
 It had a boss fight where, if you closed the game and didn't play it for two weeks, the boss would die of old age, and you'd proceed to the next level.
 
@@ -26,11 +27,15 @@ You don't have to be as creative with dates when working in the [Unity Game Engi
 
 This article assumes you know how to work with [classes]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-classes-in-c-sharp %}) and [methods]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %}) in C#.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/0B6u71YKwdc?si=up0s6yj9DcgHw1Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -51,6 +56,15 @@ Debug.Log(releaseDate);
 `DateOnly` has some helpful methods like `AddDays()` and `AddMonths()` if you want to update the date object you created.
 
 You can even convert the date to the extended version, where the day and month are spelled out instead of [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}) separated by forward slashes.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/32416/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/32416/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ```csharp
 var releaseDate = new DateOnly(2025, 12, 7);
@@ -121,6 +135,15 @@ Debug.Log(timespan.TotalMinutes); // Logs '310'.
 
 If you need to, you can use the `DateOnly`, `TimeOnly`, `DateTime`, and `TimeSpan` structs in [fields]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-fields-and-properties-in-c-sharp %}) and properties, method parameters, or as method return types.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/183370/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/183370/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 ```csharp
 public class Dashboard
 {
@@ -174,3 +197,5 @@ Here's the complete list of articles in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. A Game Developer's Guide to Dates & Times in C# _(you are here)_
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

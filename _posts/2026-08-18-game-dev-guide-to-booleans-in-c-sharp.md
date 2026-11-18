@@ -6,6 +6,7 @@ excerpt: "Booleans in C# are like on/off switches. They're often used with condi
 image:
     path: /assets/images/booleans_article/booleans_article_thumbnail.jpg
     thumbnail: /assets/images/booleans_article/booleans_article_thumbnail.jpg
+last_modified_at: 2026-11-16
 ---
 
 Booleans in C# are like **on/off switches**. They're often used with [conditional statements]({{ site.baseurl }}{% post_url 2026-08-18-game-dev-guide-to-conditional-statements-in-c-sharp %}) to control the flow of your code's execution.
@@ -14,11 +15,15 @@ Booleans can only be one of two values: `true` or `false`. These values have the
 
 This article assumes you know how to use [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), [numbers]({{ site.baseurl }}{% post_url 2025-09-24-game-dev-guide-to-numbers-in-c-sharp %}), and [strings]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-strings-in-c-sharp %}), and will reference them in code examples.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Yt3EzAm6SGQ?si=pIzsDw5Y9A43mFk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -41,7 +46,16 @@ var hasPowerUp = false;
 
 In addition to making it easier to distinguish boolean variables from other variables in C#, this naming convention improves your code's readability.
 
-Consider this example. Let's say the game you're building in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL) has a character that can punch or fire their gun, depending on whether they're armed or not at the moment.
+Consider this example. Let's say the game you're building in the [Unity Game Engine](https://youtu.be/kOo1CaDdCF0?si=m_SoO0x0rxHZoHEL) has a scavenger character that can punch or fire their gun, depending on whether they're armed or not at the moment.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/261065/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/261065/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You can use a boolean value, like `isArmed`, to check if the player is holding a weapon. If this value is true, the character fires their gun. If not, they punch.
 
@@ -69,7 +83,7 @@ When you turn off the car, the engine stops. If the value is `false`, the switch
 
 ### Comparison and Equality Operators
 
-**Comparison operators and equality operators result in a boolean value**. In a way, these operators ask a question. They can also be used in the condition of a conditional statement.
+**[Comparison operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}#comparison-operators) and [equality operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}#equality-operators) result in a boolean value**. In a way, these operators ask a question. They can also be used in the condition of a conditional statement.
 
 Some examples of comparison operators include greater than `>`, less than `<`, and greater than or equal to `>=`.
 
@@ -119,6 +133,15 @@ The NOT operator is useful for boolean values that change often. This is evident
 
 There'll be times you want to do other things when the player is unarmed, such as carrying heavy objects. For simplicity's sake, assume there's no way to holster the weapon.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/289021/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/289021/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 Picking up or dropping weapons changes the `isArmed` boolean variable, so you can check if the player is unarmed by placing an exclamation mark before `isArmed`, turning it into "is NOT armed", then lifting an object.
 
 ```csharp
@@ -166,3 +189,5 @@ Here's the complete list of articles in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

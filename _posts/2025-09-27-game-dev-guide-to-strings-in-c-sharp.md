@@ -7,6 +7,7 @@ image:
     path: /assets/images/strings_article/strings_article_header_img.jpg
     thumbnail: /assets/images/strings_article/strings_article_thumbnail.jpg
 date: 2026-08-10
+last_modified_at: 2026-11-16
 ---
 
 Whether you're working with non-playable character (NPC) names or text in your game's user interface (UI), you'll most likely run into strings in C#.
@@ -15,11 +16,15 @@ Strings store and manipulate text. They're the foundation of the majority of tex
 
 This article assumes you have some knowledge of [variables]({{ site.baseurl }}{% post_url 2025-09-19-game-dev-guide-to-variables-in-c-sharp %}), [constants]({{ site.baseurl }}{% post_url 2025-09-21-game-dev-guide-to-constants-in-c-sharp %}), and [operators]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}), but if you're not familiar with them, read the linked articles first.
 
-If you're a visual learner, you can watch the video version below.
+If you're a visual learner, watch the video version below.
 
 <div class="responsive-embed responsive-embed-16by9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/5TVhfwAB4kU?si=f_yR3JXaCEJ0nDxm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -69,6 +74,15 @@ char multipleLetters = 'HA';
 Strings in C# are **immutable** - once you create them, you can't change them.
 
 Let's say the player in your game can carry a sword that deals elemental damage; the elements being fire, ice, and electricity.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/155333/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/155333/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 They can toggle each element by pressing a button, and the UI should update accordingly.
 
@@ -156,6 +170,15 @@ Debug.Log(firstWord + space + secondWord);
 
 Let's say you have the word "_wood_" and a number next to it in your Unity game's UI. Every [time]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %}) the player collects some wood, the number should increase.
 
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/160253/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/160253/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
+
 You can use an interpolated string to display both the number and the word "_wood_" such that as the number changes, the string shows the updated number.
 
 **_Tip:_** Interpolated strings are part of [**format strings**](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/#format-strings) - strings whose content is determined dynamically when the game is running.
@@ -230,6 +253,15 @@ Debug.Log(verbatimString);
 ```
 
 If you want to eliminate most of the extra formatting, you can use a **raw string literal** that lets you write escape characters as usual.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/341308/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/341308/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 Raw string literals start and end with three double quotes.
 
@@ -313,3 +345,5 @@ Here's the full list of posts in the series:
 13. [A Game Developer's Guide to Methods in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-methods-in-c-sharp %})
 14. [A Game Developer's Guide to Lists & Arrays in C#]({{ site.baseurl }}{% post_url 2026-08-19-game-dev-guide-to-lists-and-arrays-in-c-sharp %})
 15. [A Game Developer's Guide to Dates & Times in C#]({{ site.baseurl }}{% post_url 2026-08-20-game-dev-guide-to-dates-and-times-in-c-sharp %})
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

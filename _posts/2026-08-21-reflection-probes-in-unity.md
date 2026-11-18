@@ -6,7 +6,7 @@ excerpt: "Reflections in Unity behave differently from reflections in the real w
 image:
     path: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
     thumbnail: /assets/images/reflection_probes_article/reflection_probes_thumbnail.jpg
-last_modified_at: 2026-10-10
+last_modified_at: 2026-11-16
 ---
 
 Reflections in Unity behave differently from reflections in the real world. Real-world reflections occur when light bounces off smooth, polished surfaces.
@@ -17,11 +17,15 @@ A **cubemap** is like a hollow box, and the snapshots the reflection probe took 
 
 Creating reflections in this way yields realistic reflections at a more affordable cost compared to calculating lighting data that more closely mimics real-world light behavior.
 
-Reflection probes are part of baking lights, so if you're unfamiliar with the light baking process, watch the video below for a live demonstration.
+Reflection probes are part of baking lights, so if you're unfamiliar with the light baking process, watch the video below for a live demonstration using the [_Minimalist ArchViz Bedroom_ asset](https://af.unity.com/ot/OqQ98vj/).
 
 <div class="responsive-embed responsive-embed-16by9">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/sulT2-Etp1s?si=2keZyPc-9pVWKx6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+> _Participation Notice_
+>
+> _Height Above Sea Level is a participant in the Unity Affiliate Program, an affiliate advertising program that allows participants to earn commissions by advertising and linking to Unity properties, which means I may receive a commission if you click a link and purchase something that I have recommended. While clicking these links won’t cost you any money, they will help me fund my development projects while recommending great assets!_
 
 {% include toc %}
 
@@ -56,6 +60,15 @@ You'll first need to **mark any objects you want to show in a reflection as stat
   <img src="{{ '/assets/images/how_to_bake_lights_article/static_checkbox_img.jpg' | absolute_url }}" alt="The 'Static' checkbox in Unity.">
   <figcaption>The <em>Static</em> checkbox in the <em>Inspector</em> window.</figcaption>
 </figure>
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/225622/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 You can do this by selecting the GameObject and, in the _Inspector_ window, checking the box next to _Static_.
 
@@ -147,9 +160,18 @@ A **32-unit resolution reflection probe** creates simple reflections that look l
   <figcaption>Simple reflection from a low-resolution reflection probe.</figcaption>
 </figure>
 
-These are **baked almost instantly**.
+These **bake almost instantly**.
 
 You may have seen something similar in games made for the PlayStation 1, PlayStation 2, Xbox, and early 2000s PCs, where the hardware had significant limitations compared to recent consoles and computers.
+
+<div class="unity-affiliate-container">
+    <div class="unity-affiliate--wide">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/207246/widget-wide?aid=1100l5shyf" style="width:600px; height:130px; border:0px;"></iframe>
+    </div>
+    <div class="unity-affiliate--square">
+        <iframe src="https://assetstore.unity.com/linkmaker/embed/package/207246/widget?aid=1100l5shyf" style="width:202px; height:260px; border:0px;"></iframe>
+    </div>
+</div>
 
 ### 256-unit Resolution
 
@@ -160,7 +182,7 @@ A **256-unit reflection probe** creates more detailed reflections, with clearly 
   <figcaption>Good reflection from a mid-resolution reflection probe.</figcaption>
 </figure>
 
-These are **baked in about 3 seconds**.
+These **bake in about 3 seconds**.
 
 These reflections are more prevalent on the PlayStation 3, PlayStation 4, Xbox 360, Xbox One, and early 2010s PCs, where the hardware was capable of handling heavier loads.
 
@@ -182,3 +204,5 @@ These devices include the PlayStation 4 Pro, PlayStation 5, Xbox One X, and mid 
 ## In Closing
 
 Reflections, though not mandatory for a game, immerse the player deeper into the worlds you create when combined with proper lighting and level design.
+
+>_Height Above Sea Level is not a corporate affiliate or subsidiary of Unity, and this site is not endorsed by Unity. “Unity” is a trademark or registered trademark of Unity Technologies or its affiliates in the U.S. (Unity®) and other countries. (or such other notice as separately indicated by Unity)_

@@ -306,7 +306,7 @@ Aside from breaking a loop, you can also **skip cycles** based on a condition us
 
 Suppose your Unity game has a set of tiles on the floor, and you want to place a trap on the even-numbered tiles.
 
-You can store all the tiles in an array, and, while looping through them, check if the tile is an even number using the remainder operator (`%`). If it is, place a trap. Otherwise, skip it using the `continue` keyword.
+You can store all the tiles in an array, and, while looping through them, check if the tile is an even number using the [remainder operator]({{ site.baseurl }}{% post_url 2025-09-27-game-dev-guide-to-operators-in-c-sharp %}#remainder-) (`%`). If it is, place a trap. Otherwise, skip it using the `continue` keyword.
 
 ```csharp
 public class Tile

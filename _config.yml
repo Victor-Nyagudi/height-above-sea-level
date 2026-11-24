@@ -108,12 +108,12 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Patreon
-    url: https://patreon.com/heightabovesealevel
-    icon: fab fa-patreon
-  - title: Twitter
-    url: https://x.com/Vicktor_Oti
-    icon: fab fa-x-twitter
+  - title: Ko-Fi
+    url: https://ko-fi.com/heightabovesealevel
+    icon: fab fa-ko-fi
+  - title: Bluesky
+    url: https://bsky.app/profile/heightabovesealevl.bsky.social
+    icon: fab fa-bluesky
   - title: YouTube
     url: https://www.youtube.com/@HeightAboveSeaLevel
     icon: fab fa-youtube
